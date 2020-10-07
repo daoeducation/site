@@ -1,0 +1,32 @@
+!!!
+%html{lang: '{{ page.lang | default: site.lang | default: "en" }}' }
+  %head
+    %meta(charset="utf-8")
+    %meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    %meta(name="viewport" content="width=device-width, initial-scale=1")
+    = "{%- seo -%}"
+    %link(rel="stylesheet" href="/assets/css/style.css")
+    = "{%- feed_meta -%}"
+    = "{%- if jekyll.environment == 'production' -%}{%- include google-analytics.html -%}{%- endif -%}"
+
+  %body
+    %nav.navbar.navbar-expand-lg.navbar-light.bg-light
+      .container
+        %a.navbar-brand(href="#") Navbar
+
+        %button.navbar-toggler(type="button" data-toggle="collapse" data-target="#main_navbar" aria-controls="main_navbar" aria-expanded="false" aria-label="Toggle navigation")
+          %span.navbar-toggler-icon
+
+        .collapse.navbar-collapse#main_navbar
+          %ul.navbar-nav.mr-auto
+            %li.nav-item.active
+              %a.nav-link(href="#") Home
+            %li.nav-item
+              %a.nav-link(href="#") Link
+
+    %main.page-content(aria-label="Content")
+      .wrapper= "{{ content }}"
+    = "{%- include footer.html -%}"
+    %script(src="/assets/js/jquery-3.5.1.min.js")
+    %script(src="/assets/js/popper.min.js")
+    %script(src="/assets/js/bootstrap.min.js")
