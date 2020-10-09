@@ -1,5 +1,36 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-
 @import "bootstrap/bootstrap";
+
+.navbar_section{
+  border-bottom: solid 1px #c4c7cc;
+  text-transform: uppercase;
+
+  .logo{
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+  }
+
+  a.nav-link {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 2;
+    border-radius: 4px;
+  }
+
+  a.nav-link:hover {
+    background-color: rgba($blue, .1);
+  }
+
+  .btn-primary{
+    box-shadow: 0 2px 24px -8px rgba(20, 24, 145, 0.7);
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+h3 {
+  font-weight: 900;
+}

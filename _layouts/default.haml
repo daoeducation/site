@@ -5,27 +5,43 @@
     %meta(http-equiv="X-UA-Compatible" content="IE=edge")
     %meta(name="viewport" content="width=device-width, initial-scale=1")
     = "{%- seo -%}"
+    %link(rel="stylesheet" href="/assets/css/fonts.css")
     %link(rel="stylesheet" href="/assets/css/style.css")
     = "{%- feed_meta -%}"
     = "{%- if jekyll.environment == 'production' -%}{%- include google-analytics.html -%}{%- endif -%}"
 
   %body
-    %nav.navbar.navbar-expand-lg.navbar-light.bg-light
+    .navbar_section
       .container
-        %a.navbar-brand(href="#") Navbar
+        .row
+          .col-10.offset-1
+            %nav.navbar.navbar-expand-lg.navbar-light
+              %a.navbar-brand(href="#")
+                %img.logo(src="/assets/images/logo.png" srcset="/assets/images/logo@2x.png 2x, /assets/images/logo@3x.png 3x")
 
-        %button.navbar-toggler(type="button" data-toggle="collapse" data-target="#main_navbar" aria-controls="main_navbar" aria-expanded="false" aria-label="Toggle navigation")
-          %span.navbar-toggler-icon
+              %button.navbar-toggler(type="button" data-toggle="collapse" data-target="#main_navbar" aria-controls="main_navbar" aria-expanded="false" aria-label="Toggle navigation")
+                %span.navbar-toggler-icon
 
-        .collapse.navbar-collapse#main_navbar
-          %ul.navbar-nav.mr-auto
-            %li.nav-item.active
-              %a.nav-link(href="#") Home
-            %li.nav-item
-              %a.nav-link(href="#") Link
+              .collapse.navbar-collapse.justify-content-end#main_navbar
+                .mr-4
+                  %ul.navbar-nav.mr-auto
+                    %li.nav-item.active
+                      %a.nav-link(href="#") Inicio
+                    %li.nav-item
+                      %a.nav-link(href="#") Dao University
+                    %li.nav-item
+                      %a.nav-link(href="#") Programas
+                    %li.nav-item
+                      %a.nav-link(href="#") Nuestros Profesores
+                    %li.nav-item
+                      %a.nav-link(href="#") Casos de Éxito
+                    %li.nav-item
+                      %a.nav-link(href="#") Noticias y eventos
+                    %li.nav-item
+                      %a.nav-link(href="#") Blog
+              %a.btn.btn-primary(href="#") Contacto
 
-    %main.page-content(aria-label="Content")
-      .wrapper= "{{ content }}"
+    = "{{ content }}"
     = "{%- include footer.html -%}"
     %script(src="/assets/js/jquery-3.5.1.min.js")
     %script(src="/assets/js/popper.min.js")
