@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang='{{ page.lang | default: site.lang | default: "en" }}'>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {%- seo -%}
+    <link rel="stylesheet" href="/assets/css/fonts.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    {%- feed_meta -%}
+    {%- if jekyll.environment == 'production' -%}
+      {%- include google-analytics.haml -%}
+    {%- endif -%}
+  </head>
+
+  <body>
+    <div class="navbar-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 offset-1">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <a class="navbar-brand" href="#">
+                <img class="logo" src="/assets/images/logo.png" srcset="/assets/images/logo@2x.png 2x, /assets/images/logo@3x.png 3x" />
+              </a>
+
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_navbar" aria-controls="main_navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"/>
+              </button>
+
+              <div class="collapse navbar-collapse justify-content-end" id="main_navbar">
+                <div class="mr-4">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">DAO University</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Programas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Nuestros Profesores</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Casos de Éxito</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Noticias y eventos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </div>
+              </div>
+              <a class="btn btn-primary" href="#">Contacto</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{ content }}
+
+    <div class="footer mt-lg-7 pt-lg-7 pb-lg-7">
+      <img class="pink_pacman" src="/assets/images/pink_pacman.png" />
+      <img class="yellow_oval" src="/assets/images/yellow_oval.png" />
+      <div class="footer-contact-form-link text-light text-center py-9">
+        <h2 class="mb-3">¿Estás listo para iniciar?</h2>
+        <p class="mb-4 text-uppercase">
+          Si tienes dudas, o quieres recibir más información, envíanos un mensaje
+        </p>
+        <a class="btn btn-lg btn-primary text-uppercase" href="#">Contáctanos</a>
+      </div>
+      <div class="bg-dark pt-9 pb-7 text-center">
+        <h2 class="text-light mb-5">
+          Conecta con DAO University 
+          <span class="text-yellow">#DAOUniversity"</span>
+        </h2>
+
+        <div class="text-yellow mb-4">
+          <img class="mr-4" src="/assets/images/icn-instagram.svg" />
+          <img src="/assets/images/icn-twitter.svg" />
+        </div>
+
+        <div class="text-pink">@daouniversity</div>
+      </div>
+
+      <div class="footer-image-wedge">
+        <div class="footer-image-stripe">
+          <div class="footer-image" style="background-image: url('/assets/images/palermo.jpg')"></div>
+          <div class="footer-image" style="background-image: url('/assets/images/bianchi.jpg')"></div>
+          <div class="footer-image" style="background-image: url('/assets/images/ava.jpg')"></div>
+          <div class="footer-image" style="background-image: url('/assets/images/riquelme.jpg')"></div>
+          <div class="footer-image" style="background-image: url('/assets/images/schelotto.jpg')"></div>
+          <div class="footer-image" style="background-image: url('/assets/images/palermo.jpg')"></div>
+          <div class="footer-image" style="background-image: url('/assets/images/veron_y_masche.jpg')"></div>
+          <div class="footer-image" style="background-image: url('/assets/images/bilardo.jpg')"></div>
+          <div class="footer-image" style="background-image: url('/assets/images/fifa.svg')"></div>
+          <div class="footer-image" style="background-image: url('/assets/images/programa-1.png')"></div>
+          <div class="footer-image" style="background-image: url('/assets/images/schelotto.jpg')"></div>
+        </div>
+      </div>
+     
+      <div class="mt-9 text-center">
+        <img class="logo" src="/assets/images/logo.png" srcset="/assets/images/logo@2x.png 2x, /assets/images/logo@3x.png 3x" />
+
+        <div class="footer-links mt-7">
+          <a href="#">Inicio</a>
+          <a href="#">DAO University</a>
+          <a href="#">Programas</a>
+          <a href="#">Nuestros Profesores</a>
+          <a href="#">Casos de Éxito</a>
+          <a href="#">Noticias y eventos</a>
+          <a href="#">Blog</a>
+        </div>
+
+        <div class="copyright mt-5">Copyright © 2020 DAO University.</div>
+        <div class="mt-4">
+          <img class="license" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" />
+        </div>
+      </div>
+    </div>
+
+    <script src="/assets/js/jquery-3.5.1.min.js" />
+    <script src="/assets/js/popper.min.js" />
+    <script src="/assets/js/bootstrap.min.js" />
+  </body>
+</html>
