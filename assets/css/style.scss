@@ -3,7 +3,20 @@
 ---
 @import "bootstrap/bootstrap";
 
-.navbar_section{
+h2 {
+  font-weight: 300;
+  font-family: 'acumin-pro';
+}
+
+h3 {
+  font-weight: 900;
+}
+
+.btn {
+  font-weight: 600;
+}
+
+.navbar-section{
   border-bottom: solid 1px #c4c7cc;
   text-transform: uppercase;
 
@@ -27,10 +40,192 @@
   .btn-primary{
     box-shadow: 0 2px 24px -8px rgba(20, 24, 145, 0.7);
     font-size: 12px;
-    font-weight: 600;
   }
 }
 
-h3 {
-  font-weight: 900;
+.section-name {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.71;
+}
+
+.home-program {
+  border-radius: 0 100px 0 0;
+
+  .program-name {
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 1.54;
+  }
+
+  a {
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+
+  .home-program-content {
+    margin-right: 122px;
+  }
+
+  &.home-program-big {
+    background-color: $pink;
+    .image {
+      height: 442px;
+    }
+  }
+
+  &.home-program-small {
+    background-color: $yellow;
+    .image {
+      height: 144px;
+    }
+  }
+}
+
+.home-post {
+  height: 280px;
+  padding-top: 120px;
+  padding-right: $spacer * 2;
+  border-radius: 100px 0 0 0;
+  background-position: center;
+  background-size: cover;
+
+  .home-post-content {
+    height: 100%;
+  }
+
+  .home-post-title{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+}
+
+.home-people {
+  .home-people-title {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1.54;
+
+    .brand {
+      font-size: 68px;
+      font-weight: 200;
+      line-height: 0.9;
+      color: $yellow;
+    }
+  }
+
+  .home-people-box {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .home-people-box-big {
+    height: 352px;
+  }
+
+  .home-people-box-small {
+    width: 240px;
+    height: 176px;
+  }
+
+  .home-people-content {
+    width: 192px;
+    .home-people-name {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.5;
+      color: $yellow;
+    }
+  }
+}
+
+.home-events {
+  h2 {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.54;
+    color: $gray-900;
+  }
+
+  .home-event {
+    background-position: center;
+    background-size: cover;
+    height: 280px;
+  }
+
+  .home-event-date {
+    background-color: $purple;
+    padding-left: $spacer * 2;
+    padding-right: $spacer * 2;
+    padding-top: $spacer * 1.5;
+    padding-bottom: $spacer * 1.5;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.5;
+    color: #ffffff;
+    margin-bottom: $spacer * -1.5;
+  }
+
+  .home-event-title {
+    margin-top: $spacer * 5;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+}
+
+.home-news {
+  h2 {
+    font-size: 42px;
+    font-weight: 300
+  }
+
+  h3 {
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: $gray-800;
+  }
+
+  .home-news-photo {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .home-news-photo-container {
+    border-radius: 0 100px 0 0;
+
+    .home-news-photo {
+      height: 376px;
+      margin-right: 100px;
+    }
+  }
+
+  .home-news-photo-container-small {
+    border-radius: 0 56px 0 0;
+    .home-news-photo {
+      height: 176px;
+      margin-right: 56px;
+    }
+  }
+
+  .home-news-content-date {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.5;
+    color: $purple;
+  }
+}
+
+.home-contact {
+  .home-contact-form-link {
+  }
+
 }

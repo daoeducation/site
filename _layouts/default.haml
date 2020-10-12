@@ -11,7 +11,7 @@
     = "{%- if jekyll.environment == 'production' -%}{%- include google-analytics.html -%}{%- endif -%}"
 
   %body
-    .navbar_section
+    .navbar-section
       .container
         .row
           .col-10.offset-1
@@ -42,7 +42,9 @@
               %a.btn.btn-primary(href="#") Contacto
 
     = "{{ content }}"
-    = "{%- include footer.html -%}"
+
+    .container.footer
+      El footer va aquí
     %script(src="/assets/js/jquery-3.5.1.min.js")
     %script(src="/assets/js/popper.min.js")
     %script(src="/assets/js/bootstrap.min.js")

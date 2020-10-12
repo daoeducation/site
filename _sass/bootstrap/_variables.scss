@@ -5,16 +5,16 @@
 
 // Color system
 
-$white:    #fff !default;
-$gray-100: #f8f9fa !default;
+$white:    #FFF !default;
+$gray-100: #f0f1f2 !default;
 $gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #6c757d !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #212529 !default;
+$gray-300: #e8e9eb !default;
+$gray-400: #DCDEE0 !default;
+$gray-500: #C4C7CC !default;
+$gray-600: #9D9FA3 !default;
+$gray-700: #76777A !default;
+$gray-800: #4E5052 !default;
+$gray-900: #313233 !default;
 $black:    #141414 !default;
 
 $grays: () !default;
@@ -34,13 +34,13 @@ $grays: map-merge(
 );
 
 $blue:    #1218db !default;
-$indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
-$pink:    #e83e8c !default;
+$indigo:  #141891 !default;
+$purple:  #892384 !default;
+$pink:    #cf32c6 !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
-$green:   #28a745 !default;
+$yellow:  #dce44b !default;
+$green:   #c4ba46 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
@@ -70,8 +70,8 @@ $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-800 !default;
+$light:         $white !default;
+$dark:          $black !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
@@ -83,7 +83,11 @@ $theme-colors: map-merge(
     "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
-    "dark":       $dark
+    "dark":       $dark,
+    "yellow":     $yellow,
+    "purple":     $purple,
+    "blue":       $blue,
+    "green":      $green
   ),
   $theme-colors
 );
@@ -145,6 +149,9 @@ $spacers: map-merge(
     5: ($spacer * 4),
     6: ($spacer * 6),
     7: ($spacer * 7),
+    8: ($spacer * 8),
+    9: ($spacer * 9),
+    10: ($spacer * 10),
     12: ($spacer * 12)
   ),
   $spacers
@@ -194,6 +201,31 @@ $paragraph-margin-bottom:   1rem !default;
 //
 // Define the minimum dimensions at which your layout will change,
 // adapting to different screen sizes, for use in media queries.
+
+/*
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
+
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+) !default;
+*/
 
 $grid-breakpoints: (
   xs: 0,
@@ -399,8 +431,8 @@ $input-btn-padding-x-sm:      .5rem !default;
 $input-btn-font-size-sm:      $font-size-sm !default;
 $input-btn-line-height-sm:    $line-height-sm !default;
 
-$input-btn-padding-y-lg:      .5rem !default;
-$input-btn-padding-x-lg:      1rem !default;
+$input-btn-padding-y-lg:      1rem !default;
+$input-btn-padding-x-lg:      2rem !default;
 $input-btn-font-size-lg:      14px;// $font-size-lg !default;
 $input-btn-line-height-lg:    $line-height-lg !default;
 

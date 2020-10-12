@@ -2,24 +2,203 @@
 layout: default
 ---
 
-.container.jumbo-pitch
+.container
   .row.mt-12.mb-5
     .col.col-8.offset-2
       %h1
         Esto es lo que hacemos
         %br
         y nos hace especiales
-  .row.mb-8
+  .row.mb-7
     .col.col-5.offset-2
-      %p
-        Explica un poco mas de detalles acerca de como esta
-        propiedad especial me ayuda a resolver mi problema como
-        visitante de tu sitio ¿Por que deberíia iniciar el
-        proceso de conversión?
+      Explica un poco mas de detalles acerca de como esta
+      propiedad especial me ayuda a resolver mi problema como
+      visitante de tu sitio ¿Por que deberíia iniciar el
+      proceso de conversión?
   .row
     .col.col-5.offset-2
-      %a.btn.btn-lg.btn-dark(href="#") Ver nuestro video
+      %a.btn.btn-lg.btn-dark.mr-3(href="#") Ver nuestro video
       %a.btn.btn-lg.btn-primary(href="#") APLICAR
+
+  .row.mt-12
+    .col-lg-4.offset-lg-2
+      .home-program.home-program-big
+        .home-program-content
+          .image(style="background: url('/assets/images/programa-1.png')")
+          .bg-light.p-4
+            .section-name.mb-2 Programas
+            %h3.program-name.mb-2 Master en Blockchain
+            %a(href="#") Saber más
+
+    .col-lg-4.align-self-end
+      .home-program.home-program-small
+        .home-program-content
+          .image(style="background: url('/assets/images/programa-2.png')")
+          .bg-light.p-4
+            .section-name.mb-2 Programas
+            %h3.program-name.mb-2 From zero to hero
+            %a(href="#") Saber más
+
+  .row.mt-7.mb-8
+    .col-lg-4.offset-lg-2.text-right.align-self-center
+      %h2 Descubre nuestro blog
+      %p.mt-3 Lee nuestras últimas publicaciones y artículos
+      %a.mt-2.btn.btn-lg.bg-yellow.text-uppercase Leer más
+
+    .col-lg-2.align-self-end
+      .home-post(style="background: url('/assets/images/programa-2.png')")
+        .row.align-items-center.home-post-content.bg-light.p-4.m-0
+          .col.p-0
+            .section-name.mb-2 Eventos
+            %h3.home-post-title.mb-2
+              Masterclass Ethereum y nuevas tecnologías de la cadena de bloques
+
+    .col-lg-2.align-self-end
+      .home-post(style="background: url('/assets/images/ava.jpg')")
+        .row.align-items-center.home-post-content.bg-light.p-4.m-0
+          .col.p-0
+            .section-name.mb-2 Noticias
+            %h3.home-post-title.mb-2
+              AVA minó su genesis block
+
+.bg-dark.text-light
+  .container.pt-12.pb-12
+    .row.home-people
+      .col-lg-4.text-right.align-self-center
+        %h2.home-people-title
+          %span.align-top
+            GENTE
+          %span.brand.ml-2.align-top DAO U
+
+        %p.mt-4.mb-5 Somos los que estamos, estamos los que somos
+        %a.btn.btn-lg.bg-yellow.text-uppercase.mr-lg-3 Profesores
+        %a.btn.btn-lg.btn-primary.text-uppercase Estudiantes
+
+      .col-lg-6.offset-lg-1
+        .row.no-gutters
+          .col-lg-6.row.no-gutters.justify-content-end
+            .home-people-box.col-12.home-people-box-big.row.no-gutters.justify-content-end(style="background-image: url('/assets/images/bilardo.jpg')")
+              .home-people-content.bg-dark.p-3.align-self-end
+                %h3.section-name Estudiantes
+                .home-people-name Carlos Bilardo
+                  
+            .home-people-box.home-people-box-small.row.no-gutters.justify-content-end(style="background-image: url('/assets/images/veron_y_masche.jpg')")
+              .home-people-content.bg-dark.p-3.align-self-end
+                %h3.section-name Estudiantes
+                .home-people-name Masche y Seba
+          .col-lg-6
+            .home-people-box.home-people-box-small.row.no-gutters(style="background-image: url('/assets/images/riquelme.jpg')")
+              .home-people-content.bg-dark.p-3.align-self-end
+                %h3.section-name Maestro
+                .home-people-name Juan Román Riquelme
+            .home-people-box.home-people-box-big.row.no-gutters(style="background-image: url('/assets/images/bianchi.jpg')")
+              .home-people-content.bg-dark.p-3.align-self-end
+                %h3.section-name Profesores
+                .home-people-name Carlos Bianchi
+.container.home-events.pt-lg-10
+  .row
+    .col-lg-12.offset-lg-1
+      %h2.mb-5 Próximos eventos
+
+  .row
+    .col-lg-2.offset-lg-1
+      .home-event.row.no-gutters(style="background-image: url('/assets/images/palermo.jpg')")
+        .home-event-date.align-self-end 10 Nov 2020
+      .home-event-title
+        Le preguntamos a Martín Palermo sobre registrar records deportivos en la blockchain.
+
+    .col-lg-2
+      .home-event.row.no-gutters(style="background-image: url('/assets/images/schelotto.jpg')")
+        .home-event-date.align-self-end 03 Dic 2020
+      .home-event-title
+        Guillermo y Gustavo Barros Schelloto nos hablan de BCH y BSV respectivamente.
+
+    .col-lg-2
+      .home-event.row.no-gutters(style="background-image: url('/assets/images/programa-1.png')")
+        .home-event-date.align-self-end 18 Ene 2021
+      .home-event-title
+        Acuerdos prenupciales en contratos inteligentes, con la pareja de la foto.
+
+    .col-lg-2
+      .home-event.row.no-gutters(style="background-image: url('/assets/images/programa-2.png')")
+        .home-event-date.align-self-end 15 Feb 2021
+      .home-event-title
+        Reunión del grupo de ayuda para dejar de mirar el precio a cada rato.
+
+    .col-lg-2
+      .home-event.row.no-gutters(style="background-image: url('/assets/images/palermo.jpg')")
+        .home-event-date.align-self-end 25 Mar 2021
+
+      .home-event-title
+        El titán responde la pregunta anterior después de hacer el bootcamp para entenderla.
+
+  .row.mt-5
+    .col.text-center
+      %a.btn.btn-dark.btn-lg(href="#") Ver todos los eventos
+
+.container.home-news.pt-lg-7
+  .row
+    .col-lg-12.offset-lg-1
+      %h2.mb-5 Últimas noticias
+
+  .row
+    .col-lg-7.offset-lg-1
+      .home-news-photo-container.bg-blue
+        .home-news-photo(style="background-image: url('/assets/images/namecoin.png')")
+
+      %h3.mt-5.mb-3 Compró 2000 euros de namecoin en 2013 y creyó haberlos perdido
+      %h4.mb-4 Los encontró 7 años después en medio de una mudanza inesperada
+      .home-news-content-date.mb-3 11 may 2020
+
+      %p.text-justify
+        El año era 2013, Waldemar Carrasco, de Agua Mojada, un Pequeño Pueblo uruguayo perdido entre
+        \ Laguna Vacante y el médano de Santa Rita, gastó 51.000 uyu de su
+        \ bar mitzvah (aproximadamente 2000 eur) en una moneda que prometía ser el nuevo
+        \ Bitcoin: Namecoin.
+        \ En el momento guardó su billetera en un pendrive, decidido a esperar los frutos de su inversión.
+        \ Unos meses más tarde, la madre de waldemar no puede encontrar el pendrive, y él,
+        \ deshauciado, lo da por perdido.
+
+      %p.text-justify
+        Siete años después, ya viviendo con su novia, discuten por sus hábitos de inversión
+        \ en criptomonedas, y esta lo hecha de la casa que compartían.
+        \ De vuelta en la casa de su madre, Waldemar ordena su habitación y encuentra el pendrive
+        \ perdido, con la billetera intacta. 
+        \ Inmediatamente llamó a su novia para contarle la noticia esperando revindicarse.
+
+      %p.text-justify
+        El precio del Namecoin tras 7 años, con subidas y bajadas en el medio, es virtualmente el mismo.
+        \ Waldemar usó el dinero en un coche de segunda mano, entregando el de su madre en forma de pago.
+        \ Su novia le comunicó el rompimiento definitivo con dos emojis por telegram.
+
+    .col-lg-3
+      .mb-8
+        .home-news-photo-container-small.bg-green
+          .home-news-photo(style="background-image: url('/assets/images/fifa.svg')")
+
+        %h3.mt-5.mb-3 FIFA moverá sus sorteos al Blockchain
+        .home-news-content-date.mb-3 11 may 2020
+
+        %p.text-justify
+          Se tratará de un nuevo blockchain federado, que al principio contará con un único nodo…
+
+      .mb-8
+        .home-news-photo-container-small.bg-purple
+          .home-news-photo(style="background-image: url('/assets/images/ava.jpg')")
+
+        %h3.mt-5.mb-3 Hoy Avalanche minó su primer bloque
+        .home-news-content-date.mb-3 25 may 2020
+
+        %p.text-justify
+          Después de conseguir las autorizaciones suficientes y tras un largo debate, los mineros de AVA se pusieron de acuerdo en el primer bloque. Esperamos no se arrepientan…
+
+  .row.mt-5
+    .col.text-center
+      %a.btn.btn-dark.btn-lg(href="#") Ver todas las noticias
+
+.container.home-contact.pt-lg-7
+  .home-contact-form-link
+  .home-contact-social
 
 
   -#
