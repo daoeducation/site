@@ -2,6 +2,8 @@
 layout: default
 ---
 
+%img.home-art(src="/assets/images/student.png")
+
 .container
   .row.mt-12.mb-5
     .col.col-8.offset-2
@@ -20,7 +22,7 @@ layout: default
       %a.btn.btn-lg.btn-dark.mr-3(href="#") Ver nuestro video
       %a.btn.btn-lg.btn-primary(href="#") APLICAR
 
-  .row.mt-12
+  .row.home-programs
     .col-lg-4.offset-lg-2
       .home-program.home-program-big
         .home-program-content
@@ -196,10 +198,57 @@ layout: default
     .col.text-center
       %a.btn.btn-dark.btn-lg(href="#") Ver todas las noticias
 
-.container.home-contact.pt-lg-7
-  .home-contact-form-link
-  .home-contact-social
+.footer.mt-lg-7.pt-lg-7
+  %img.pink_pacman(src="/assets/images/pink_pacman.png")
+  %img.yellow_oval(src="/assets/images/yellow_oval.png")
+  .footer-contact-form-link.text-light.text-center.py-9
+    %h2.mb-3 ¿Estás listo para iniciar?
+    %p.mb-4.text-uppercase
+      Si tienes dudas, o quieres recibir más información, envíanos un mensaje
+    %a.btn.btn-lg.btn-primary.text-uppercase(href="#") Contáctanos
 
+  .bg-dark.pt-9.pb-7.text-center
+    %h2.text-light.mb-5
+      Conecta con DAO University 
+      %span.text-yellow= " #DAOUniversity"
+
+    .text-yellow.mb-4
+      %img.mr-4(src="/assets/images/icn-instagram.svg")
+      %img(src="/assets/images/icn-twitter.svg")
+
+    .text-pink
+      @daouniversity
+
+  .footer-image-wedge
+    .footer-image-stripe
+      .footer-image(style="background-image: url('/assets/images/palermo.jpg')")
+      .footer-image(style="background-image: url('/assets/images/bianchi.jpg')")
+      .footer-image(style="background-image: url('/assets/images/ava.jpg')")
+      .footer-image(style="background-image: url('/assets/images/riquelme.jpg')")
+      .footer-image(style="background-image: url('/assets/images/schelotto.jpg')")
+      .footer-image(style="background-image: url('/assets/images/palermo.jpg')")
+      .footer-image(style="background-image: url('/assets/images/veron_y_masche.jpg')")
+      .footer-image(style="background-image: url('/assets/images/bilardo.jpg')")
+      .footer-image(style="background-image: url('/assets/images/fifa.svg')")
+      .footer-image(style="background-image: url('/assets/images/programa-1.png')")
+      .footer-image(style="background-image: url('/assets/images/schelotto.jpg')")
+ 
+  .mt-9.text-center
+    %img.logo(src="/assets/images/logo.png" srcset="/assets/images/logo@2x.png 2x, /assets/images/logo@3x.png 3x")
+
+    .footer-links.mt-7
+      %a(href="#") Inicio
+      %a(href="#") DAO University
+      %a(href="#") Programas
+      %a(href="#") Nuestros Profesores
+      %a(href="#") Casos de Éxito
+      %a(href="#") Noticias y eventos
+      %a(href="#") Blog
+
+    .copyright.mt-5
+      Copyright © 2020 DAO University.
+    .mt-4
+      %img.license(src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png")
 
   -#
     <div class="home">
