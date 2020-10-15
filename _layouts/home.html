@@ -2,36 +2,37 @@
 layout: default
 ---
 
-<img class='home-art' src='/assets/images/student.png'>
 <div class='container'>
-  <div class='row mt-12 mb-5'>
-    <div class='col col-8 offset-2'>
+  <div class='row mt-5 mb-4 mt-lg-12 mb-lg-5'>
+    <div class='col-lg-6 offset-lg-2'>
       <h1>
         Esto es lo que hacemos
-        <br>
         y nos hace especiales
       </h1>
     </div>
   </div>
   <div class='row mb-7'>
-    <div class='col col-5 offset-2'>
+    <div class='col-lg-5 offset-lg-2'>
       Explica un poco mas de detalles acerca de como esta
       propiedad especial me ayuda a resolver mi problema como
-      visitante de tu sitio ¿Por que deberíia iniciar el
+      visitante de tu sitio ¿Por que debería iniciar el
       proceso de conversión?
     </div>
   </div>
   <div class='row'>
-    <div class='col col-5 offset-2'>
-      <a class='btn btn-lg btn-dark mr-3' href='#'>Ver nuestro video</a>
+    <div class='col-lg-5 offset-lg-2 d-flex'>
+      <a class='btn btn-lg btn-dark mr-3' href='#'>Ver video</a>
       <a class='btn btn-lg btn-primary' href='#'>APLICAR</a>
     </div>
   </div>
+  <div class="home-art-wrapper text-center">
+    <img class='home-art' src='/assets/images/student.png'>
+  </div>
   <div class='row home-programs'>
-    <div class='col-lg-4 offset-lg-2'>
+    <div class='col-md-6 col-lg-4 offset-lg-2'>
       <div class='home-program home-program-big'>
         <div class='home-program-content'>
-          <div class='image' style="background: url('/assets/images/programa-1.png')"></div>
+          <div class='image' style="background-image: url('/assets/images/programa-1.png')"></div>
           <div class='bg-light p-4'>
             <div class='section-name mb-2'>Programas</div>
             <h3 class='program-name mb-2'>Master en Blockchain</h3>
@@ -40,10 +41,10 @@ layout: default
         </div>
       </div>
     </div>
-    <div class='col-lg-4 align-self-end'>
+    <div class='col-md-6 col-lg-4 align-self-end'>
       <div class='home-program home-program-small'>
         <div class='home-program-content'>
-          <div class='image' style="background: url('/assets/images/programa-2.png')"></div>
+          <div class='image' style="background-image: url('/assets/images/programa-2.png')"></div>
           <div class='bg-light p-4'>
             <div class='section-name mb-2'>Programas</div>
             <h3 class='program-name mb-2'>From zero to hero</h3>
@@ -53,13 +54,13 @@ layout: default
       </div>
     </div>
   </div>
-  <div class='row mt-7 mb-8'>
-    <div class='col-lg-4 offset-lg-2 text-right align-self-center'>
+  <div class='home-posts row mb-8'>
+    <div class='order-3 order-md-1 col-md-12 mb-md-3 order-lg-1 col-lg-4 offset-lg-2 text-right align-self-center'>
       <h2>Descubre nuestro blog</h2>
       <p class='mt-3'>Lee nuestras últimas publicaciones y artículos</p>
       <a class='mt-2 btn btn-lg bg-yellow text-uppercase'>Leer más</a>
     </div>
-    <div class='col-lg-2 align-self-end'>
+    <div class='mb-5 mr-7 col-md-6 mr-md-0 order-md-2 col-lg-2 align-self-end'>
       <div class='home-post' style="background: url('/assets/images/programa-2.png')">
         <div class='row align-items-center home-post-content bg-light p-4 m-0'>
           <div class='col p-0'>
@@ -71,7 +72,7 @@ layout: default
         </div>
       </div>
     </div>
-    <div class='col-lg-2 align-self-end'>
+    <div class='mb-7 ml-7 col-md-6 mb-md-5 ml-md-0 order-md-3 col-lg-2'>
       <div class='home-post' style="background: url('/assets/images/ava.jpg')">
         <div class='row align-items-center home-post-content bg-light p-4 m-0'>
           <div class='col p-0'>
@@ -86,62 +87,68 @@ layout: default
   </div>
 </div>
 <div class='bg-dark text-light'>
-  <div class='container pt-12 pb-12'>
-    <div class='row home-people'>
-      <div class='col-lg-4 text-right align-self-center'>
-        <h2 class='home-people-title'>
+  <div class='container py-7 py-lg-12'>
+    <div class='d-flex home-people flex-column flex-lg-row'>
+      <div class='d-flex flex-column ml-lg-9 mr-lg-19'>
+        <h2 class='home-people-title ml-8 ml-md-0 text-lg-right mb-5 d-flex flex-column flex-md-row justify-content-end'>
           <span class='align-top'>
             GENTE
           </span>
-          <span class='brand ml-2 align-top'>DAO U</span>
+          <span class='brand ml-lg-2'>DAO U</span>
         </h2>
-        <p class='mt-4 mb-5'>Somos los que estamos, estamos los que somos</p>
-        <a class='btn btn-lg bg-yellow text-uppercase mr-lg-3'>Profesores</a>
-        <a class='btn btn-lg btn-primary text-uppercase'>Estudiantes</a>
+        <p class='text-md-right'>Somos los que estamos, estamos los que somos</p>
+        <div class="my-3 d-none d-md-flex justify-content-end">
+          <a class='btn btn-lg bg-yellow text-uppercase mr-3'>Profesores</a>
+          <a class='btn btn-lg btn-primary text-uppercase'>Estudiantes</a>
+        </div>
       </div>
-      <div class='col-lg-6 offset-lg-1'>
-        <div class='row no-gutters'>
-          <div class='col-lg-6 row no-gutters justify-content-end'>
-            <div class='home-people-box col-12 home-people-box-big row no-gutters justify-content-end' style="background-image: url('/assets/images/bilardo.jpg')">
-              <div class='home-people-content bg-dark p-3 align-self-end'>
-                <h3 class='section-name'>Estudiantes</h3>
-                <div class='home-people-name'>Carlos Bilardo</div>
-              </div>
-            </div>
-            <div class='home-people-box home-people-box-small row no-gutters justify-content-end' style="background-image: url('/assets/images/veron_y_masche.jpg')">
-              <div class='home-people-content bg-dark p-3 align-self-end'>
-                <h3 class='section-name'>Estudiantes</h3>
-                <div class='home-people-name'>Masche y Seba</div>
-              </div>
+
+      <div class='d-lg-flex'>
+        <div class='d-lg-flex flex-column'>
+          <div class='mb-5 mb-lg-0 home-people-box home-people-box-big d-flex justify-content-end' style="background-image: url('/assets/images/bilardo.jpg')">
+            <div class='home-people-content bg-dark p-3 align-self-end'>
+              <h3 class='section-name'>Estudiantes</h3>
+              <div class='home-people-name'>Carlos Bilardo</div>
             </div>
           </div>
-          <div class='col-lg-6'>
-            <div class='home-people-box home-people-box-small row no-gutters' style="background-image: url('/assets/images/riquelme.jpg')">
-              <div class='home-people-content bg-dark p-3 align-self-end'>
-                <h3 class='section-name'>Maestro</h3>
-                <div class='home-people-name'>Juan Román Riquelme</div>
-              </div>
+          <div class='mb-5 mb-lg-0 home-people-box home-people-box-small align-self-end d-flex justify-content-start justify-content-lg-end' style="background-image: url('/assets/images/veron_y_masche.jpg')">
+            <div class='home-people-content bg-dark p-3 align-self-end'>
+              <h3 class='section-name'>Estudiantes</h3>
+              <div class='home-people-name'>Masche y Seba</div>
             </div>
-            <div class='home-people-box home-people-box-big row no-gutters' style="background-image: url('/assets/images/bianchi.jpg')">
-              <div class='home-people-content bg-dark p-3 align-self-end'>
-                <h3 class='section-name'>Profesores</h3>
-                <div class='home-people-name'>Carlos Bianchi</div>
-              </div>
+          </div>
+        </div>
+        <div class=''>
+          <div class='mb-5 mb-lg-0 home-people-box home-people-box-small d-flex justify-content-end justify-content-lg-start' style="background-image: url('/assets/images/riquelme.jpg')">
+            <div class='home-people-content bg-dark p-3 align-self-end'>
+              <h3 class='section-name'>Maestro</h3>
+              <div class='home-people-name'>Juan Román Riquelme</div>
+            </div>
+          </div>
+          <div class='mb-5 mb-lg-0 home-people-box home-people-box-big d-flex justify-content-start' style="background-image: url('/assets/images/bianchi.jpg')">
+            <div class='home-people-content bg-dark p-3 align-self-end'>
+              <h3 class='section-name'>Profesores</h3>
+              <div class='home-people-name'>Carlos Bianchi</div>
             </div>
           </div>
         </div>
       </div>
+      
+      <div class="d-flex flex-column d-md-none">
+        <a class='btn btn-lg bg-yellow text-uppercase mb-3'>Profesores</a>
+        <a class='btn btn-lg btn-primary text-uppercase'>Estudiantes</a>
+      </div>
     </div>
   </div>
 </div>
-<div class='container home-events pt-lg-10'>
+<div class='container home-events pt-7 pt-lg-10'>
   <div class='row'>
     <div class='col-lg-12 offset-lg-1'>
       <h2 class='mb-5'>Próximos eventos</h2>
     </div>
   </div>
   <div class='row'>
-    <div class='col-lg-2 offset-lg-1'>
+    <div class='col-6 mb-3 col-lg-2 offset-lg-1'>
       <div class='home-event row no-gutters' style="background-image: url('/assets/images/palermo.jpg')">
         <div class='home-event-date align-self-end'>10 Nov 2020</div>
       </div>
@@ -149,7 +156,7 @@ layout: default
         Le preguntamos a Martín Palermo sobre registrar records deportivos en la blockchain.
       </div>
     </div>
-    <div class='col-lg-2'>
+    <div class='col-6 mb-3 col-lg-2'>
       <div class='home-event row no-gutters' style="background-image: url('/assets/images/schelotto.jpg')">
         <div class='home-event-date align-self-end'>03 Dic 2020</div>
       </div>
@@ -157,7 +164,7 @@ layout: default
         Guillermo y Gustavo Barros Schelloto nos hablan de BCH y BSV respectivamente.
       </div>
     </div>
-    <div class='col-lg-2'>
+    <div class='d-none d-lg-block col-lg-2'>
       <div class='home-event row no-gutters' style="background-image: url('/assets/images/programa-1.png')">
         <div class='home-event-date align-self-end'>18 Ene 2021</div>
       </div>
@@ -165,7 +172,7 @@ layout: default
         Acuerdos prenupciales en contratos inteligentes, con la pareja de la foto.
       </div>
     </div>
-    <div class='col-lg-2'>
+    <div class='d-none d-lg-block col-lg-2'>
       <div class='home-event row no-gutters' style="background-image: url('/assets/images/programa-2.png')">
         <div class='home-event-date align-self-end'>15 Feb 2021</div>
       </div>
@@ -173,7 +180,7 @@ layout: default
         Reunión del grupo de ayuda para dejar de mirar el precio a cada rato.
       </div>
     </div>
-    <div class='col-lg-2'>
+    <div class='d-none d-lg-block col-lg-2'>
       <div class='home-event row no-gutters' style="background-image: url('/assets/images/palermo.jpg')">
         <div class='home-event-date align-self-end'>25 Mar 2021</div>
       </div>
@@ -188,14 +195,14 @@ layout: default
     </div>
   </div>
 </div>
-<div class='container home-news pt-lg-7'>
+<div class='container home-news py-7'>
   <div class='row'>
     <div class='col-lg-12 offset-lg-1'>
       <h2 class='mb-5'>Últimas noticias</h2>
     </div>
   </div>
   <div class='row'>
-    <div class='col-lg-7 offset-lg-1'>
+    <div class='col-lg-7 offset-lg-1 mb-4 mb-lg-8'>
       <div class='home-news-photo-container bg-blue'>
         <div class='home-news-photo' style="background-image: url('/assets/images/namecoin.png')"></div>
       </div>
@@ -225,7 +232,7 @@ layout: default
       </p>
     </div>
     <div class='col-lg-3'>
-      <div class='mb-8'>
+      <div class='mb-4 mb-lg-8'>
         <div class='home-news-photo-container-small bg-green'>
           <div class='home-news-photo' style="background-image: url('/assets/images/fifa.svg')"></div>
         </div>
@@ -235,7 +242,7 @@ layout: default
           Se tratará de un nuevo blockchain federado, que al principio contará con un único nodo…
         </p>
       </div>
-      <div class='mb-8'>
+      <div class='mb-4 mb-lg-8'>
         <div class='home-news-photo-container-small bg-purple'>
           <div class='home-news-photo' style="background-image: url('/assets/images/ava.jpg')"></div>
         </div>

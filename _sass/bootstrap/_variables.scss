@@ -153,7 +153,11 @@ $spacers: map-merge(
     8: ($spacer * 8),
     9: ($spacer * 9),
     10: ($spacer * 10),
-    12: ($spacer * 12)
+    12: ($spacer * 12),
+    13: ($spacer * 13),
+    14: ($spacer * 14),
+    17: ($spacer * 17),
+    19: ($spacer * 19)
   ),
   $spacers
 );
@@ -230,6 +234,7 @@ $container-max-widths: (
 
 $grid-breakpoints: (
   xs: 0,
+  md: 500px,
   lg: 1440px,
 ) !default;
 
@@ -242,10 +247,9 @@ $grid-breakpoints: (
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-  sm: 0px,
-  md: 1439px,
-  lg: 1440px,
-  xl: 1440px
+  xs: 450px,
+  md: 720px,
+  lg: 1441px,
 ) !default;
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
@@ -326,9 +330,9 @@ $font-weight-bolder:          bolder !default;
 $font-weight-base:            $font-weight-normal !default;
 $line-height-base:            1.5 !default;
 
-$h1-font-size:                68px; //$font-size-base * 2.5 !default;
-$h2-font-size:                42px; //$font-size-base * 2 !default;
-$h3-font-size:                26px; //$font-size-base * 1.75 !default;
+$h1-font-size:                42px; //$font-size-base * 2.5 !default;
+$h2-font-size:                26px; //$font-size-base * 2 !default;
+$h3-font-size:                16px; //$font-size-base * 1.75 !default;
 $h4-font-size:                16px; //$font-size-base * 1.5 !default;
 $h5-font-size:                $font-size-base * 1.25 !default;
 $h6-font-size:                $font-size-base !default;
@@ -433,7 +437,7 @@ $input-btn-font-size-sm:      $font-size-sm !default;
 $input-btn-line-height-sm:    $line-height-sm !default;
 
 $input-btn-padding-y-lg:      1rem !default;
-$input-btn-padding-x-lg:      2rem !default;
+$input-btn-padding-x-lg:      1.75rem !default;
 $input-btn-font-size-lg:      14px;// $font-size-lg !default;
 $input-btn-line-height-lg:    $line-height-lg !default;
 
@@ -761,7 +765,7 @@ $navbar-brand-height:               $navbar-brand-font-size * $line-height-base 
 $navbar-brand-padding-y:            ($nav-link-height - $navbar-brand-height) / 2 !default;
 
 $navbar-toggler-padding-y:          .25rem !default;
-$navbar-toggler-padding-x:          .75rem !default;
+$navbar-toggler-padding-x:          .1rem !default;
 $navbar-toggler-font-size:          $font-size-lg !default;
 $navbar-toggler-border-radius:      $btn-border-radius !default;
 

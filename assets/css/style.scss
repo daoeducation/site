@@ -3,6 +3,10 @@
 ---
 @import "bootstrap/bootstrap";
 
+html{
+  overflow-x: hidden;
+}
+
 h2 {
   font-weight: 300;
   font-family: 'acumin-pro';
@@ -11,6 +15,14 @@ h2 {
 h3 {
   font-weight: 900;
 }
+
+@include media-breakpoint-up(lg) {
+  h1 { font-size: 68px; }
+  h2 { font-size: 42px; }
+  h3 { font-size: 26px; }
+  h4 { font-size: 16px; }
+}
+
 
 .btn {
   font-weight: 600;
@@ -21,9 +33,14 @@ h3 {
   text-transform: uppercase;
 
   .logo{
-    width: 72px;
-    height: 72px;
+    width: 40px;
+    height: 40px;
     object-fit: contain;
+
+    @include media-breakpoint-up(lg) {
+      width: 72px;
+      height: 72px;
+    }
   }
 
   a.nav-link {
@@ -49,18 +66,40 @@ h3 {
   line-height: 1.71;
 }
 
-.home-art {
-  position: absolute;
-  top: 250px;
-  left: 770px;
-  width: 1000px;
+.home-art-wrapper {
+  position: relative;
+
+  .home-art {
+    width: 500px;
+    margin-top: $spacer * 4;
+    margin-left: -120px;
+
+    @include media-breakpoint-up(lg) {
+      margin-left: 0;
+      max-width: 1000px;
+      position: absolute;
+      top: -380px;
+      right: -100px;
+      width: 1000px;
+    }
+  }
 }
 
 .home-programs {
-  margin-top: 300px;
+  margin-top: $spacer * 8;
+
+  @include media-breakpoint-up(lg) {
+    margin-top: 300px;
+  }
 
   .home-program {
-    border-radius: 0 100px 0 0;
+    border-radius: 0 50px 0 0;
+    margin-bottom: $spacer * 4;
+
+    @include media-breakpoint-up(lg) {
+      border-radius: 0 100px 0 0;
+      margin-bottom: $spacer * 7;
+    }
 
     .program-name {
       font-size: 26px;
@@ -73,43 +112,64 @@ h3 {
       line-height: 1.5;
     }
 
-
     .home-program-content {
-      margin-right: 122px;
+      margin-right: 55px;
+
+      @include media-breakpoint-up(lg) {
+        margin-right: 122px;
+      }
     }
+
+    .image {
+      height: 240px;
+      background-size: cover;
+      background-position: center;
+    }
+
 
     &.home-program-big {
       background-color: $pink;
       .image {
-        height: 442px;
+        @include media-breakpoint-up(lg) {
+          height: 442px;
+        }
       }
     }
 
     &.home-program-small {
       background-color: $yellow;
       .image {
-        height: 144px;
+        @include media-breakpoint-up(lg) {
+          height: 144px;
+        }
       }
     }
   }
 }
 
-.home-post {
-  height: 280px;
-  padding-top: 120px;
-  padding-right: $spacer * 2;
-  border-radius: 100px 0 0 0;
-  background-position: center;
-  background-size: cover;
-
-  .home-post-content {
-    height: 100%;
+.home-posts {
+  h2 {
+    font-size: 42px;
   }
 
-  .home-post-title{
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.5;
+  .home-post {
+    min-height: 280px;
+    padding-top: 120px;
+    padding-right: $spacer * 2;
+    border-radius: 100px 0 0 0;
+    background-position: center;
+    background-size: cover;
+
+    .home-post-content {
+      height: 100%;
+      min-height: 160px;
+    }
+
+    .home-post-title{
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.5;
+    }
   }
 }
 
@@ -130,15 +190,21 @@ h3 {
   .home-people-box {
     background-position: center;
     background-size: cover;
+    height: 288px;
   }
 
   .home-people-box-big {
-    height: 352px;
+    @include media-breakpoint-up(lg) {
+      height: 352px;
+      width: 344px;
+    }
   }
 
   .home-people-box-small {
-    width: 240px;
-    height: 176px;
+    @include media-breakpoint-up(lg) {
+      width: 240px;
+      height: 176px;
+    }
   }
 
   .home-people-content {
@@ -163,7 +229,10 @@ h3 {
   .home-event {
     background-position: center;
     background-size: cover;
-    height: 280px;
+    height: 178px;
+    @include media-breakpoint-up(lg) {
+      height: 280px;
+    }
   }
 
   .home-event-date {
@@ -210,20 +279,36 @@ h3 {
     background-size: cover;
   }
 
+  .home-news-photo {
+    height: 152px;
+    margin-right: 56px;
+  }
+
   .home-news-photo-container {
-    border-radius: 0 100px 0 0;
+    border-radius: 0 50px 0 0;
+    @include media-breakpoint-up(lg) {
+      border-radius: 0 100px 0 0;
+    }
 
     .home-news-photo {
-      height: 376px;
-      margin-right: 100px;
+      @include media-breakpoint-up(lg) {
+        height: 376px;
+        margin-right: 100px;
+      }
     }
   }
 
   .home-news-photo-container-small {
-    border-radius: 0 56px 0 0;
+    border-radius: 0 50px 0 0;
+    @include media-breakpoint-up(lg) {
+      border-radius: 0 56px 0 0;
+    }
+
     .home-news-photo {
-      height: 176px;
-      margin-right: 56px;
+      @include media-breakpoint-up(lg) {
+        height: 176px;
+        margin-right: 56px;
+      }
     }
   }
 
@@ -254,7 +339,6 @@ h3 {
 
   h2{
     font-family: 'acumin-pro-semi-condensed';
-    font-size: 42px;
     font-weight: 200;
     line-height: 1.52;
   }
@@ -267,30 +351,45 @@ h3 {
     overflow: hidden;
     position: relative;
     width: 100%;
-    height: 200px;
+    height: 128px;
+    @include media-breakpoint-up(lg) {
+      height: 200px;
+    }
 
     .footer-image-stripe {
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
       overflow: auto;
-      width: 2200px;
+      width: 128px * 11;
+
+      @include media-breakpoint-up(lg) {
+        width: 200px * 11;
+      }
 
       .footer-image {
         float: left;
-        width: 200px;
-        height: 200px;
         background-position: center;
         background-size: cover;
+        width: 128px;
+        height: 128px;
+        @include media-breakpoint-up(lg) {
+          width: 200px;
+          height: 200px;
+        }
       }
     }
   }
 
   .footer-links{
     a {
-      font-size: 12px;
-      padding: $spacer * 3;
+      font-size: 16px;
+      @include media-breakpoint-up(lg) {
+        font-size: 12px;
+      }
+      margin: ($spacer * 2) ($spacer * 3);
       color: $gray-900;
+      line-height: 1.5;
     }
   }
 
