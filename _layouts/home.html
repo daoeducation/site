@@ -29,14 +29,19 @@ layout: default
     <img class='home-art' src='/assets/images/student.png'>
   </div>
   <div class='row home-programs'>
+    {% assign shuffled = site.learning_programs | sample:2 %}
+    {% assign program_big = shuffled | first %}
+    {% assign program_small = shuffled | last %}
     <div class='col-md-6 col-lg-4 offset-lg-2'>
       <div class='home-program home-program-big'>
         <div class='home-program-content'>
-          <div class='image' style="background-image: url('/assets/images/programa-1.png')"></div>
+          <div class='image' style="
+            background-image: url('/assets/images/learning_programs/{{ program_big.img }}')
+          "></div>
           <div class='bg-light p-4'>
             <div class='section-name mb-2'>Programas</div>
-            <h3 class='program-name mb-2'>Master en Blockchain</h3>
-            <a href='#'>Saber más</a>
+            <h3 class='program-name mb-2'>{{ program_big.title }}</h3>
+            <a href='{{ program_big.url }}'>Saber más</a>
           </div>
         </div>
       </div>
@@ -44,11 +49,13 @@ layout: default
     <div class='col-md-6 col-lg-4 align-self-end'>
       <div class='home-program home-program-small'>
         <div class='home-program-content'>
-          <div class='image' style="background-image: url('/assets/images/programa-2.png')"></div>
+          <div class='image' style="
+            background-image: url('/assets/images/learning_programs/{{ program_small.img }}')
+          "></div>
           <div class='bg-light p-4'>
             <div class='section-name mb-2'>Programas</div>
-            <h3 class='program-name mb-2'>From zero to hero</h3>
-            <a href='#'>Saber más</a>
+            <h3 class='program-name mb-2'>{{ program_small.title }}</h3>
+            <a href='{{ program_small.url }}'>Saber más</a>
           </div>
         </div>
       </div>
@@ -61,7 +68,7 @@ layout: default
       <a class='mt-2 btn btn-lg bg-yellow text-uppercase'>Leer más</a>
     </div>
     <div class='mb-5 mr-7 col-md-6 mr-md-0 order-md-2 col-lg-2 align-self-end'>
-      <div class='home-post' style="background: url('/assets/images/programa-2.png')">
+      <div class='home-post' style="background-image: url('/assets/images/programa-2.png')">
         <div class='row align-items-center home-post-content bg-light p-4 m-0'>
           <div class='col p-0'>
             <div class='section-name mb-2'>Eventos</div>

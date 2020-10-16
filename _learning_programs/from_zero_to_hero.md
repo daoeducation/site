@@ -1,10 +1,10 @@
 ---
 layout: learning_program
-title: "Master en Blockchain"
-description: "These handy little devices allow individuals to retrieve and store e-mail messages, create a contact file, coordinate appointments, surf the internet."
-img: "programa-2.png"
-format: Semi Presencial
-duration: "120 horas <br/> 40 horas al mes"
+title: "From Zero to Hero"
+description: "Get Bitcoin, lose money, gain knowledge, pull your hair and rejoice in the instant gratification of a properly running node, all in 24 hours."
+img: "programa-1.png"
+format: Boarding school
+duration: "24 horas<br/> 4 horas al dia. <br/> 2 días por semana."
 language: Español
 ---
 

@@ -1,0 +1,65 @@
+.content-header {
+  h4 {
+    color: $gray-500;
+    font-size: 13px;
+  }
+
+  .header-title {
+    h1 {
+      font-weight: bold;
+    }
+
+    p {
+      font-weight: 300;
+    }
+    
+    .breadcrumb {
+      font-weight: 600;
+      a {
+        color: $yellow;
+      }
+    }
+  }
+
+  .header-secondary {
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+
+    @include media-breakpoint-up(lg) {
+      width: 585px;
+    }
+
+    .header-secondary-curve {
+      @include media-breakpoint-up(lg) {
+        flex-basis: 100px;
+      }
+      border-radius: 0 80px 0 0;
+      background-color: $blue;
+    }
+  }
+
+  .header-title {
+    @include media-breakpoint-up(lg) {
+      width: 885px;
+    }
+  }
+}
+
+.collection-items {
+  .collection-item {
+    background-size: cover;
+    background-position: center;
+
+    height: 200px;
+
+    @include media-breakpoint-up(lg) {
+      height: 328px;
+    }
+
+    h2 {
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<div class="learning_program resource">
+  <div class="content-header d-flex bg-dark text-light mb-7 mb-lg-12">
+    <div class="container d-flex flex-column flex-lg-row">
+      <div class="header-title pl-lg-17 pr-lg-5 pt-10 pt-lg-19 pb-5 pb-lg-8">
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="/learning_programs">
+                <i class="fas fa-arrow-left"></i>
+                Programas
+              </a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+          </ol>
+        </nav>
+
+        <h1 class="mb-3">{{ page.title }}</h1>
+        <p class="mb-6 text-uppercase">{{ page.description }}</p>
+        <div class="d-flex flex-column flex-md-row">
+          <div class="flex-fill">
+            <h4 class="text-uppercase">Formato del curso</h4>
+            <div class="font-weight-bold">{{ page.format }}</div>
+          </div>
+          <div class="flex-fill">
+            <h4 class="text-uppercase">Duración</h4>
+            <div class="font-weight-bold">{{ page.duration }}</div>
+          </div>
+          <div class="flex-fill">
+            <h4 class="text-uppercase">Idioma</h4>
+            <div class="font-weight-bold">{{ page.language }}</div>
+          </div>
+        </div>
+      </div>
+      <div class="header-secondary d-flex justify-content-start">
+        <div class="header-secondary-curve d-none d-lg-flex bg-yellow"></div>
+        <div class="py-7 px-5">
+          <h4 class="text-uppercase">Próximas fechas importantes</h4>
+          <ul>
+            <li>
+              <div class="font-weight-bold">22 Mar 2021</div>
+              <div>Apertura de registro de alumnos de primer ingreso</div>
+            </li>
+            <li>
+              <div class="font-weight-bold">31 Jul 2021</div>
+              <div>Cierre de registro de alumnos</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container collection-items">
+    {{ content }}
+  </div>
+</div>
