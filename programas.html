@@ -3,7 +3,7 @@ layout: default
 title: "Programas"
 ---
 
-<div class="learning-programs collection">
+<div class="programas collection">
   <div class="content-header d-flex bg-dark text-light mb-7 mb-lg-12">
     <div class="container d-flex">
       <div class="header-title pl-lg-17 pr-lg-5 pt-10 pt-lg-19 pb-5 pb-lg-8">
@@ -18,7 +18,7 @@ title: "Programas"
           <a href="#" class="btn btn-lg btn-yellow text-uppercase">Ver nuestro Video</a>
         </div>
       </div>
-      <div class="header-secondary d-none d-lg-flex" style="background-image: url('/assets/images/learning_programs.png')">
+      <div class="header-secondary d-none d-lg-flex" style="background-image: url('/assets/images/programas.png')">
         <div class="header-secondary-curve"></div>
       </div>
     </div>
@@ -26,12 +26,12 @@ title: "Programas"
 
   <div class="container collection-items">
     <div class="row">
-      {% for learning_program in site.learning_programs %}
+      {% for programa in site.programas %}
         <div class="col-md-6 col-lg-3">
-          <a href="{{learning_program.url}}">
-            <div class="collection-item d-flex justify-content-start align-items-end mb-5" style="background-image: url('/assets/images/learning_programs/{{ learning_program.img }}')">
+          <a href="{{programa.url}}">
+            <div class="collection-item d-flex justify-content-start align-items-end mb-5" style="background-image: url('/assets/images/programas/{{ programa.img }}')">
               <div class="bg-light p-4">
-                <h2 class="text-dark">{{learning_program.title}}</h2>
+                <h2 class="text-dark">{{programa.title}}</h2>
                 <span class="text-primary">Saber más</span>
               </div>
             </div>

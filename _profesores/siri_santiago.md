@@ -1,14 +1,32 @@
 ---
-layout: professor
+layout: profesor
 title: "Santiago Siri"
 description: “Are you one of the thousands of Iphone owners who has no idea that they can get free games for their Iphone? It’s pretty cool“
 img: "siri_santiago.jpeg"
 nationality: "Argentino"
-#linkedin:
-#rss:
-#instagram:
-#twitter_username:
-#facebook:  
+
+# Comentar las que no apliquen, colocar el handle segun corresponda.
+linkedin: santisiri
+instagram: santisiri
+twitter: santisiri
+facebook: santisiri.earth
+
+articles:
+  - name: El futuro de la democracia
+    link:
+  - name: La decentralización del futuro
+    link:
+  - name: La democracia digital
+    link:
+  - name: Identidad digital
+    link:
+
+programs:
+  - name: "From Zero to Hero"
+    link: from_zero_to_hero
+  - name: "Master en Blockchain"
+    link: blockchain_master
+
 ---
 
 

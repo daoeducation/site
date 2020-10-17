@@ -1,0 +1,107 @@
+---
+layout: default
+---
+<div class="profesor resource">
+  <div class="content-header d-flex bg-blue text-light mb-6 mb-lg-10">
+    <div class="container d-flex flex-column flex-md-row">
+      <div class="header-title pl-lg-17 pr-lg-5 pt-10 pt-lg-19 pb-lg-8">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="/profesores">
+                <i class="fas fa-arrow-left"></i>
+                Profesores
+              </a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+          </ol>
+        </nav>
+
+        <h1 class="mb-3">{{ page.title }}</h1>
+        <p class="mb-6 text-uppercase">{{ page.description }}</p>
+        <div class="d-flex flex-column flex-md-row">
+          <div class="flex-fill mb-4">
+            <h4 class="text-uppercase">Nacionalidad</h4>
+            <div class="font-weight-bold">{{ page.nationality }}</div>
+          </div>
+          <div class="flex-fill mb-4">
+            <h4 class="text-uppercase">Redes sociales</h4>
+            <div class="social-links">
+              {% if page.linkedin %}
+                <a href="https://linkedin.com/in/{{page.linkedin}}">
+                  <i class="text-yellow mr-4 fab fa-linkedin"></i>
+                </a>
+              {% endif %}
+              {% if page.twitter %}
+                <a href="https://twitter.com/{{page.twitter}}">
+                  <i class="text-yellow mr-4 fab fa-twitter"></i>
+                </a>
+              {% endif %}
+              {% if page.facebook %}
+                <a href="https://facebook.com/{{page.facebook}}">
+                  <i class="text-yellow mr-4 fab fa-facebook"></i>
+                </a>
+              {% endif %}
+              {% if page.instagram %}
+                <a href="https://instagram.com/{{page.instagram}}">
+                  <i class="text-yellow mr-4 fab fa-instagram"></i>
+                </a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-secondary d-flex" style="background-image: url('/assets/images/profesores/{{page.img}}">
+        <div class="header-secondary-curve d-none d-lg-flex bg-pink"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-resource">
+    <div class="container d-flex flex-column flex-lg-row">
+      <div class="main-content pl-lg-17 pb-lg-8">
+        <h2 class="mb-3 mb-lg-5">Bio</h2>
+        <div class="text-justify">
+          {{ content }}
+        </div>
+        <h3 class="mb-3 mt-5 mb-lg-5 mt-lg-8">Artículos del profesor</h3>
+        <div>
+          <ul>
+            {% for article in page.articles %}
+              <li class="d-flex">
+                <div class="ml-3">
+                  <span class="text-uppercase">{{ article.name }}</span>
+                  <br/>
+                  <a href="{{ article.link }}">Leer más</a>
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+      <div class="sidebar mb-5">
+        <div class="top bg-green p-5 p-lg-8 mt-5 mt-lg-0">
+          <h2 class="mb-3 text-dark">¿Estás listo para iniciar?</h2> 
+          <div class="btn btn-lg btn-pink text-uppercase">
+            Más información
+          </div>
+        </div>
+        <div class="bottom p-5 p-lg-8 bg-light-green">
+          <h2 class="pb-3 pb-lg-5">Programas en los que participa</h2>
+          <ul>
+            {% for program in page.programs %}
+              <li class="d-flex">
+                <div class="ml-3">
+                  <span class="text-uppercase">{{ program.name }}</span>
+                  <br/>
+                  <a href="/programas/{{ program.link }}">Leer más</a>
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

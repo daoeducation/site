@@ -1,5 +1,5 @@
 ---
-layout: learning_program
+layout: programa
 title: "From Zero to Hero"
 description: "Get Bitcoin, lose money, gain knowledge, pull your hair and rejoice in the instant gratification of a properly running node, all in 24 hours."
 img: "programa-1.png"

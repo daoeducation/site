@@ -1,0 +1,45 @@
+---
+layout: default
+title: "Profesores"
+---
+<div class="profesores collection">
+  <div class="content-header d-flex bg-dark text-light mb-7 mb-lg-12">
+    <div class="container d-flex">
+      <div class="header-title pl-lg-17 pr-lg-5 pt-10 pt-lg-19 pb-5 pb-lg-8">
+        <h1 class="mb-3">Profesores</h1>
+        <p class="mb-6">
+          Los profesores de DAO University son pioneros en el mundo Blockchain
+          y pueden compartir experiencias únicas en exclusiva para los alumnos.
+        </p>
+        <div class="d-flex flex-column flex-md-row">
+          <a href="#" class="btn btn-lg btn-pink text-uppercase mb-4 mb-md-0 mr-md-4">
+            Más información
+          </a>
+          <a href="#" class="btn btn-lg btn-yellow text-uppercase">
+            Ver nuestro Video
+          </a>
+        </div>
+      </div>
+      <div class="header-secondary d-none d-lg-flex" style="background-image: url('/assets/images/profesores.jpg')">
+        <div class="header-secondary-curve"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container collection-items">
+    <div class="row">
+      {% for profesor in site.profesores %}
+        <div class="col-md-6 col-lg-3">
+          <a href="{{ profesor.url }}">
+            <div class="collection-item d-flex justify-content-start align-items-end mb-5" style="background-image: url('/assets/images/profesores/{{ profesor.img }}')">
+              <div class="bg-light p-4">
+                <h2 class="text-dark">{{ profesor.title }}</h2>
+                <span class="text-primary">Saber más</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

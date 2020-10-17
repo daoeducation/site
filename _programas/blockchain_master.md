@@ -1,5 +1,5 @@
 ---
-layout: learning_program
+layout: programa
 title: "Master en Blockchain"
 description: "These handy little devices allow individuals to retrieve and store e-mail messages, create a contact file, coordinate appointments, surf the internet."
 img: "programa-2.png"

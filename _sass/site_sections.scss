@@ -23,6 +23,13 @@
         color: $yellow;
       }
     }
+
+    .social-links {
+      padding-top: 5px;
+      i {
+        font-size: 20px;
+      }
+    }
   }
 
   .header-secondary {
@@ -30,8 +37,17 @@
     background-position: center;
     min-height: 100px;
 
+    @include media-breakpoint-down(xs) {
+      height: 250px;
+      margin: ($spacer * 2) ($spacer * -2) 0 ($spacer * -2);
+    }
+
+    @include media-breakpoint-up(md) {
+      flex-basis: 450px;
+    }
+
     @include media-breakpoint-up(lg) {
-      width: 585px;
+      flex-basis: 585px;
     }
 
     ul {
@@ -80,6 +96,23 @@
 }
 
 .content-resource {
+  ul {
+    padding-left: $spacer * 2;
+    list-style: none;
+
+    li::before {
+      content: "\25A0"; 
+      color: $pink;
+      font-weight: bold;
+      width: 1em;
+      margin-left: -1em; 
+    }
+
+    li {
+      margin-bottom: $spacer * 3;
+    }
+  }
+
   .main-content {
     @include media-breakpoint-up(lg) {
       width: 840px;
