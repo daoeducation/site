@@ -43,6 +43,7 @@ $yellow:  #dce44b !default;
 $green:   #c4ba46 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
+$light-pink: rgba($pink, 0.1);
 
 $colors: () !default;
 $colors: map-merge(
@@ -59,7 +60,9 @@ $colors: map-merge(
     "cyan":       $cyan,
     "white":      $white,
     "gray":       $gray-600,
-    "gray-dark":  $gray-800
+    "gray-100":   $gray-100,
+    "gray-dark":  $gray-800,
+    "light-pink": $light-pink,
   ),
   $colors
 );
@@ -88,7 +91,9 @@ $theme-colors: map-merge(
     "purple":     $purple,
     "blue":       $blue,
     "green":      $green,
-    "pink":       $pink 
+    "pink":       $pink,
+    "light-pink": $light-pink,
+    "gray-100":   $gray-100,
   ),
   $theme-colors
 );
