@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="learning_program resource">
-  <div class="content-header d-flex bg-dark text-light mb-7 mb-lg-10">
+  <div class="content-header d-flex bg-dark text-light mb-6 mb-lg-10">
     <div class="container d-flex flex-column flex-lg-row">
       <div class="header-title pl-lg-17 pr-lg-5 pt-10 pt-lg-19 pb-lg-8">
         <nav aria-label="breadcrumb">
@@ -35,7 +35,7 @@ layout: default
           </div>
         </div>
       </div>
-      <div class="header-secondary d-flex justify-content-start">
+      <div class="header-secondary d-flex justify-content-start pb-5 pb-lg-0">
         <div class="header-secondary-curve d-none d-lg-flex bg-yellow"></div>
         <div class="pl-lg-5 pt-lg-7">
           <h4 class="text-uppercase">Próximas fechas importantes</h4>
@@ -62,13 +62,13 @@ layout: default
         <div class="text-justify">
           {{ content }}
         </div>
-        <h3 class="mb-lg-5 mt-lg-8">Malla curricular</h3>
-        <div class="text-justify mb-lg-5">
+        <h3 class="mb-3 mt-5 mb-lg-5 mt-lg-8">Malla curricular</h3>
+        <div class="text-justify mb-4 mb-lg-5">
           {{ page.program_parts.description }}
         </div>
         <div class="row d-flex">
           {% for item in page.program_parts.items %}
-            <div class="col-lg-4 d-flex mb-5">
+            <div class="col-md-6 col-lg-4 d-flex mb-5">
               <div class="listed-box">
                 <div class="listed-box-index mb-3">{{ forloop.index }}</div>
                 <h4 class="text-uppercase mb-3">{{ item.title }}</h4>
@@ -79,15 +79,15 @@ layout: default
         </div>
       </div>
 
-      <div class="sidebar">
-        <div class="top bg-purple text-light p-8">
+      <div class="sidebar mb-5">
+        <div class="top bg-purple text-light p-5 p-lg-8">
           <h2 class="mb-3">¿Estás listo para iniciar?</h2> 
           <div class="btn btn-lg btn-yellow text-uppercase">
             Más información
           </div>
         </div>
-        <div class="bottom p-8 bg-light-pink">
-          <h2 class="pb-5">Perfil del aspirante</h2>
+        <div class="bottom p-5 p-lg-8 bg-light-pink">
+          <h2 class="pb-3 pb-lg-5">Perfil del aspirante</h2>
           {{ page.sidebar_content }}
         </div>
       </div>

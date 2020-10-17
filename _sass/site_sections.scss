@@ -87,14 +87,21 @@
 
     h2 {
       font-family: 'acumin-pro-semi-condensed';
-      font-size: 68px;
       font-weight: bold;
+      font-size: 42px;
+
+      @include media-breakpoint-up(lg) {
+        font-size: 68px;
+      }
     }
 
     h3 {
-      font-size: 42px;
+      font-size: 22px;
       font-weight: 300;
       line-height: 1.52;
+      @include media-breakpoint-up(lg) {
+        font-size: 42px;
+      }
     }
 
     .listed-box {
@@ -127,7 +134,11 @@
     }
 
     .top {
-      border-radius: 0 100px 0 0;
+      border-radius: 0 50px 0 0;
+
+      @include media-breakpoint-up(lg) {
+        border-radius: 0 100px 0 0;
+      }
 
       h2 {
         font-size: 26px;
@@ -140,7 +151,11 @@
     }
 
     .bottom {
-      border-radius: 0 0 100px 0;
+      border-radius: 0 0 50px 0;
+
+      @include media-breakpoint-up(lg) {
+        border-radius: 0 0 100px 0;
+      }
 
       h2 {
         font-size: 26px;
@@ -154,7 +169,11 @@
         margin-bottom: $spacer * 2;
       }
       p {
-        margin-bottom: $spacer * 5;
+        margin-bottom: $spacer * 3;
+
+        @include media-breakpoint-up(lg) {
+          margin-bottom: $spacer * 5;
+        }
         color: $gray-800;
       }
     }

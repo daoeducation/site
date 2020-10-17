@@ -26,6 +26,7 @@ sidebar_content:
     <p>
       Gente sabe sobre blockchain y contratos inteligentes.
     </p>
+
 program_parts:
   description:
     Este programa tiene las siguientes partes pensadas específicamente
