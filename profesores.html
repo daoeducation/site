@@ -1,0 +1,14 @@
+---
+layout: default
+title: "Profesores"
+---
+
+
+<h1>Nuestros Profesores</h1>
+<br>
+{% for profesor in site.profesores %}
+<a href="{{profesor.url}}">
+   <h3>{{professor.title}}</h3>
+   <img src="{{site.baseurl}}/assets/images/{{profesor.img}}" alt="Foto de Perfil">
+</a>
+{% endfor %}

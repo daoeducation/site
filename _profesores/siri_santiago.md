@@ -1,5 +1,5 @@
 ---
-layout: professor
+layout: profesor
 title: "Santiago Siri"
 description: “Are you one of the thousands of Iphone owners who has no idea that they can get free games for their Iphone? It’s pretty cool“
 img: "siri_santiago.jpeg"

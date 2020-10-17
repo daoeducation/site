@@ -30,18 +30,18 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #github_username:  jekyll
 
 collections:
-  professors:
+  profesores:
     output: true
-    permalink: /professors/:path/
-  learning_programs:
+    permalink: /profesores/:path/
+  programas:
     output: true
-    permalink: /learning_programs/:path/
-  news:
+    permalink: /programas/:path/
+  noticias:
     output: true
-    permalink: /news/:path/
-  events:
+    permalink: /noticias/:path/
+  eventos:
     output: true
-    permalink: /events/:path/
+    permalink: /eventos/:path/
 
 
 # Build settings
