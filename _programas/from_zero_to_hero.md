@@ -18,7 +18,7 @@ sidebar_content:
     <p>
       Personas que no tienen conocimientos previos sobre blockchain y contratos inteligentes.
     </p>
-    <h3>Que están buscando:</h3>
+    <h3>Qué están buscando:</h3>
     <p>
       Aprender sobre blockchain y contratos inteligentes.
     </p>
