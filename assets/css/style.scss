@@ -7,6 +7,34 @@ html{
   overflow-x: hidden;
 }
 
+body.modal-open{
+  padding-right: 0px !important;
+}
+
+#contact_form {
+  padding-right: 0px !important;
+
+  .close-button {
+    margin-top: -37px;
+    z-index: 1000;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .fa-stack {
+    height: 1em;
+    line-height: 1em;
+    width: 1em;
+  }
+
+  .modal-content {
+    border: none;
+    .modal-body {
+      padding: 0;
+    }
+  }
+}
+
 h2 {
   font-weight: 300;
   font-family: 'acumin-pro';
