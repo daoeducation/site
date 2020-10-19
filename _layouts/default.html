@@ -16,7 +16,7 @@
 
 
   <body>
-    <div class="navbar-section">
+    <div class="navbar-section bg-light sticky-top">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="d-flex w-100 container flex-wrap">
           <div class="d-flex align-content-middle">
@@ -32,7 +32,9 @@
           </div>
 
           <div class="ml-auto d-flex order-lg-4 mr-lg-17">
-            <a class="btn btn-primary align-self-center" href="#">Contacto</a>
+            <button type="button" class="text-uppercase btn btn-primary align-self-center" data-toggle="modal" data-target="#contact_form">
+              Contacto
+            </button>
           </div>
 
           <div class="collapse navbar-collapse order-lg-3 d-lg-flex justify-content-end" id="main_navbar">
@@ -79,7 +81,9 @@
         <p class="mb-4 text-uppercase">
           Si tienes dudas, o quieres recibir más información, envíanos un mensaje
         </p>
-        <a class="btn btn-lg btn-primary text-uppercase" href="#">Contáctanos</a>
+        <button type="button" class="text-uppercase btn btn-lg btn-primary" data-toggle="modal" data-target="#contact_form">
+          Más información
+        </button>
       </div>
       <div class="bg-dark pt-9 pb-7 text-center">
         <h2 class="text-light mb-5">
@@ -131,8 +135,34 @@
       </div>
     </div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="contact_form" tabindex="-1" aria-labelledby="contact_form_label" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="close-button" data-dismiss="modal" aria-label="Close">
+              <span class="fa-stack fa-1x">
+                <i class="fas fa-circle fa-stack-1x text-white"></i>
+                <i class="fas fa-times-circle fa-stack-1x text-black"></i>
+              </span>
+            </div>
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSfxrsYb8_4wsMbKZbN4ur4S5OhlhHhq-aBgEfFbDG3GEzMUvw/viewform?embedded=true"
+              width="100%"
+              height="900px"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0">
+                Loading…
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script type="text/javascript" src="/assets/js/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="/assets/js/popper.min.js"></script>
     <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/js/app.js"></script>
   </body>
 </html>
