@@ -26,7 +26,7 @@
           </div>
 
           <div class="ml-lg-17">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
               <img class="logo" src="/assets/images/logo.png" srcset="/assets/images/logo@2x.png 2x, /assets/images/logo@3x.png 3x" />
             </a>
           </div>
@@ -43,19 +43,24 @@
                 <li class="nav-item active">
                   <a class="nav-link" href="/">Inicio</a>
                 </li>
+                {% comment %}
                 <li class="nav-item">
                   <a class="nav-link" href="#">DAO University</a>
                 </li>
+                {% endcomment %}
                 <li class="nav-item">
                   <a class="nav-link" href="/programas">Programas</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/profesores">Nuestros Profesores</a>
                 </li>
+                {% comment %}
                 <li class="nav-item">
                   <a class="nav-link" href="#">Casos de Éxito</a>
                 </li>
+                {% endcomment %}
                 <li class="nav-item">
+                {% comment %}
                   <a class="nav-link" href="#">Noticias</a>
                 </li>
                 <li class="nav-item">
@@ -64,6 +69,7 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Blog</a>
                 </li>
+                {% endcomment %}
               </ul>
             </div>
           </div>
@@ -92,8 +98,12 @@
         </h2>
 
         <div class="text-yellow mb-4">
-          <img class="mr-4" src="/assets/images/icn-instagram.svg" />
-          <img src="/assets/images/icn-twitter.svg" />
+          <a href="https://www.instagram.com/daouniversity/">
+            <img class="mr-4" src="/assets/images/icn-instagram.svg" />
+          </a>
+          <a href="https://twitter.com/daouniversity">
+            <img src="/assets/images/icn-twitter.svg" />
+          </a>
         </div>
 
         <div class="text-pink">@daouniversity</div>
@@ -119,16 +129,20 @@
         <img class="logo" src="/assets/images/logo.png" srcset="/assets/images/logo@2x.png 2x, /assets/images/logo@3x.png 3x" />
 
         <div class="footer-links mt-7 d-flex flex-column flex-lg-row justify-content-center">
-          <a href="#">Inicio</a>
+          <a href="/">Inicio</a>
+          {% comment %}
           <a href="#">DAO University</a>
-          <a href="#">Programas</a>
-          <a href="#">Nuestros Profesores</a>
+          {% endcomment %}
+          <a href="/programas">Programas</a>
+          <a href="profesores">Nuestros Profesores</a>
+          {% comment %}
           <a href="#">Casos de Éxito</a>
           <a href="#">Noticias y eventos</a>
           <a href="#">Blog</a>
+          {% endcomment %}
         </div>
 
-        <div class="copyright mt-5">Copyright © 2020 DAO University.</div>
+        <div class="copyright mt-5">Copyright © 2020 DAO University</div>
         <div class="mt-4">
           <img class="license" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" />
         </div>
