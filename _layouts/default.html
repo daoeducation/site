@@ -98,12 +98,32 @@
         </h2>
 
         <div class="text-yellow mb-4">
-          <a href="https://www.instagram.com/daouniversity/">
-            <img class="mr-4" src="/assets/images/icn-instagram.svg" />
-          </a>
-          <a href="https://twitter.com/daouniversity">
-            <img src="/assets/images/icn-twitter.svg" />
-          </a>
+          {% if site.instagram %}
+           <a href="https://instagram.com/{{site.instagram}}">
+             <img class="mr-4" src="/assets/images/icn-instagram.svg" />
+           </a>
+          {% endif %}
+          {% if site.twitter %}
+           <a href="https://twitter.com/{{site.twitter}}">
+             <img src="/assets/images/icn-twitter.svg" />
+           </a>
+          {% endif %}
+          {% if site.github_username %}
+           <a href="https://github.com/{{site.github_username}}">
+            <img class="ml-4" src="/assets/images/icn-github.svg" />
+           </a>
+          {% endif %}
+          {% if site.linkedin %}
+            <a href="https://linkedin.com/in/{{site.linkedin}}">
+             <img class="ml-4" src="/assets/images/icn-linkedin.svg" />
+            </a>
+          {% endif %}
+          {% if site.linkedin %}
+            <a href="https://facebook.com/{{site.facebook}}">
+             <img class="ml-4" src="/assets/images/icn-facebook.svg" />
+            </a>
+          {% endif %}
+
         </div>
 
         <div class="text-pink">@daouniversity</div>
