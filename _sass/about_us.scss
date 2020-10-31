@@ -1,0 +1,52 @@
+.about-us {
+  .we-believe-in {
+    .pic{
+      background-image: url("/assets/images/about_us/we_believe_in.png");
+      height: 336px;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+
+  .staff {
+    .staff-member {
+      .pic {
+        height: 328px;
+        flex: 0 0 328px;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .details {
+        padding: $spacer * 4;
+        h4 {
+          font-size: 26px;
+        }
+        .social-links {
+          font-size: 20px;
+          
+          i {
+            margin-right: $spacer * 3;
+          }
+        }
+      }
+
+      &.even {
+        .pic {
+          order: 1;
+        }
+
+        .details {
+          text-align: right;
+        }
+          
+        .social-links {
+            i {
+            margin-right: 0;
+            margin-left: $spacer * 3;
+          }
+        }
+      }
+    }
+  }
+}

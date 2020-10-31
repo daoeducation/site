@@ -11,6 +11,11 @@ body.modal-open{
   padding-right: 0px !important;
 }
 
+.bg-image {
+  background-position: center;
+  background-size: cover;
+}
+
 #contact_form {
   padding-right: 0px !important;
 
@@ -177,4 +182,5 @@ h3 {
 
 @import "site_sections.scss";
 @import "home.scss";
+@import "about_us.scss";
 @import "fontawesome.scss";

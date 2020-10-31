@@ -161,13 +161,17 @@ $spacers: map-merge(
     8: ($spacer * 8),
     9: ($spacer * 9),
     10: ($spacer * 10),
+    11: ($spacer * 11),
     12: ($spacer * 12),
     13: ($spacer * 13),
     14: ($spacer * 14),
     17: ($spacer * 17),
     19: ($spacer * 19),
     22: ($spacer * 22),
-    n5: ($spacer * -5)
+    n3: ($spacer * -3),
+    n5: ($spacer * -5),
+    n8: ($spacer * -8),
+    n11: ($spacer * -11),
   ),
   $spacers
 );

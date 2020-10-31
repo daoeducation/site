@@ -63,7 +63,8 @@ layout: default
       </div>
     </div>
   </div>
-{% comment %}
+
+  {% comment %}
   <div class='home-posts row mb-8'>
     <div class='order-3 order-md-1 col-md-12 mb-md-3 order-lg-1 col-lg-4 offset-lg-2 text-right align-self-center'>
       <h2>Descubre nuestro blog</h2>
@@ -95,8 +96,8 @@ layout: default
       </div>
     </div>
   </div>
+  {% endcomment %}
 </div>
-{% endcomment %}
 <div class='bg-dark text-light'>
   <div class='container py-7 py-lg-12'>
     <div class='d-flex home-people flex-column flex-lg-row'>
@@ -110,7 +111,9 @@ layout: default
         <p class='text-md-right'>Somos un equipo</p>
         <div class="my-3 d-none d-md-flex justify-content-end">
           <a class='btn btn-lg bg-yellow text-uppercase mr-3' href="/profesores">Profesores</a>
+          {% comment %}
           <a class='btn btn-lg btn-primary text-uppercase'>Estudiantes</a>
+          {% endcomment %}
         </div>
       </div>
 
