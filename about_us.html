@@ -12,7 +12,10 @@ layout: default
           DAO University
         </h1>
         <p class="mb-6">
-          Nos gusta mucho blockchain, educación y otras cosas tecnológicas.
+          Nos inspira entregar educación aplicada orientada a quienes quieran
+          crear un negocio propio y ser parte de la era de Internet del valor.
+          DAO University te ayuda a crear nuevos oportunidades de trabajos
+          autónomos innovadores
         </p>
         <a href="/programas" class="btn btn-pink btn-lg text-uppercase">
           Ver los programas
@@ -27,27 +30,42 @@ layout: default
   <div class="content-resource">
     <div class="container d-flex flex-column flex-lg-row">
       <div class="main-content pl-lg-17 pb-lg-8">
-        <h2 class="mb-3 mb-lg-5">¿Por que surge DAOU?</h2>
+        <h2 class="mb-3 mb-lg-5">¿Por qué surge DAOU?</h2>
         <p class="text-justify">
-          Una nueva forma de pensar la organización de las personas
-          cambia la prioridad de las habilidades más buscadas.
-          Nuestro foco es la tecnología, específicamente le software.
+          Surge de la inquietud con el giro que ha tomado ha tomado esta
+          revolución tecnológica y el contexto de incertidumbre económica
+          global. En este contexto buscamos impulsar el talento latinoamericano
+          y europeo hacia la creación de nuevos puestos de trabajo que nos
+          demanda el mercado laboral actual.
         </p>
 
         <div class="we-believe-in mr-17 mb-5">
           <div class="pic"></div>
           <div class="text p-4 mr-11 bg-white mt-n11">
-            <h3 class="mb-3">Creémos en esto</h3>
-            <p>
-              Cuando una persona tiene muchas ganas de aprender siempre encuentra la forma.
+            <h3 class="mb-3">Creemos en esto</h3>
+            <p class="text-justify">
+              Al mismo tiempo que emprendemos esta aventura, con responsabilidad
+              y compromiso, trabajamos para entregar el conocimiento de
+              vanguardia. Creemos en la importancia de contar con organizaciones
+              más transparentes, más auditables y en las que los incentivos de
+              todos sus participantes se vean compensados al momento de
+              participar en esta nueva economía descentralizada. Por ello
+              capacitamos sobre Blockchain, contratos inteligentes, finanzas
+              descentralizadas y todo el ecosistema de servicios financieros
+              descentralizados como Uniswaps, MakerDao y diferentes Stablecoins.
+              Y aprender a interactuar tanto con el Blockchain de Ethereum,
+              así como incorporar los conceptos básicos, intermedios y avanzados
+              de cómo opera una cadena de bloques. A partir de estos abordaremos
+              cómo implementar el control soberano sobre las finanzas personales
+              y de una organización.
             </p>
           </div>
         </div>
 
         <h3 class="mb-3">Nuestra Estructura</h3>
         <p class="mb-5">
-          Somos un equipo horizontalista con la redundancia justa para dar un buen apoyo
-          a todos los estudaintes.
+          Somos un equipo horizontalista que brinda un
+          excelente apoyo a nuestros estudiantes.
         </p>
 
         <div class="staff">
@@ -60,27 +78,27 @@ layout: default
                 </div>
               </div>
               <div class="details">
-                <h4 class="mb-3">Sobre {{ profesor.title }}</h5>
+                <h4 class="mb-3">Sobre {{ profesor.title }}</h4>
                 <p class="mb-4">{{ profesor.description }}</p>
                 <strong>Redes sociales</strong>
                 <div class="social-links mt-2">
                   {% if profesor.linkedin %}
-                    <a href="https://linkedin.com/in/{{page.linkedin}}">
+                    <a href="https://linkedin.com/in/{{profesor.linkedin}}">
                       <i class="text-pink fab fa-linkedin"></i>
                     </a>
                   {% endif %}
                   {% if profesor.twitter %}
-                    <a href="https://twitter.com/{{page.twitter}}">
+                    <a href="https://twitter.com/{{profesor.twitter}}">
                       <i class="text-pink fab fa-twitter"></i>
                     </a>
                   {% endif %}
                   {% if profesor.facebook %}
-                    <a href="https://facebook.com/{{page.facebook}}">
+                    <a href="https://facebook.com/{{profesor.facebook}}">
                       <i class="text-pink fab fa-facebook"></i>
                     </a>
                   {% endif %}
                   {% if profesor.instagram %}
-                    <a href="https://instagram.com/{{page.instagram}}">
+                    <a href="https://instagram.com/{{profesor.instagram}}">
                       <i class="text-pink fab fa-instagram"></i>
                     </a>
                   {% endif %}
@@ -93,15 +111,15 @@ layout: default
 
       <div class="sidebar mb-5">
         <div class="top bg-purple text-light p-5 p-lg-8">
-          <h2 class="mb-3">¿Estás listo para iniciar?</h2> 
+          <h2 class="mb-3">¿Estás listo para iniciar?</h2>
           <button type="button" class="text-uppercase btn btn-lg btn-yellow" data-toggle="modal" data-target="#contact_form">
             Más información
           </button>
         </div>
         <div class="bottom p-5 p-lg-8 bg-light-pink">
-          <h2 class="pb-3 pb-lg-5">¿Hacia donde va DAOU?</h2>
+          <h2 class="pb-3 pb-lg-5">¿Hacia dónde va DAOU?</h2>
           <p>
-            Queremos 
+            Queremos
           </p>
         </div>
       </div>
