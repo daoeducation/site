@@ -5,6 +5,7 @@ description: “Abogado.“
 img: "ruiz_josel.jpg"
 nationality: "Español"
 position: Director Académico
+order_in_about: 50
 
 # Comentar las que no apliquen, colocar el handle según corresponda.
 #linkedin:

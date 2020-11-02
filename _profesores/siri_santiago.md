@@ -5,6 +5,7 @@ description: “Are you one of the thousands of Iphone owners who has no idea th
 img: "siri_santiago.jpeg"
 nationality: "Argentino"
 position: CEO y Profesor
+order_in_about: 10
 
 # Comentar las que no apliquen, colocar el handle según corresponda.
 linkedin: santisiri

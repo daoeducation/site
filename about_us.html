@@ -69,7 +69,8 @@ layout: default
         </p>
 
         <div class="staff">
-          {% for profesor in site.profesores %}
+          {% assign sorted = site.profesores | sort: 'order_in_about' %}
+          {% for profesor in sorted %}
             <div class="staff-member d-flex mb-5 {% cycle 'odd', 'even' %}">
               <div class="pic d-flex justify-content-start align-items-end" style="background-image: url('/assets/images/profesores/{{ profesor.img }}')">
                 <div class="bg-light py-4 px-5">

@@ -1,0 +1,44 @@
+.programas.collection {
+  .collection-items .programa{
+    .pic {
+      height: 240px;
+      @include media-breakpoint-up(lg) {
+        height: 336px;
+      }
+      background-size: cover;
+      background-position: center;
+    }
+
+    .curve {
+      border-radius: 0 50px 0 0;
+      flex-basis: 56px;
+
+      @include media-breakpoint-up(lg) {
+        flex-basis: 88px;
+        border-radius: 0 100px 0 0;
+      }
+    }
+
+    .wedge {
+      flex-basis: 88px;
+      min-width: 88px;
+    }
+
+    h3 {
+      font-size: 26px;
+      font-weight: normal;
+      @include media-breakpoint-up(lg) {
+        font-size: 42px;
+      }
+    }
+
+    p.lead {
+      color: $gray-800;
+      font-weight: 300;
+      font-size: 16px;
+      @include media-breakpoint-up(lg) {
+        font-size: 26px;
+      }
+    }
+  }
+}

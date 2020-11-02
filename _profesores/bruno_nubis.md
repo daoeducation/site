@@ -1,10 +1,11 @@
 ---
 layout: profesor
 title: "Nubis Bruno"
-description: “Technologist. Bitcoin Bug. An Italian born in Argentina that lives in Spain and likes Singapore and Hong Kong too.“
+description: "Software Developer. Technologist. Entrepreneur. Bitcoin early adopter and advocate."
 img: "bruno_nubis.png"
 nationality: "Argentino"
 position: "Profesor"
+order_in_about: 80
 
 # Comentar las que no apliquen, colocar el handle según corresponda.
 linkedin: nubis
