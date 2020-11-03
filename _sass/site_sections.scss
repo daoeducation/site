@@ -37,19 +37,6 @@
     background-position: center;
     min-height: 100px;
 
-    @include media-breakpoint-down(xs) {
-      height: 250px;
-      margin: ($spacer * 2) ($spacer * -2) 0 ($spacer * -2);
-    }
-
-    @include media-breakpoint-up(md) {
-      flex-basis: 450px;
-    }
-
-    @include media-breakpoint-up(lg) {
-      flex-basis: 585px;
-    }
-
     ul {
       padding-left: $spacer * 2;
       list-style: none;
@@ -70,6 +57,7 @@
     .header-secondary-curve {
       border-radius: 0 80px 0 0;
       background-color: $blue;
+      flex-basis: 56px;
       @include media-breakpoint-up(lg) {
         flex-basis: 90px;
       }
@@ -78,6 +66,12 @@
 }
 
 .collection-items {
+  .items-description {
+    @include media-breakpoint-up(lg) {
+      width: 885px;
+    }
+  }
+
   .collection-item {
     background-size: cover;
     background-position: center;
@@ -92,6 +86,16 @@
       font-size: 16px;
       font-weight: 600;
     }
+  }
+}
+
+.collection-items h2, .content-resource .main-content h2 {
+  font-family: 'acumin-pro-semi-condensed';
+  font-weight: bold;
+  font-size: 42px;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 68px;
   }
 }
 
@@ -116,16 +120,6 @@
   .main-content {
     @include media-breakpoint-up(lg) {
       width: 840px;
-    }
-
-    h2 {
-      font-family: 'acumin-pro-semi-condensed';
-      font-weight: bold;
-      font-size: 42px;
-
-      @include media-breakpoint-up(lg) {
-        font-size: 68px;
-      }
     }
 
     h3 {

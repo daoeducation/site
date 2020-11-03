@@ -4,6 +4,7 @@ title: "Gustavo Segovia"
 description: “Organizational Leadership. Developing today the socio-economic ecosystems of the future.“
 img: "segovia_gustavo.jpg"
 nationality: "Venezolano"
+order_in_about: 70
 
 # Comentar las que no apliquen, colocar el handle según corresponda.
 linkedin: gustavosegovia

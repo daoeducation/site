@@ -5,6 +5,7 @@ description: “Licenciado en Derecho y Máster en Administración de Empresas.�
 img: "romero_antonio.jpg"
 nationality: "Español"
 position: Profesor
+order_in_about: 40
 
 # Comentar las que no apliquen, colocar el handle según corresponda.
 linkedin: antonioromerohaupold

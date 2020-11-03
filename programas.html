@@ -5,37 +5,54 @@ title: "Programas"
 
 <div class="programas collection">
   <div class="content-header d-flex bg-dark text-light mb-7 mb-lg-12">
-    <div class="container d-flex">
+    <div class="container d-flex flex-column flex-lg-row">
       <div class="header-title pl-lg-17 pr-lg-5 pt-10 pt-lg-19 pb-5 pb-lg-8">
-        <h1 class="mb-3">Programas</h1>
+        <h1 class="mb-3">Programas académicos</h1>
         <p class="mb-6">
           Con nuestros cursos y bootcamps podrás aprender sobre blockchain y programación,
           las nuevas habilidades que abren puertas a industrias que demandan profesionales
           ininterrumpidamente desde hace 20 años.
         </p>
         <div class="d-flex flex-column flex-md-row">
-          <a href="#" class="btn btn-lg btn-pink text-uppercase mb-4 mb-md-0 mr-md-4">Más información</a>
-          <a href="#" class="btn btn-lg btn-yellow text-uppercase">Ver nuestro Video</a>
+          <a href="/about_us" class="btn btn-lg btn-blue text-uppercase mb-4 mb-md-0 mr-md-4">Saber más de DAOU</a>
         </div>
       </div>
-      <div class="header-secondary d-none d-lg-flex" style="background-image: url('/assets/images/programas.png')">
-        <div class="header-secondary-curve"></div>
+      <div class="header-secondary d-flex" style="background-image: url('/assets/images/programas.png')">
+        <div class="header-secondary-curve bg-pink"></div>
       </div>
     </div>
   </div>
 
   <div class="container collection-items">
+    <div class="items-description mb-6 pl-lg-17 pr-lg-5">
+      <h2 class="mb-2 mb-lg-5">Programas</h2>
+      <p>
+        Sony laptops are among the most well known laptops on today’s market. Sony is a name that over time has established itself as creating a solid product with a stellar reputation. In addition to all the good press that Sony has, Sony is known for making the best ‘small’ laptops. 
+      </p> 
+    </div>
     <div class="row">
       {% for programa in site.programas %}
-        <div class="col-md-6 col-lg-3">
-          <a href="{{programa.url}}">
-            <div class="collection-item d-flex justify-content-start align-items-end mb-5" style="background-image: url('/assets/images/programas/{{ programa.img }}')">
-              <div class="bg-light p-4">
-                <h2 class="text-dark">{{programa.title}}</h2>
-                <span class="text-primary">Saber más</span>
+        <div class="programa col-md-6 mb-4 mb-lg-9">
+          <div class="heading d-flex">
+            <div class="pic flex-grow-1 pr-lg-17 d-flex flex-column justify-content-end" style="background-image: url('/assets/images/programas/{{ programa.img }}')">
+              <div class="bg-light p-4 d-none d-lg-block">
+                <h3>{{programa.title}}</h3>
               </div>
             </div>
-          </a>
+            <div class="curve {% cycle 'bg-pink', 'bg-yellow', 'bg-orange', 'bg-blue' %}"></div>
+          </div>
+
+          <div class="d-flex">
+            <div class="flex-grow-1 pr-lg-17 bg-light">
+              <div class="p-4">
+                <h3 class="d-lg-none mb-3">{{programa.title}}</h3>
+                <p class="lead mb-lg-3">¿Por que podría interesarme este programa?</p>
+                <p class="mb-lg-4 text-justify">{{ programa.description }}</p>
+                <a class="btn btn-primary text-uppercase" href="{{programa.url}}">Saber más</a>
+              </div>
+            </div>
+            <div class="wedge d-none d-lg-block"></div>
+          </div>
         </div>
       {% endfor %}
     </div>
