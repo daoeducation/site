@@ -96,7 +96,7 @@ sociales y económicos que habilita el cambio de paradigma que ofrece esta tecno
 • Introducción a la nueva economía descentralizada <br/>
 • Criptografía y Redes P2P <br/>
 • Marco jurídico y regulatorio <br/>
-• Sistemas Económicos y Monetarios <br/>
+• Sistemas Económicos y Activos Digitales<br/>
 • Aplicaciones Empresariales <br/>
 • Marco jurídico y regulatorio <br/>
 • DeFi y DAOs (Finanzas Descentralizadas y Organizaciones autónomas y Distribuídas) <br/>
