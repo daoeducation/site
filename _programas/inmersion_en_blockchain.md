@@ -26,11 +26,11 @@ sidebar_content:
     </p>
     <h3>Qué están buscando:</h3>
     <p>
-      Comprender en profundidad los principios tecnológicos, económicos, legales y culturales sobre los que funcionan los sistemas descentralizados basados en Blockchain y otras DLT así como conocer las mejores prácticas en el diseño y gestión de herramientas para el desarrollo de nuevos métodos de coordinación socio-económica.
+      Comprender en profundidad los principios tecnológicos, económicos, legales y culturales que rigen el funcionamiento de tecnologías Blockchain y otras DLT, así como conocer las mejores prácticas en el diseño y gestión de herramientas para el desarrollo e implementación de nuevas soluciones distribuídas.
     </p>
     <h3>Para convertirse en:</h3>
     <p>
-      Profesionales de la Industria del web 3.0 con las capacidades necesarias para liderar el camino hacia una sociedad con una riqueza más abundante y distribuída. 
+      Profesionales de la Industria del web 3.0 con las capacidades necesarias para liderar el camino hacia una sociedad coordinada por protocolos orientados a alinear incentivos en el nuevo Internet del Valor.
     </p>
 program_parts:
   description:
