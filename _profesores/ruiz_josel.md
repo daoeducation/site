@@ -4,8 +4,8 @@ title: "José Luis Ruiz-Navarro"
 description: “Abogado.“
 img: "ruiz_josel.jpg"
 nationality: "Español"
-position: Director Académico
-order_in_about: 50
+position: "Pdte. Marco Institucional / Profesor"
+order_in_about: 20
 
 # Comentar las que no apliquen, colocar el handle según corresponda.
 #linkedin:
