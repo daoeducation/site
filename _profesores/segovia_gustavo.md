@@ -16,7 +16,7 @@ twitter: sepu85
 articles:
   - name: Blockchain y las Organizaciones Descentralizadas
     link: https://ethereummadrid.com/blockchain-y-las-organizaciones-descentralizadas/
-  - name: Clockchain como Instrumento a la Economía Colaborativa
+  - name: Blockchain como Instrumento a la Economía Colaborativa
     link: https://www.eleconomista.es/firmas/noticias/8693176/10/17/El-Blockchain-como-instrumento-de-la-Economia-Colaborativa.html
   - name: El Dinero como Producto y el descubrimiento de nuevos nichos de mercado.
     link: https://medium.com/@BlockchainOpenL/the-rise-of-the-economies-as-a-service-e6e6daa214d1
