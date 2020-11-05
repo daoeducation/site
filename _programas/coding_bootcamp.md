@@ -42,60 +42,60 @@ program_parts:
     Coding Bootcamp.
 
   items:
-    - title: UNIDAD 1 - FUNDAMENTOS
+    - title: FUNDAMENTOS
       content:
         • Introducción a las ciencias de la computación<br/>
         • Estructura de Datos<br/>
         • Algoritmos<br/>
         • Document Object Model (DOM)<br/>
         • Contexto y ´this´
-    - title: UNIDAD 2 - BACK END
+    - title: BACK END
       content:
         • Node.js<br/>
         • Web Servers y Expression.js<br/>
         • SQL<br/>
         • Schema <br/>
         • Node y Postgres
-    - title: UNIDAD 3 - BACK END AVANZADO
+    - title: BACK END AVANZADO
       content:
         • Introducción a Promises<br/>
         • ORM y Sequelize<br/>
         • Testing de Express y Sequelize
-    - title: UNIDAD 4 - REPASO FRONT END
+    - title: REPASO FRONT END
       content:
         • Promises Avanzado<br/>
         • Repaso HTML, CSS Y SASS<br/>
         • Socket.io
-    - title: UNIDAD 5 - FRONT END AVANZADO
+    - title: FRONT END AVANZADO
       content:
         • Webpack<br/>
         • React<br/>
         • React-Router<br/>
         • Redux<br/>
         • React-Redux
-    - title: UNIDAD 6 - AUTH / DEPLOYMENT
+    - title: AUTH / DEPLOYMENT
       content:
         • Passport.js<br/>
         • MongoDB<br/>
         • Big O Notation<br/>
         • Testing React<br/>
         • Senior Checkpoint
-    - title: UNIDAD 7 - MÓDULO PRÁCTICO
+    - title: MÓDULO PRÁCTICO
       content:
         • Agile & Scrum<br/>
         • Proyecto integrador. Trabajas en un proyecto aplicando la teoría
         aprendida durante las primeras 6 semanas.
-    - title: UNIDAD 8 y 9 - MÓDULO PRÁCTICO
+    - title: MÓDULO PRÁCTICO
       content:
         • Desarrollas un e-commerce desde cero, trabajando en equipo y
         aplicando metodología agile.<br/>
         • Ejercitas tus habilidades blandas expandiendo un tema de tecnología
         que te interese profundizar.
-    - title: UNIDAD 10,11,12 y 13 - MÓDULO PRÁCTICO
+    - title: MÓDULO PRÁCTICO
       content:
         • Creas el MVP para un startup o desarrollas un proyecto real para una
         empresa de software.
-    - title: UNIDAD 14 - RECURSOS HUMANOS
+    - title: RECURSOS HUMANOS
       content:
         • Empiezas a generar una red de contactos a través de meet ups y
         talleres de RRHH.<br/>
