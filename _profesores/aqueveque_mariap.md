@@ -4,8 +4,8 @@ title: "María Pía Aqueveque"
 description: "Economista, consejera de empresas y experta en Blockchain."
 img: "aqueveque_mariap.jpg"
 nationality: "Chilena"
-position: Profesora
-order_in_about: 20
+position: "Asesor / Profesor"
+order_in_about: 70
 
 # Comentar las que no apliquen, colocar el handle según corresponda.
 linkedin: maria-pia-aqueveque-jabbaz-a194685
