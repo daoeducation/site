@@ -39,33 +39,33 @@ program_parts:
     Para este último, previamente se llevará adelante una entrevista personal.
 
   items:
-    - title: Unidad 1 - MAQUETADO
+    - title: MAQUETADO
       content:
         • HTML <br/>
         • Formularios
-    - title: Unidad 2 - MAQUETADO
+    - title: MAQUETADO
       content:
         • CSS<br/>
         • Modelo de caja y posicionamiento <br/>
         • Bootstrap <br/>
-    - title: Unidad 3 - INTRO A LA PROGRAMACIÓN
+    - title: INTRO A LA PROGRAMACIÓN
       content:
         • Intro a JavaScript <br/>
         • If/Else <br/>
         • While loops
-    - title: Unidad 4 - INTRO A LA PROGRAMACIÓN 
+    - title: INTRO A LA PROGRAMACIÓN 
       content:
         • Funciones <br/>
         • Arreglos
-    - title: Unidad 5 - INTRO A LA PROGRAMACIÓN
+    - title: INTRO A LA PROGRAMACIÓN
       content:
         • Objetos <br/>
         • Manipulación del DOM
-    - title: Unidad 6 - DESARROLLO WEB
+    - title: DESARROLLO WEB
       content:
         • Eventos <br/>
         • JQuery
-    - title: Unidad 7 - DESARROLLO WEB
+    - titl: DESARROLLO WEB
       content:
         • Ajax y Json <br/>
         • Programación orientada a objetos
