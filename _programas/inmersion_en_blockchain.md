@@ -8,6 +8,7 @@ img: "programa-4.jpeg"
 format: Semi Presencial
 duration: "3 meses"
 language: Español
+interest: ¿Por qué podría interesarme este programa?
 important_dates:
   - date: 22 Mar 2021
     text: Apertura de registro de alumnos de primer ingreso
@@ -19,10 +20,10 @@ sidebar_content:
     <h3>Este programa es para:</h3>
     <p>
       Profesionales en busca de una inflexión en su carrera laboral.
-      Directivos y responsables de departamentos de Innovación.	
-      Consultores / Gerentes de proyecto.	
-      Ejecutivos C level en Startup y corporaciones.	
-      Inversores/ Business Angels.	
+      Directivos y responsables de departamentos de Innovación.
+      Consultores / Gerentes de proyecto.
+      Ejecutivos C level en Startup y corporaciones.
+      Inversores/ Business Angels.
     </p>
     <h3>Qué están buscando:</h3>
     <p>

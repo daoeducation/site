@@ -6,6 +6,7 @@ img: "programa-3.jpg"
 format: Online (en vivo)
 duration: "Full Time 710 horas"
 language: Español
+interest: ¿Por qué podría interesarme este programa?
 important_dates:
   - date: 22 Mar 2021
     text: Apertura de registro de alumnos de primer ingreso

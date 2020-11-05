@@ -27,8 +27,8 @@ title: "Programas"
     <div class="items-description mb-6 pl-lg-17 pr-lg-5">
       <h2 class="mb-2 mb-lg-5">Programas</h2>
       <p>
-        Sony laptops are among the most well known laptops on today’s market. Sony is a name that over time has established itself as creating a solid product with a stellar reputation. In addition to all the good press that Sony has, Sony is known for making the best ‘small’ laptops. 
-      </p> 
+        Sony laptops are among the most well known laptops on today’s market. Sony is a name that over time has established itself as creating a solid product with a stellar reputation. In addition to all the good press that Sony has, Sony is known for making the best ‘small’ laptops.
+      </p>
     </div>
     <div class="row">
       {% for programa in site.programas %}
@@ -46,7 +46,7 @@ title: "Programas"
             <div class="flex-grow-1 pr-lg-17 bg-light">
               <div class="p-4">
                 <h3 class="d-lg-none mb-3">{{programa.title}}</h3>
-                <p class="lead mb-lg-3">¿Por que podría interesarme este programa?</p>
+                <p class="lead mb-lg-3">{{programa.interest}}</p>
                 <p class="mb-lg-4 text-justify">{{ programa.description }}</p>
                 <a class="btn btn-primary text-uppercase" href="{{programa.url}}">Saber más</a>
               </div>
