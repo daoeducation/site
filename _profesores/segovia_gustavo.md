@@ -12,6 +12,7 @@ linkedin: gustavosegovia
 instagram: sepu85
 twitter: sepu85
 #facebook:
+github_username: sepu85
 
 articles:
   - name: Blockchain y las Organizaciones Descentralizadas

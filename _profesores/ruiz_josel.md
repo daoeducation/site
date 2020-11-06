@@ -9,9 +9,10 @@ order_in_about: 20
 
 # Comentar las que no apliquen, colocar el handle según corresponda.
 #linkedin:
-#instagram: 
+#instagram:
 #twitter:
 #facebook:
+#github_username: 
 
 articles:
   - name: "Artículo 1"

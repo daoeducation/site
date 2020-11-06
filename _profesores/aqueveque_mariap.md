@@ -12,6 +12,7 @@ linkedin: maria-pia-aqueveque-jabbaz-a194685
 instagram: maqueveq
 twitter: maqueveq
 facebook: mariapia.aquevequejabbaz
+github_username: Maqueveq
 
 articles:
   - name: "Un nuevo modelo empresarial: DAOs y diversidad"

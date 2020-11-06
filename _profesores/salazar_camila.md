@@ -12,6 +12,7 @@ linkedin: camila-salazar-simpson-4bb6ba34
 instagram: camila_ssimpson
 #twitter:
 #facebook:
+#github_username: 
 
 articles:
   - name: "Artículo 1"

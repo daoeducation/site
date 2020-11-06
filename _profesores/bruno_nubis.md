@@ -12,6 +12,7 @@ linkedin: nubis
 instagram: nubis_bruno
 twitter: nubis_bruno
 facebook: nubiss
+github_username: nubis
 
 articles:
   - name: ¿Qué es Bitcoin?
