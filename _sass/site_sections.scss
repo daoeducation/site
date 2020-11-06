@@ -5,6 +5,9 @@
   }
 
   .header-title {
+    @include media-breakpoint-up(md) {
+      width: 400px;
+    }
     @include media-breakpoint-up(lg) {
       width: 885px;
     }
@@ -36,6 +39,21 @@
     background-size: cover;
     background-position: center;
     min-height: 100px;
+
+    @include media-breakpoint-up(lg) {
+      flex-basis: 585px !important;
+    }
+
+    &.no-content {
+      @include media-breakpoint-down(xs) {
+        height: 250px;
+        margin: ($spacer * 2) ($spacer * -2) 0 ($spacer * -2);
+      }
+
+      @include media-breakpoint-up(md) {
+        flex-basis: 351px;
+      }
+    }
 
     ul {
       padding-left: $spacer * 2;
@@ -134,6 +152,7 @@
     .listed-box {
       padding: $spacer * 4;
       background-color: $gray-100;
+      width: 100%;
 
       .listed-box-index {
         font-size: 42px;

@@ -4,7 +4,7 @@ title: "Profesores"
 ---
 <div class="profesores collection">
   <div class="content-header d-flex bg-dark text-light mb-7 mb-lg-12">
-    <div class="container d-flex">
+    <div class="container d-flex flex-column flex-md-row">
       <div class="header-title pl-lg-17 pr-lg-5 pt-10 pt-lg-19 pb-5 pb-lg-8">
         <h1 class="mb-3">Nuestros Profesores</h1>
         <p class="mb-6">
@@ -15,15 +15,25 @@ title: "Profesores"
         </p>
         <div class="d-flex flex-column flex-md-row">
           <a href="#" class="btn btn-lg btn-pink text-uppercase mb-4 mb-md-0 mr-md-4">
-            Más información
+            <span class="d-none d-lg-inline">
+              Más información
+            </span>
+            <span class="d-lg-none">
+              Más info
+            </span>
           </a>
           <a href="#" class="btn btn-lg btn-yellow text-uppercase">
-            Ver nuestro Video
+            <span class="d-none d-lg-inline">
+              Ver nuestro Video
+            </span>
+            <span class="d-lg-none">
+              Ver video
+            </span>
           </a>
         </div>
       </div>
-      <div class="header-secondary d-none d-lg-flex" style="background-image: url('/assets/images/profesores.jpg')">
-        <div class="header-secondary-curve"></div>
+      <div class="header-secondary d-flex no-content" style="background-image: url('/assets/images/profesores.png')">
+        <div class="header-secondary-curve bg-pink"></div>
       </div>
     </div>
   </div>

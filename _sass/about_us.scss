@@ -1,8 +1,11 @@
 .about-us {
   .we-believe-in {
     .pic{
+      height: 184px;
+      @include media-breakpoint-up(md) {
+        height: 336px;
+      }
       background-image: url("/assets/images/about_us/we_believe_in.png");
-      height: 336px;
       background-position: center;
       background-size: cover;
     }
@@ -11,8 +14,13 @@
   .staff {
     .staff-member {
       .pic {
-        height: 328px;
-        flex: 0 0 328px;
+        min-height: 288px;
+
+        @include media-breakpoint-up(md) {
+          min-height: 328px;
+          min-width: 328px;
+        }
+
         background-position: center;
         background-size: cover;
       }
@@ -33,7 +41,9 @@
 
       &.even {
         .pic {
-          order: 1;
+          @include media-breakpoint-up(md) {
+            order: 1;
+          }
         }
 
         .details {

@@ -3,7 +3,7 @@
 ---
 @import "bootstrap/bootstrap";
 
-html{
+html, body{
   overflow-x: hidden;
 }
 
@@ -184,5 +184,4 @@ h3 {
 @import "home.scss";
 @import "about_us.scss";
 @import "programas.scss";
-@import "profesores.scss";
 @import "fontawesome.scss";
