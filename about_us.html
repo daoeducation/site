@@ -27,7 +27,7 @@ layout: default
       <div class="main-content pl-lg-17 pb-lg-8">
         <h2 class="mb-3 mb-lg-5">¿Por qué surge DAO U?</h2>
         <p class="text-justify">
-          Dado el crecimiento de la relevancia de tecnologias como Bitcoin, Ethereum y los contratos inteligentes en un marco de incertidumbre global; hemos identificado la necesidad de impulsar el talento latinoamericano y europeo hacia la creación de nuevos tipos de trabajo que demandara' un entorno cada vez mas cambiante. 
+          Dado el crecimiento de la relevancia de tecnologias como Bitcoin, Ethereum y los contratos inteligentes en un marco de incertidumbre global; hemos identificado la necesidad de impulsar el talento latinoamericano y europeo hacia la creación de nuevos tipos de trabajo que demandara' un entorno cada vez mas cambiante.
         </p>
 
         <div class="we-believe-in mr-17 mb-5">
@@ -63,12 +63,15 @@ layout: default
           {% assign sorted = site.profesores | sort: 'order_in_about' %}
           {% for profesor in sorted %}
             <div class="staff-member d-flex mb-5 {% cycle 'odd', 'even' %}">
-              <div class="pic d-flex justify-content-start align-items-end" style="background-image: url('/assets/images/profesores/{{ profesor.img }}')">
-                <div class="bg-light py-4 px-5">
-                  <h4 class="text-dark">{{ profesor.position }}</h4>
-                  <strong class="text-primary">{{ profesor.title }}</strong>
+
+                <div class="pic d-flex justify-content-start align-items-end" style="background-image: url('/assets/images/profesores/{{ profesor.img }}')">
+                  <div class="bg-light py-4 px-5">
+                    <a href="{{ profesor.url }}">
+                      <h4 class="text-dark">{{ profesor.position }}</h4>
+                      <strong class="text-primary">{{ profesor.title }}</strong>
+                    </a>
+                  </div>
                 </div>
-              </div>
               <div class="details">
                 <h4 class="mb-3">Sobre {{ profesor.title }}</h4>
                 <p class="mb-4">{{ profesor.description }}</p>
