@@ -1,13 +1,14 @@
 ---
 layout: programa
-title: "Inmersión en Blockchain"
-description: "El programa permitirá al estudiante identificar y abarcar las
-distintas oportunidades a nivel profesional que implica el cambio tecnológico
-hacia la utilización de Blockchain"
+title: "Inmersión en Sistemas Descentralizados"
+description: "El programa permitirá al estudiante identificar, gestionar y abarcar las
+distintas oportunidades a nivel profesional, así como capacitarse en el uso de herramientas para
+el diseño e implementación de soluciones de negocio socio-económicas ahora posible gracias a la tecnología blockchain"
 img: "programa-4.jpeg"
 format: Semi Presencial
 duration: "3 meses"
 language: Español
+interest: ¿Por qué podría interesarme este programa?
 important_dates:
   - date: 22 Mar 2021
     text: Apertura de registro de alumnos de primer ingreso
@@ -18,22 +19,19 @@ important_dates:
 sidebar_content:
     <h3>Este programa es para:</h3>
     <p>
-      With MySpace becoming more popular every day, there is the constant need
-      to be different.
+      Profesionales en busca de una inflexión en su carrera laboral.
+      Directivos y responsables de departamentos de Innovación.
+      Consultores / Gerentes de proyecto.
+      Ejecutivos C level en Startup y corporaciones.
+      Inversores/ Business Angels.
     </p>
     <h3>Qué están buscando:</h3>
     <p>
-      There are millions of users, and there will be many who might even use
-      the same layouts. If MySpace layouts are chosen well, then you can
-      enhance your profile a great deal. This will help you get more contacts
-      as well. But because of the demand, there will be the need to find unique
-      layouts.
+      Comprender en profundidad los principios tecnológicos, económicos, legales y culturales que rigen el funcionamiento de tecnologías Blockchain y otras DLT, así como conocer las mejores prácticas en el diseño y gestión de herramientas para el desarrollo e implementación de nuevas soluciones distribuídas.
     </p>
     <h3>Para convertirse en:</h3>
     <p>
-      To begin with, though you might use search engines, you must not pick the
-      first site that you come across. This will be because there might be
-      plenty of people using the same.
+      Profesionales de la Industria del web 3.0 con las capacidades necesarias para liderar el camino hacia una sociedad coordinada por protocolos orientados a alinear incentivos en el nuevo Internet del Valor.
     </p>
 program_parts:
   description:
@@ -93,9 +91,14 @@ program_parts:
 
 ---
 
-El programa permitirá al estudiante identificar y abarcar las distintas
+El programa de Immersión en Sistemas Descentralizados permitirá al estudiante identificar y abarcar distintas
 oportunidades a nivel profesional que implica el cambio tecnológico, político,
-sociales y económicos que habilita el cambio de paradigma que ofrece: <br/>
-• Oportunidades de la economía descentralizada <br/>
+sociales y económicos que habilita el cambio de paradigma que ofrece esta tecnología: <br/>
+• Introducción a la nueva economía descentralizada <br/>
+• Criptografía y Redes P2P <br/>
 • Marco jurídico y regulatorio <br/>
-• Diseño de aplicaciones disruptivas
+• Sistemas Económicos y Activos Digitales<br/>
+• Aplicaciones Empresariales <br/>
+• Marco jurídico y regulatorio <br/>
+• DeFi y DAOs (Finanzas Descentralizadas y Organizaciones autónomas y Distribuídas) <br/>
+• Diseño e implementación de aplicaciones disruptivas

@@ -29,6 +29,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
+logo: 'assets/images/logo@2x.png'
 
 collections:
   profesores:
@@ -47,9 +48,9 @@ collections:
 # Social Media
 instagram: daouniversity
 twitter: daouniversity
-#github_username: daouniversity
+github_username: daouniversity
 #facebook:
-#linkedin: 
+#linkedin:
 
 
 # Build settings

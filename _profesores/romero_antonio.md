@@ -4,7 +4,7 @@ title: "Antonio Romero-Haupold"
 description: “Licenciado en Derecho y Máster en Administración de Empresas.“
 img: "romero_antonio.jpg"
 nationality: "Español"
-position: Profesor
+position: "Chief Financial Officer"
 order_in_about: 40
 
 # Comentar las que no apliquen, colocar el handle según corresponda.
@@ -12,6 +12,7 @@ linkedin: antonioromerohaupold
 #instagram:
 twitter: ARHaupold
 facebook: antonio.romerohaupold
+#github_username: 
 
 articles:
   - name: "Artículo 1"

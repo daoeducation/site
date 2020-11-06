@@ -7,15 +7,10 @@ layout: default
     <div class="container d-flex flex-column flex-md-row">
       <div class="header-title pl-lg-17 pr-lg-5 pt-10 pt-lg-19 pb-5 pb-lg-8">
         <h1 class="mb-3">
-          Acerca de
-          <br/>
-          DAO University
+          Una Universidad para la Sociedad del Conocimiento.
         </h1>
         <p class="mb-6">
-          Nos inspira entregar educación aplicada orientada a quienes quieran
-          crear un negocio propio y ser parte de la era de Internet del valor.
-          DAO University te ayuda a crear nuevos oportunidades de trabajos
-          autónomos innovadores
+          Las Organizaciones Autónomas Distribuidas (DAOs) permiten a las personas asociarse para objetivos en común utilizando blockchain. Nuestra meta es ayudarte a dominar este nuevo paradigma económico y social desarrollando tu pensamiento computacional.
         </p>
         <a href="/programas" class="btn btn-pink btn-lg text-uppercase">
           Ver los programas
@@ -30,26 +25,22 @@ layout: default
   <div class="content-resource">
     <div class="container d-flex flex-column flex-lg-row">
       <div class="main-content pl-lg-17 pb-lg-8">
-        <h2 class="mb-3 mb-lg-5">¿Por qué surge DAOU?</h2>
+        <h2 class="mb-3 mb-lg-5">¿Por qué surge DAO U?</h2>
         <p class="text-justify">
-          Surge de la inquietud con el giro que ha tomado ha tomado esta
-          revolución tecnológica y el contexto de incertidumbre económica
-          global. En este contexto buscamos impulsar el talento latinoamericano
-          y europeo hacia la creación de nuevos puestos de trabajo que nos
-          demanda el mercado laboral actual.
+          Dado el crecimiento de la relevancia de tecnologias como Bitcoin, Ethereum y los contratos inteligentes en un marco de incertidumbre global; hemos identificado la necesidad de impulsar el talento latinoamericano y europeo hacia la creación de nuevos tipos de trabajo que demandara' un entorno cada vez mas cambiante.
         </p>
 
         <div class="we-believe-in mr-md-17 mb-md-5">
           <div class="pic"></div>
           <div class="text p-4 mr-7 mr-lg-11 bg-white mt-n9 mt-lg-n11">
-            <h3 class="mb-3">Creemos en esto</h3>
+            <h3 class="mb-3">Nuestros Principios</h3>
             <p class="text-justify">
               Al mismo tiempo que emprendemos esta aventura, con responsabilidad
               y compromiso, trabajamos para entregar el conocimiento de
               vanguardia. Creemos en la importancia de contar con organizaciones
               más transparentes, más auditables y en las que los incentivos de
               todos sus participantes se vean compensados al momento de
-              participar en esta nueva economía descentralizada. Por ello
+              interactuar en esta nueva economía descentralizada. Por ello
               capacitamos sobre Blockchain, contratos inteligentes, finanzas
               descentralizadas y todo el ecosistema de servicios financieros
               descentralizados como Uniswaps, MakerDao y diferentes Stablecoins.
@@ -62,10 +53,10 @@ layout: default
           </div>
         </div>
 
-        <h3 class="mb-3">Nuestra Estructura</h3>
+        <h3 class="mb-3">Nuestro Equipo</h3>
         <p class="mb-5">
           Somos un equipo horizontalista que brinda un
-          excelente apoyo a nuestros estudiantes.
+          excelente apoyo a nuestros estudiantes.grupo de personas comprometidas con la contribución a la organización de la sociedas donde las organizaciones sean más descentralizadas, transparentes y confiables.
         </p>
 
         <div class="staff">
@@ -74,8 +65,10 @@ layout: default
             <div class="staff-member d-flex flex-column flex-md-row mb-5 {% cycle 'odd', 'even' %}">
               <div class="pic d-flex justify-content-start align-items-end" style="background-image: url('/assets/images/profesores/{{ profesor.img }}')">
                 <div class="bg-light py-4 px-5">
-                  <h4 class="text-dark">{{ profesor.position }}</h4>
-                  <strong class="text-primary">{{ profesor.title }}</strong>
+                  <a href="{{ profesor.url }}">
+                    <h4 class="text-dark">{{ profesor.position }}</h4>
+                    <strong class="text-primary">{{ profesor.title }}</strong>
+                  </a>
                 </div>
               </div>
               <div class="details">

@@ -47,6 +47,11 @@ layout: default
                   <i class="text-yellow mr-4 fab fa-instagram"></i>
                 </a>
               {% endif %}
+              {% if page.github_username %}
+                <a href="https://github.com/{{page.github_username}}">
+                  <i class="text-yellow mr-4 fab fa-github"></i>
+                </a>
+              {% endif %}
             </div>
           </div>
         </div>
@@ -81,7 +86,7 @@ layout: default
       </div>
       <div class="sidebar mb-5">
         <div class="top bg-green p-5 p-lg-8 mt-5 mt-lg-0">
-          <h2 class="mb-3 text-dark">¿Estás listo para iniciar?</h2> 
+          <h2 class="mb-3 text-dark">¿Estás listo para iniciar?</h2>
           <button type="button" class="text-uppercase btn btn-lg btn-pink" data-toggle="modal" data-target="#contact_form">
             Más información
           </button>
