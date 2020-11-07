@@ -33,7 +33,7 @@ logo: /assets/images/logo.png
 defaults:
   -
     values:
-      image: /assets/images/logo@2x.png #default OG image for all pages
+      image: /assets/images/logo@3x.png #default OG image for all pages
 
 collections:
   profesores:
