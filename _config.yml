@@ -27,13 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   forma práctica y didáctica a cargo de los mejores expertos internacionales.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dao.university" # the base hostname & protocol for your site, e.g. http://example.com
-
-logo: /assets/images/logo.png
-
-defaults:
-  -
-    values:
-      image: /assets/images/logo@3x.png #default OG image for all pages
+logo: "/assets/images/logo.png"
 
 collections:
   profesores:
@@ -56,6 +50,13 @@ github_username: daouniversity
 #facebook:
 #linkedin:
 
+defaults:
+  -
+    values:
+      image: /assets/images/logo@3x.png #default OG image for all pages
+
+twitter:
+  card: "summary"
 
 # Build settings
 # theme: minima
