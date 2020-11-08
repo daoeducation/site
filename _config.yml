@@ -54,9 +54,8 @@ defaults:
   -
     values:
       image: /assets/images/logo@3x.png #default OG image for all pages
-
-twitter:
-  card: "summary"
+      twitter:
+        card: "summary"
 
 # Build settings
 # theme: minima
