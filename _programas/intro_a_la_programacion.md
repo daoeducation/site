@@ -17,22 +17,15 @@ important_dates:
 sidebar_content:
     <h3>Este programa es para:</h3>
     <p>
-      With MySpace becoming more popular every day, there is the constant need
-      to be different.
+      Estudiantes, y profesionales en busca de empezar una carrera como programador.
     </p>
     <h3>Qué están buscando:</h3>
     <p>
-      There are millions of users, and there will be many who might even use
-      the same layouts. If MySpace layouts are chosen well, then you can
-      enhance your profile a great deal. This will help you get more contacts
-      as well. But because of the demand, there will be the need to find unique
-      layouts.
+      Adquirir y desarrollar exelentes habilidades en diseño y desarrollo de web.
     </p>
     <h3>Para convertirse en:</h3>
     <p>
-      To begin with, though you might use search engines, you must not pick the
-      first site that you come across. This will be because there might be
-      plenty of people using the same.
+      Desarrolladores FullStack altamente demandados con posibilidades de trabajar en un mercado global que ofrece los mejores sueldos.
     </p>
 program_parts:
   description:
