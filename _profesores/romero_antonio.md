@@ -10,9 +10,9 @@ order_in_about: 40
 # Comentar las que no apliquen, colocar el handle según corresponda.
 linkedin: antonioromerohaupold
 #instagram:
-twitter: ARHaupold
+twitter_user: ARHaupold
 facebook: antonio.romerohaupold
-#github_username: 
+#github_username:
 
 articles:
   - name: "Artículo 1"

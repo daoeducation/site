@@ -10,7 +10,7 @@ order_in_about: 70
 # Comentar las que no apliquen, colocar el handle según corresponda.
 linkedin: maria-pia-aqueveque-jabbaz-a194685
 instagram: maqueveq
-twitter: maqueveq
+twitter_user: maqueveq
 facebook: mariapia.aquevequejabbaz
 github_username: Maqueveq
 
