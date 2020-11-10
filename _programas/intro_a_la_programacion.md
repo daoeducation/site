@@ -2,7 +2,7 @@
 layout: programa
 title: "Intro a la Programación"
 description: "Aprende a programar desde cero."
-img: "programa-3.jpg"
+img: "intro_a_la_programacion.png"
 format: Online (en vivo)
 duration: "PART TIME - 60 HORAS"
 language: Español

@@ -4,7 +4,7 @@ title: "Inmersión en Sistemas Descentralizados"
 description: "El programa permitirá al estudiante identificar, gestionar y abarcar las
 distintas oportunidades a nivel profesional, así como capacitarse en el uso de herramientas para
 el diseño e implementación de soluciones de negocio socio-económicas ahora posible gracias a la tecnología blockchain"
-img: "programa-4.jpeg"
+img: "inmersion_en_sistemas_descentralizados.png"
 format: Semi Presencial
 duration: "3 meses"
 language: Español

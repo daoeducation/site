@@ -2,7 +2,7 @@
 layout: programa
 title: "Coding Bootcamp"
 description: "En alianza con Plataforma5 se entregan 2 cursos de programación. En clases que se dividen en formato teórico y práctico. En trabajo personal y grupal."
-img: "programa-3.jpg"
+img: "coding_bootcamp.png"
 format: Online (en vivo)
 duration: "Full Time 710 horas"
 language: Español
