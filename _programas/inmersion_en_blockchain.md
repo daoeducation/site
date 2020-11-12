@@ -90,10 +90,10 @@ program_parts:
         Taller plan de negocios y estrategia
 
 ---
-
-El programa de Immersión en Sistemas Descentralizados permitirá al estudiante identificar y abarcar distintas
-oportunidades a nivel profesional que implica el cambio tecnológico, político,
-sociales y económicos que habilita el cambio de paradigma que ofrece esta tecnología: <br/>
+El programa de Immersión en Sistemas Descentralizados permitirá al estudiante
+identificar y abarcar distintas oportunidades a nivel profesional que implica
+el cambio tecnológico, político, sociales y económicos que habilita el cambio
+de paradigma que ofrece esta tecnología. <br/>
 • Introducción a la nueva economía descentralizada <br/>
 • Criptografía y Redes P2P <br/>
 • Marco jurídico y regulatorio <br/>

@@ -7,6 +7,8 @@ format: Online (en vivo)
 duration: "PART TIME - 60 HORAS"
 language: Español
 interest: ¿Por qué podría interesarme este programa?
+          Para aprender a programar desde cero y decidir si quieres seguir
+          profundizando y dar un salto de carrera.
 important_dates:
   - date: 22 Mar 2021
     text: Apertura de registro de alumnos de primer ingreso
@@ -17,20 +19,22 @@ important_dates:
 sidebar_content:
     <h3>Este programa es para:</h3>
     <p>
-      Estudiantes, y profesionales en busca de empezar una carrera como programador.
+      Quienes no tienen conocimientos de programación.
     </p>
     <h3>Qué están buscando:</h3>
     <p>
-      Adquirir y desarrollar exelentes habilidades en diseño y desarrollo de web.
+      Conocer los principios teóricos y prácticos básicos de la programación.
     </p>
     <h3>Para convertirse en:</h3>
     <p>
-      Desarrolladores FullStack altamente demandados con posibilidades de trabajar en un mercado global que ofrece los mejores sueldos.
+      Conocedores de conceptos y herramientas básicas que les permitirán
+      decidir si quieren seguir profundizando y realizar un salto de carrera.
     </p>
 program_parts:
   description:
-    Este programa cuenta con dos cursos, uno introductorio y otro intensivo.
-    Para este último, previamente se llevará adelante una entrevista personal.
+    En solo 18 clases, te enseñamos las bases de HTML, CSS y JavaScript.
+    El curso está estructurado para que arranques de cero y definas tu interés
+    por la programación..
 
   items:
     - title: MAQUETADO
@@ -66,10 +70,6 @@ program_parts:
 
 
 ---
-Con este curso vas a adquirir herramientas que podrás usar en cualquier trabajo.
-No requiere ningún conocimiento previo en programación.
-
-
-En solo 18 clases, te enseñamos las bases de HTML, CSS y JavaScript. El curso
-está estructurado para que arranques de cero y definas tu interés por la
-programación.
+Con este curso vas a adquirir herramientas que podrás utilizar en cualquier
+trabajo. No requiere ningún conocimiento previo en programación y desarrolla
+habilidades del pensamiento computacional.
