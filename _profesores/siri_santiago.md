@@ -10,7 +10,7 @@ order_in_about: 10
 # Comentar las que no apliquen, colocar el handle según corresponda.
 linkedin: santisiri
 instagram: santisiri
-twitter: santisiri
+twitter_user: santisiri
 facebook: santisiri.earth
 github_username: santisiri
 

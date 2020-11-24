@@ -1,8 +1,9 @@
 ---
 layout: profesor
 title: "José Luis Ruiz-Navarro"
-description: “Abogado.“
-img: "ruiz_josel.jpg"
+description: “Abogado, Profesor universitario y colaborador en prensa en asuntos
+              jurídicos y económicos.“
+img: "ruiz_josel.png"
 nationality: "Español"
 position: "Pdte. Marco Institucional / Profesor"
 order_in_about: 20
@@ -10,19 +11,40 @@ order_in_about: 20
 # Comentar las que no apliquen, colocar el handle según corresponda.
 #linkedin:
 #instagram:
-#twitter:
+#twitter_user:
 #facebook:
-#github_username: 
+#github_username:
 
 articles:
-  - name: "Artículo 1"
-    link:
-  - name: "Artículo 2"
-    link:
-  - name: "Artículo 3"
-    link:
-  - name: "Artículo 4"
-    link:
+  - name: "El futuro del mandato parlamentario - por diputados y senadores de
+          una democracia del siglo XXI"
+    link: https://dialnet.unirioja.es/servlet/articulo?codigo=6840645
+  - name: "Las incertidumbres que plantean la instalación y funcionamiento de
+          las estaciones de servicio low cost y las gasolineras desatendidas"
+    link: https://dialnet.unirioja.es/servlet/articulo?codigo=5683669
+  - name: "La transición energética - sus aspectos jurídicos"
+    link: https://dialnet.unirioja.es/servlet/articulo?codigo=5175356
+  - name: "La sentencia del Tribunal de Justicia de la Unión Eruopea sobre
+          desahucios y la respuesta legislativa de protección a los
+          deudores hipotecarios"
+    link: https://dialnet.unirioja.es/servlet/articulo?codigo=4523696
+  - name: "La libre prestación de servicios de juegos de azar - la normativa
+          europea y reflexiones sobre la futura legislación"
+    link: https://dialnet.unirioja.es/servlet/articulo?codigo=2901373
+  - name: "Las OPAS - El proyecto de directiva de la Comunidad Europea y la
+          nueva reglamentación francesa"
+    link: https://dialnet.unirioja.es/servlet/articulo?codigo=17032
+  - name: "La Ley Orgánica de elecciones al Parlamento Europeo"
+    link: https://dialnet.unirioja.es/servlet/articulo?codigo=180394
+  - name: "Legitimación ad procesum y legitimación ad causam contra
+          disposiciones y actos de la Administración local"
+    link: https://dialnet.unirioja.es/servlet/articulo?codigo=83985
+  - name: "La legitimación corporativa en el proceso contencioso contra
+          reglamentos a la luz del artículo 24 de la Constitución"
+    link: https://dialnet.unirioja.es/servlet/articulo?codigo=83955
+  - name: "El Parlamento Europeo - sistemas electorales de los diez y
+          alternativas de la futura ley electoral española"
+    link: https://dialnet.unirioja.es/servlet/articulo?codigo=6860768
 
 programs:
   - name: "From Zero to Hero"
