@@ -2,11 +2,13 @@
 layout: programa
 title: "Intro a la Programación"
 description: "Aprende a programar desde cero."
-img: "programa-3.jpg"
+img: "intro_a_la_programacion.png"
 format: Online (en vivo)
 duration: "PART TIME - 60 HORAS"
 language: Español
 interest: ¿Por qué podría interesarme este programa?
+          Para aprender a programar desde cero y decidir si quieres seguir
+          profundizando y dar un salto de carrera.
 important_dates:
   - date: 22 Mar 2021
     text: Apertura de registro de alumnos de primer ingreso
@@ -17,27 +19,22 @@ important_dates:
 sidebar_content:
     <h3>Este programa es para:</h3>
     <p>
-      With MySpace becoming more popular every day, there is the constant need
-      to be different.
+      Quienes no tienen conocimientos de programación.
     </p>
     <h3>Qué están buscando:</h3>
     <p>
-      There are millions of users, and there will be many who might even use
-      the same layouts. If MySpace layouts are chosen well, then you can
-      enhance your profile a great deal. This will help you get more contacts
-      as well. But because of the demand, there will be the need to find unique
-      layouts.
+      Conocer los principios teóricos y prácticos básicos de la programación.
     </p>
     <h3>Para convertirse en:</h3>
     <p>
-      To begin with, though you might use search engines, you must not pick the
-      first site that you come across. This will be because there might be
-      plenty of people using the same.
+      Conocedores de conceptos y herramientas básicas que les permitirán
+      decidir si quieren seguir profundizando y realizar un salto de carrera.
     </p>
 program_parts:
   description:
-    Este programa cuenta con dos cursos, uno introductorio y otro intensivo.
-    Para este último, previamente se llevará adelante una entrevista personal.
+    En solo 18 clases, te enseñamos las bases de HTML, CSS y JavaScript.
+    El curso está estructurado para que arranques de cero y definas tu interés
+    por la programación..
 
   items:
     - title: MAQUETADO
@@ -73,10 +70,6 @@ program_parts:
 
 
 ---
-Con este curso vas a adquirir herramientas que podrás usar en cualquier trabajo.
-No requiere ningún conocimiento previo en programación.
-
-
-En solo 18 clases, te enseñamos las bases de HTML, CSS y JavaScript. El curso
-está estructurado para que arranques de cero y definas tu interés por la
-programación.
+Con este curso vas a adquirir herramientas que podrás utilizar en cualquier
+trabajo. No requiere ningún conocimiento previo en programación y desarrolla
+habilidades del pensamiento computacional.

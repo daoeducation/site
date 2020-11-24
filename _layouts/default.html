@@ -13,8 +13,6 @@
     {%- endif -%}
   </head>
 
-
-
   <body>
     <div class="navbar-section bg-light sticky-top">
       <nav class="navbar navbar-expand-lg navbar-light">
@@ -32,9 +30,9 @@
           </div>
 
           <div class="ml-auto d-flex order-lg-4 mr-lg-17">
-            <button type="button" class="text-uppercase btn btn-primary align-self-center" data-toggle="modal" data-target="#contact_form">
+            <a type="button" class="text-uppercase btn btn-primary align-self-center" href="https://form.typeform.com/to/VFrfvZ63" target="_blank">
               Contacto
-            </button>
+            </a>
           </div>
 
           <div class="collapse navbar-collapse order-lg-3 d-lg-flex justify-content-end" id="main_navbar">
@@ -85,9 +83,9 @@
         <p class="mb-4 text-uppercase">
           Si tienes dudas, o quieres recibir más información, envíanos un mensaje
         </p>
-        <button type="button" class="text-uppercase btn btn-lg btn-primary" data-toggle="modal" data-target="#contact_form">
+        <a type="button" class="text-uppercase btn btn-lg btn-primary" href="https://form.typeform.com/to/VFrfvZ63" target="_blank">
           Más información
-        </button>
+        </a>
       </div>
       <div class="bg-dark pt-9 pb-7 text-center">
         <h2 class="text-light mb-5">
@@ -101,8 +99,8 @@
              <img class="mr-4" src="/assets/images/icn-instagram.svg" />
            </a>
           {% endif %}
-          {% if site.twitter %}
-           <a href="https://twitter.com/{{site.twitter}}">
+          {% if site.twitter_user %}
+           <a href="https://twitter.com/{{site.twitter_user}}">
              <img src="/assets/images/icn-twitter.svg" />
            </a>
           {% endif %}
@@ -150,7 +148,7 @@
           <a href="/">Inicio</a>
           <a href="/about_us">DAO University</a>
           <a href="/programas">Programas</a>
-          <a href="profesores">Nuestros Profesores</a>
+          <a href="/profesores">Nuestros Profesores</a>
           {% comment %}
           <a href="#">Casos de Éxito</a>
           <a href="#">Noticias y eventos</a>
@@ -159,7 +157,24 @@
         </div>
 
         <div class="copyright mt-5">Copyright © 2020 DAO University</div>
-        
+
+      </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="contact_form" tabindex="-1" aria-labelledby="contact_form_label" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="close-button" data-dismiss="modal" aria-label="Close">
+              <span class="fa-stack fa-1x">
+                <i class="fas fa-circle fa-stack-1x text-white"></i>
+                <i class="fas fa-times-circle fa-stack-1x text-black"></i>
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 

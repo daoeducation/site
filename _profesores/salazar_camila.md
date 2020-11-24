@@ -10,9 +10,9 @@ order_in_about: 60
 # Comentar las que no apliquen, colocar el handle según corresponda.
 linkedin: camila-salazar-simpson-4bb6ba34
 instagram: camila_ssimpson
-#twitter:
+#twitter_user:
 #facebook:
-#github_username: 
+#github_username:
 
 articles:
   - name: "Artículo 1"

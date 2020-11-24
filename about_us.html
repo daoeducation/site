@@ -81,8 +81,8 @@ layout: default
                       <i class="text-pink fab fa-linkedin"></i>
                     </a>
                   {% endif %}
-                  {% if profesor.twitter %}
-                    <a href="https://twitter.com/{{profesor.twitter}}">
+                  {% if profesor.twitter_user %}
+                    <a href="https://twitter.com/{{profesor.twitter_user}}">
                       <i class="text-pink fab fa-twitter"></i>
                     </a>
                   {% endif %}
@@ -106,9 +106,9 @@ layout: default
       <div class="sidebar mb-5">
         <div class="top bg-purple text-light p-5 p-lg-8">
           <h2 class="mb-3">¿Estás listo para iniciar?</h2>
-          <button type="button" class="text-uppercase btn btn-lg btn-yellow" data-toggle="modal" data-target="#contact_form">
+          <a type="button" class="text-uppercase btn btn-lg btn-yellow" href="https://form.typeform.com/to/VFrfvZ63" target="_blank">
             Más información
-          </button>
+          </a>
         </div>
         <div class="bottom p-5 p-lg-8 bg-light-pink">
           <h2 class="pb-3 pb-lg-5">¿Hacia dónde va DAOU?</h2>

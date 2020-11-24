@@ -10,7 +10,7 @@ order_in_about: 30
 # Comentar las que no apliquen, colocar el handle según corresponda.
 linkedin: gustavosegovia
 instagram: sepu85
-twitter: sepu85
+twitter_user: sepu85
 #facebook:
 github_username: sepu85
 

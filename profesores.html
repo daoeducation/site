@@ -14,21 +14,11 @@ title: "Profesores"
           futuro.
         </p>
         <div class="d-flex flex-column flex-md-row">
-          <a href="#" class="btn btn-lg btn-pink text-uppercase mb-4 mb-md-0 mr-md-4">
-            <span class="d-none d-lg-inline">
-              Más información
-            </span>
-            <span class="d-lg-none">
-              Más info
-            </span>
+          <a type="button" class="btn btn-lg btn-pink text-uppercase mb-4 mb-md-0 mr-md-4" href="https://form.typeform.com/to/VFrfvZ63" target="_blank">
+            Más información
           </a>
           <a href="#" class="btn btn-lg btn-yellow text-uppercase">
-            <span class="d-none d-lg-inline">
-              Ver nuestro Video
-            </span>
-            <span class="d-lg-none">
-              Ver video
-            </span>
+            Ver nuestro Video
           </a>
         </div>
       </div>
@@ -40,7 +30,8 @@ title: "Profesores"
 
   <div class="container collection-items">
     <div class="row">
-      {% for profesor in site.profesores %}
+      {% assign sorted = site.profesores | sort: 'order_in_about' %}
+      {% for profesor in sorted %}
         <div class="col-md-6 col-lg-3">
           <a href="{{ profesor.url }}">
             <div class="collection-item d-flex justify-content-start align-items-end mb-5" style="background-image: url('/assets/images/profesores/{{ profesor.img }}')">

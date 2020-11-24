@@ -10,7 +10,7 @@ order_in_about: 80
 # Comentar las que no apliquen, colocar el handle según corresponda.
 linkedin: nubis
 instagram: nubis_bruno
-twitter: nubis_bruno
+twitter_user: nubis_bruno
 facebook: nubiss
 github_username: nubis
 

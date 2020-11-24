@@ -1,12 +1,15 @@
 ---
 layout: programa
 title: "Coding Bootcamp"
-description: "En alianza con Plataforma5 se entregan 2 cursos de programación. En clases que se dividen en formato teórico y práctico. En trabajo personal y grupal."
-img: "programa-3.jpg"
+description: "Si tienes conocimientos básicos de programación y quieres dar un
+salto de carrera."
+img: "coding_bootcamp.png"
 format: Online (en vivo)
 duration: "Full Time 710 horas"
 language: Español
 interest: ¿Por qué podría interesarme este programa?
+          Profundiza en el mudo de la programación y adquiere los conocimientos
+          teóricos y que te permitirá iniciar tu carrera en programador.
 important_dates:
   - date: 22 Mar 2021
     text: Apertura de registro de alumnos de primer ingreso
@@ -17,30 +20,30 @@ important_dates:
 sidebar_content:
     <h3>Este programa es para:</h3>
     <p>
-      With MySpace becoming more popular every day, there is the constant need
-      to be different.
+      Quienes ya tienen conocimientos básicos de programación y quieren seguir
+      profundizando y/o estar listos para un inicio de carrera como programador.
+      A través de un examen técnico y de una entrevista personal, nos aseguramos
+       de que tengas una base técnica sólida y la madurez emocional necesaria
+       para encarar los desafíos del Coding Bootcamp. Si tienes conocimientos
+       previos de JavaScript puedes aplicar directamente al Coding Bootcamp.
     </p>
     <h3>Qué están buscando:</h3>
     <p>
-      There are millions of users, and there will be many who might even use
-      the same layouts. If MySpace layouts are chosen well, then you can
-      enhance your profile a great deal. This will help you get more contacts
-      as well. But because of the demand, there will be the need to find unique
-      layouts.
+      Podrás profundizar en los conocimientos teórico-prácticos que te
+      permitirán comenzar un camino de programación.
     </p>
     <h3>Para convertirse en:</h3>
     <p>
-      To begin with, though you might use search engines, you must not pick the
-      first site that you come across. This will be because there might be
-      plenty of people using the same.
+      Programador listo para ofrecer tus servicios como independiente o comenzar
+      a trabajar en una empresa como tal.
     </p>
 program_parts:
   description:
-    A través de un examen técnico y de una entrevista personal, nos
-    aseguramos de que tengas una base técnica sólida y la madurez emocional
-    necesaria para encarar los desafíos del Coding Bootcamp. Si tienes
-    conocimientos previos de JavaScript y puedes aplicar directamente al
-    Coding Bootcamp.
+    Nuestro programa de capacitación intensivo está diseñado para que consigas
+    trabajo como Developer Fullstack cuando te gradúes. El Coding Bootcamp
+    requiere disponibilidad full-time para que te sumes a las Lectures y a los
+    Workshops en tiempo real. En clases que se dividen en formato teórico y
+    práctico. En trabajo personal y grupal.
 
   items:
     - title: FUNDAMENTOS
@@ -108,9 +111,3 @@ el día. Cada actividad está prevista en un calendario y todo el grupo va
 avanzando al mismo ritmo, porque nadie puede quedarse atrás. La clave del éxito
 es que aprendas a trabajar en equipo y mantengas una rutina diaria equilibrada,
 diseñada para que aproveches tu tiempo al máximo.
-
-Nuestro programa de capacitación intensivo está diseñado para que consigas
-trabajo como Developer Fullstack cuando te gradúes. El Coding Bootcamp requiere
-disponibilidad full-time para que te sumes a las Lectures y a los Workshops en
-tiempo real, desafíes tus conocimientos de programación y des un salto de
-carrera.
