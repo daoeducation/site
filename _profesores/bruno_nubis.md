@@ -17,7 +17,7 @@ github_username: nubis
 articles:
   - name: ¿Qué es Bitcoin?
     link: https://www.youtube.com/watch?v=LgosKDevZ-w
-  - name: Bitcoins: Liberating organic farmers
+  - name: "Bitcoins: Liberating organic farmers"
     link: https://bitcoinfilm.org/bitcoins-liberating-organic-farmers/
   - name: Es el futuro y tu dinero no vale
     link: https://medium.com/@nubis_bruno/para-el-futuro-tu-dinero-no-vale-82fc493e7743
