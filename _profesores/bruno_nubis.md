@@ -16,13 +16,13 @@ github_username: nubis
 
 articles:
   - name: ¿Qué es Bitcoin?
-    link:
-  - name: Bitcoin. Transparencia pública y privada
-    link:
-  - name: Bitcoin en alza, consensus y el creador anónimo
-    link:
-  - name: Blockchain. el futuro de la transparencia
-    link:
+    link: https://www.youtube.com/watch?v=LgosKDevZ-w
+  - name: Bitcoins: Liberating organic farmers
+    link: https://bitcoinfilm.org/bitcoins-liberating-organic-farmers/
+  - name: Es el futuro y tu dinero no vale
+    link: https://medium.com/@nubis_bruno/para-el-futuro-tu-dinero-no-vale-82fc493e7743
+  - name: Reyes de las criptomonedas
+    link: https://www.clarin.com/sociedad/reyes-criptomonedas-secretos-hacer-fortunas-nuevos-millonarios-argentina_0_6aOcPmhO.html
 
 programs:
   - name: "From Zero to Hero"
