@@ -1,7 +1,7 @@
 ---
 layout: profesor
 title: "Santiago Siri"
-description: Programador y hacktivista dedicado a la investigación de democracia digital.
+description: "Programador y hacktivista dedicado a la investigación de democracia digital."
 img: "siri_santiago.jpeg"
 nationality: "Argentino"
 position: CEO y Profesor
@@ -15,13 +15,13 @@ facebook: santisiri
 github_username: santisiri
 
 articles:
-  - name: Wired — Meet the Man With a Radical Plan for Blockchain Voting
+  - name: "Wired — Meet the Man With a Radical Plan for Blockchain Voting"
     link: https://www.wired.com/story/santiago-siri-radical-plan-for-blockchain-voting/
-  - name: Hackear la política: Santiago Siri at TEDxCordoba
+  - name: "Hackear la política: Santiago Siri at TEDxCordoba"
     link: https://www.youtube.com/watch?v=YBR84aZTPTU&t=1s
-  - name: A Review of Subjective Approaches for Sybil-resistance in Proof of Personhood Protocols
+  - name: "A Review of Subjective Approaches for Sybil-resistance in Proof of Personhood Protocols"
     link: https://arxiv.org/pdf/2008.05300.pdf
-  - name: Unchained Podcast — Democracy in the Age of Cryptography
+  - name: "Unchained Podcast — Democracy in the Age of Cryptography"
     link: https://unchainedpodcast.com/democracy-in-the-age-of-cryptography/
 
 programs:
