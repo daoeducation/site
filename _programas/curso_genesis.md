@@ -44,7 +44,7 @@ program_parts:
     - title: Indroducción a sistemas organizacionales
       content:
         Teoria General de Sistemas
-      Theory of the Firm: Ronald Coase
+        Theory of the Firm Ronald Coase
         Escalas Macropolíticas y soberanía individual
         Introducción a la Descentralización Progresiva
 
