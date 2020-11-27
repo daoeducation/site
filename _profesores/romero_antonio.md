@@ -4,24 +4,33 @@ title: "Antonio Romero-Haupold"
 description: “Licenciado en Derecho y Máster en Administración de Empresas.“
 img: "romero_antonio.jpg"
 nationality: "Español"
-position: Profesor
+position: "Chief Financial Officer"
 order_in_about: 40
 
 # Comentar las que no apliquen, colocar el handle según corresponda.
 linkedin: antonioromerohaupold
 #instagram:
-twitter: ARHaupold
+twitter_user: ARHaupold
 facebook: antonio.romerohaupold
+#github_username:
 
 articles:
-  - name: "Artículo 1"
-    link:
-  - name: "Artículo 2"
-    link:
-  - name: "Artículo 3"
-    link:
-  - name: "Artículo 4"
-    link:
+  - name: "Entrevista exclusiva con Antonio Romero-Haupold, reconocido asesor
+          independiente e inversor activo del MAB"
+    link: https://www.mabia.es/entrevista-exclusiva-con-antonio-romero-haupold-reconocido-asesor-independiente-e-inversor-activo-del-mab/
+  - name: "El gaditano Antonio Romero-Haupold, presidente de la patronal de
+          empresas del MAB"
+    link: https://www.lavozdigital.es/cadiz-provincia/201505/14/romero-haupold-mercado-bursatil-20150514185744-pr.html
+  - name: "Antonio Romero-Haupold: «Hay un problema de monopolio bancario en la financiación a las empresas»"
+    link: https://www.laverdad.es/murcia/antonio-romerohaupold-problema-20180322014917-ntvo.html
+  - name: "Una reunión histórica para el MAB"
+    link: https://arhaupold.wordpress.com/2015/01/21/una-reunion-historica-para-el-mab/
+  - name: "Una Mesa para el MAB"
+    link: https://arhaupold.wordpress.com/2015/01/20/una-mesa-para-el-mab/
+  - name: "Carbures y el lobo"
+    link: https://arhaupold.wordpress.com/2015/01/14/carbures-y-el-lobo/
+  - name: "2014, el año en el que el MAB se reinventó a la sombra del gigante"
+    link: https://arhaupold.wordpress.com/2015/01/02/2014-el-ano-en-el-que-el-mab-se-reinvento-a-la-sombra-del-gigante/
 
 programs:
   - name: "From Zero to Hero"

@@ -32,8 +32,8 @@ layout: default
                   <i class="text-yellow mr-4 fab fa-linkedin"></i>
                 </a>
               {% endif %}
-              {% if page.twitter %}
-                <a href="https://twitter.com/{{page.twitter}}">
+              {% if page.twitter_user %}
+                <a href="https://twitter.com/{{page.twitter_user}}">
                   <i class="text-yellow mr-4 fab fa-twitter"></i>
                 </a>
               {% endif %}
@@ -47,12 +47,17 @@ layout: default
                   <i class="text-yellow mr-4 fab fa-instagram"></i>
                 </a>
               {% endif %}
+              {% if page.github_username %}
+                <a href="https://github.com/{{page.github_username}}">
+                  <i class="text-yellow mr-4 fab fa-github"></i>
+                </a>
+              {% endif %}
             </div>
           </div>
         </div>
       </div>
-      <div class="header-secondary d-flex" style="background-image: url('/assets/images/profesores/{{page.img}}">
-        <div class="header-secondary-curve d-none d-lg-flex bg-pink"></div>
+      <div class="header-secondary d-flex no-content" style="background-image: url('/assets/images/profesores/{{page.img}}">
+        <div class="header-secondary-curve d-lg-flex bg-pink"></div>
       </div>
     </div>
   </div>
@@ -81,7 +86,7 @@ layout: default
       </div>
       <div class="sidebar mb-5">
         <div class="top bg-green p-5 p-lg-8 mt-5 mt-lg-0">
-          <h2 class="mb-3 text-dark">¿Estás listo para iniciar?</h2> 
+          <h2 class="mb-3 text-dark">¿Estás listo para iniciar?</h2>
           <button type="button" class="text-uppercase btn btn-lg btn-pink" data-toggle="modal" data-target="#contact_form">
             Más información
           </button>

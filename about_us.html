@@ -4,10 +4,10 @@ layout: default
 
 <div class="about-us resource">
   <div class="content-header d-flex bg-dark text-light mb-6 mb-lg-10">
-    <div class="container d-flex flex-column flex-lg-row">
-      <div class="header-title pl-lg-17 pr-lg-5 pt-10 pt-lg-17 pb-lg-8">
+    <div class="container d-flex flex-column flex-md-row">
+      <div class="header-title pl-lg-17 pr-lg-5 pt-10 pt-lg-19 pb-5 pb-lg-8">
         <h1 class="mb-3">
-          Una Universidad para la Sociedad del Conocimiento.
+           Un Instituto para la Sociedad del Conocimiento.
         </h1>
         <p class="mb-6">
           Las Organizaciones Autónomas Distribuidas (DAOs) permiten a las personas asociarse para objetivos en común utilizando blockchain. Nuestra meta es ayudarte a dominar este nuevo paradigma económico y social desarrollando tu pensamiento computacional.
@@ -16,8 +16,8 @@ layout: default
           Ver los programas
         </a>
       </div>
-      <div class="header-secondary d-flex justify-content-start pb-5 pb-lg-0">
-        <div class="header-secondary-curve d-none d-lg-flex bg-yellow"></div>
+      <div class="header-secondary d-flex no-content" style="background-image: url('/assets/images/about_us/about.png')">
+        <div class="header-secondary-curve bg-green"></div>
       </div>
     </div>
   </div>
@@ -25,15 +25,15 @@ layout: default
   <div class="content-resource">
     <div class="container d-flex flex-column flex-lg-row">
       <div class="main-content pl-lg-17 pb-lg-8">
-        <h2 class="mb-3 mb-lg-5">¿Por qué surge DAOU?</h2>
+        <h2 class="mb-3 mb-lg-5">¿Por qué surge DAO U?</h2>
         <p class="text-justify">
-          Dado el crecimiento de la relevancia de tecnologias como Bitcoin, Ethereum y los contratos inteligentes en un marco de incertidumbre global; hemos identificado la necesidad de impulsar el talento latinoamericano y europeo hacia la creación de nuevos tipos de trabajo que demandara' un entorno cada vez mas cambiante. 
+          Dado el crecimiento de la relevancia de tecnologias como Bitcoin, Ethereum y los contratos inteligentes en un marco de incertidumbre global; hemos identificado la necesidad de impulsar el talento latinoamericano y europeo hacia la creación de nuevos tipos de trabajo que demandara' un entorno cada vez mas cambiante.
         </p>
 
-        <div class="we-believe-in mr-17 mb-5">
+        <div class="we-believe-in mr-md-17 mb-md-5">
           <div class="pic"></div>
-          <div class="text p-4 mr-11 bg-white mt-n11">
-            <h3 class="mb-3">Creemos en esto</h3>
+          <div class="text p-4 mr-7 mr-lg-11 bg-white mt-n9 mt-lg-n11">
+            <h3 class="mb-3">Nuestros Principios</h3>
             <p class="text-justify">
               Al mismo tiempo que emprendemos esta aventura, con responsabilidad
               y compromiso, trabajamos para entregar el conocimiento de
@@ -53,20 +53,23 @@ layout: default
           </div>
         </div>
 
-        <h3 class="mb-3">Nuestra Estructura</h3>
+        <h3 class="mb-3">Nuestro Equipo</h3>
         <p class="mb-5">
-          Somos un equipo horizontalista que brinda un
-          excelente apoyo a nuestros estudiantes.
+          Somos un equipo horizontal comprometidos a contribuir con la
+          organización de una sociedad donde las organizaciones sean más
+          descentralizadas, transparentes y confiables.
         </p>
 
         <div class="staff">
           {% assign sorted = site.profesores | sort: 'order_in_about' %}
           {% for profesor in sorted %}
-            <div class="staff-member d-flex mb-5 {% cycle 'odd', 'even' %}">
+            <div class="staff-member d-flex flex-column flex-md-row mb-5 {% cycle 'odd', 'even' %}">
               <div class="pic d-flex justify-content-start align-items-end" style="background-image: url('/assets/images/profesores/{{ profesor.img }}')">
                 <div class="bg-light py-4 px-5">
-                  <h4 class="text-dark">{{ profesor.position }}</h4>
-                  <strong class="text-primary">{{ profesor.title }}</strong>
+                  <a href="{{ profesor.url }}">
+                    <h4 class="text-dark">{{ profesor.position }}</h4>
+                    <strong class="text-primary">{{ profesor.title }}</strong>
+                  </a>
                 </div>
               </div>
               <div class="details">
@@ -79,8 +82,8 @@ layout: default
                       <i class="text-pink fab fa-linkedin"></i>
                     </a>
                   {% endif %}
-                  {% if profesor.twitter %}
-                    <a href="https://twitter.com/{{profesor.twitter}}">
+                  {% if profesor.twitter_user %}
+                    <a href="https://twitter.com/{{profesor.twitter_user}}">
                       <i class="text-pink fab fa-twitter"></i>
                     </a>
                   {% endif %}
@@ -104,9 +107,9 @@ layout: default
       <div class="sidebar mb-5">
         <div class="top bg-purple text-light p-5 p-lg-8">
           <h2 class="mb-3">¿Estás listo para iniciar?</h2>
-          <button type="button" class="text-uppercase btn btn-lg btn-yellow" data-toggle="modal" data-target="#contact_form">
+          <a type="button" class="text-uppercase btn btn-lg btn-yellow" href="https://form.typeform.com/to/VFrfvZ63" target="_blank">
             Más información
-          </button>
+          </a>
         </div>
         <div class="bottom p-5 p-lg-8 bg-light-pink">
           <h2 class="pb-3 pb-lg-5">¿Hacia dónde va DAOU?</h2>

@@ -1,7 +1,7 @@
 ---
 layout: profesor
 title: "Santiago Siri"
-description: “Are you one of the thousands of Iphone owners who has no idea that they can get free games for their Iphone? It’s pretty cool“
+description: "Programador y hacktivista dedicado a la investigación de democracia digital."
 img: "siri_santiago.jpeg"
 nationality: "Argentino"
 position: CEO y Profesor
@@ -10,18 +10,19 @@ order_in_about: 10
 # Comentar las que no apliquen, colocar el handle según corresponda.
 linkedin: santisiri
 instagram: santisiri
-twitter: santisiri
-facebook: santisiri.earth
+twitter_user: santisiri
+facebook: santisiri
+github_username: santisiri
 
 articles:
-  - name: El futuro de la democracia
-    link:
-  - name: La descentralización del futuro
-    link:
-  - name: La democracia digital
-    link:
-  - name: Identidad digital
-    link:
+  - name: "Wired — Meet the Man With a Radical Plan for Blockchain Voting"
+    link: https://www.wired.com/story/santiago-siri-radical-plan-for-blockchain-voting/
+  - name: "Hackear la política: Santiago Siri at TEDxCordoba"
+    link: https://www.youtube.com/watch?v=YBR84aZTPTU&t=1s
+  - name: "A Review of Subjective Approaches for Sybil-resistance in Proof of Personhood Protocols"
+    link: https://arxiv.org/pdf/2008.05300.pdf
+  - name: "Unchained Podcast — Democracy in the Age of Cryptography"
+    link: https://unchainedpodcast.com/democracy-in-the-age-of-cryptography/
 
 programs:
   - name: "From Zero to Hero"
@@ -31,5 +32,4 @@ programs:
 
 ---
 
-
-Fundador de Democracy Earth Foundation, una organización sin fines de lucro respaldada por Y Combinator que construye una gobernanza digital incorruptible para comunidades pequeñas y grandes; y el Partido de la Red (Peers Party), el primer partido político digital en presentarse a elecciones. Socio de Bitex.la, empresa líder en tecnología financiera de bitcoins en América Latina. Publicó 'Hacktivismo' en 2015 con Random House. Co- fundador de la Asociación Argentina de Desarrolladores de Juegos. Miembro del Foro Económico Mundial. Innovator Under 35 Latin America 2017, MIT Technology Review. A dado numerosas charlas en el Foro Económico Mundial, TEDx, RadicalXChange, Devcon, entre otros.
+Fundador de Democracy Earth Foundation, organización sin fines de lucro respaldada por Y Combinator y Templeton dedicada al desarrollo de tecnología abierta y descentralizada; y el Partido de la Red, primer partido político digital en presentarse a elecciones. Publicó 'Hacktivismo' en 2015 con Random House. Co-fundador de la Asociación de Desarrolladores de Videojuegos Argentina. Miembro del World Economic Forum. Reconocido como "Innovator Under 35 Latin America 2017" por MIT Technology Review. A dado numerosas charlas en el Foro Económico Mundial, TEDx, RadicalXChange, Devcon, entre otros.

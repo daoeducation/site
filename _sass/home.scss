@@ -126,14 +126,14 @@
   }
 
   .home-people-box-big {
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(md) {
       height: 352px;
       width: 344px;
     }
   }
 
   .home-people-box-small {
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(md) {
       width: 240px;
       height: 176px;
     }

@@ -4,10 +4,11 @@ title: "Inmersión en Sistemas Descentralizados"
 description: "El programa permitirá al estudiante identificar, gestionar y abarcar las
 distintas oportunidades a nivel profesional, así como capacitarse en el uso de herramientas para
 el diseño e implementación de soluciones de negocio socio-económicas ahora posible gracias a la tecnología blockchain"
-img: "programa-4.jpeg"
+img: "inmersion_en_sistemas_descentralizados.png"
 format: Semi Presencial
 duration: "3 meses"
 language: Español
+interest: ¿Por qué podría interesarme este programa?
 important_dates:
   - date: 22 Mar 2021
     text: Apertura de registro de alumnos de primer ingreso
@@ -19,18 +20,18 @@ sidebar_content:
     <h3>Este programa es para:</h3>
     <p>
       Profesionales en busca de una inflexión en su carrera laboral.
-      Directivos y responsables de departamentos de Innovación.	
-      Consultores / Gerentes de proyecto.	
-      Ejecutivos C level en Startup y corporaciones.	
-      Inversores/ Business Angels.	
+      Directivos y responsables de departamentos de Innovación.
+      Consultores / Gerentes de proyecto.
+      Ejecutivos C level en Startup y corporaciones.
+      Inversores/ Business Angels.
     </p>
     <h3>Qué están buscando:</h3>
     <p>
-      Comprender en profundidad los principios tecnológicos, económicos, legales y culturales sobre los que funcionan los sistemas descentralizados basados en Blockchain y otras DLT así como conocer las mejores prácticas en el diseño y gestión de herramientas para el desarrollo de nuevos métodos de coordinación socio-económica.
+      Comprender en profundidad los principios tecnológicos, económicos, legales y culturales que rigen el funcionamiento de tecnologías Blockchain y otras DLT, así como conocer las mejores prácticas en el diseño y gestión de herramientas para el desarrollo e implementación de nuevas soluciones distribuídas.
     </p>
     <h3>Para convertirse en:</h3>
     <p>
-      Profesionales de la Industria del web 3.0 con las capacidades necesarias para liderar el camino hacia una sociedad con una riqueza más abundante y distribuída. 
+      Profesionales de la Industria del web 3.0 con las capacidades necesarias para liderar el camino hacia una sociedad coordinada por protocolos orientados a alinear incentivos en el nuevo Internet del Valor.
     </p>
 program_parts:
   description:
@@ -89,10 +90,15 @@ program_parts:
         Taller plan de negocios y estrategia
 
 ---
-
-El programa permitirá al estudiante identificar y abarcar las distintas
-oportunidades a nivel profesional que implica el cambio tecnológico, político,
-sociales y económicos que habilita el cambio de paradigma que ofrece: <br/>
-• Oportunidades de la economía descentralizada <br/>
+El programa de Immersión en Sistemas Descentralizados permitirá al estudiante
+identificar y abarcar distintas oportunidades a nivel profesional que implica
+el cambio tecnológico, político, sociales y económicos que habilita el cambio
+de paradigma que ofrece esta tecnología. <br/>
+• Introducción a la nueva economía descentralizada <br/>
+• Criptografía y Redes P2P <br/>
 • Marco jurídico y regulatorio <br/>
-• Diseño de aplicaciones disruptivas
+• Sistemas Económicos y Activos Digitales<br/>
+• Aplicaciones Empresariales <br/>
+• Marco jurídico y regulatorio <br/>
+• DeFi y DAOs (Finanzas Descentralizadas y Organizaciones autónomas y Distribuídas) <br/>
+• Diseño e implementación de aplicaciones disruptivas

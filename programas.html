@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Programas"
+title: "Programas académicos"
 ---
 
 <div class="programas collection">
@@ -9,15 +9,16 @@ title: "Programas"
       <div class="header-title pl-lg-17 pr-lg-5 pt-10 pt-lg-19 pb-5 pb-lg-8">
         <h1 class="mb-3">Programas académicos</h1>
         <p class="mb-6">
-          Con nuestros cursos y bootcamps podrás aprender sobre blockchain y programación,
-          las nuevas habilidades que abren puertas a industrias que demandan profesionales
-          ininterrumpidamente desde hace 20 años.
+          Con nuestros programas podrás capacitarte en las nuevas habilidades
+          necesarias en la Internet del valor y que abren puertas en industrias 
+          que demandan profesionales con mayor conocimiento y pensamiento
+          digital.
         </p>
         <div class="d-flex flex-column flex-md-row">
           <a href="/about_us" class="btn btn-lg btn-blue text-uppercase mb-4 mb-md-0 mr-md-4">Saber más de DAOU</a>
         </div>
       </div>
-      <div class="header-secondary d-flex" style="background-image: url('/assets/images/programas.png')">
+      <div class="header-secondary d-flex no-content" style="background-image: url('/assets/images/programas.png')">
         <div class="header-secondary-curve bg-pink"></div>
       </div>
     </div>
@@ -27,8 +28,10 @@ title: "Programas"
     <div class="items-description mb-6 pl-lg-17 pr-lg-5">
       <h2 class="mb-2 mb-lg-5">Programas</h2>
       <p>
-        Sony laptops are among the most well known laptops on today’s market. Sony is a name that over time has established itself as creating a solid product with a stellar reputation. In addition to all the good press that Sony has, Sony is known for making the best ‘small’ laptops. 
-      </p> 
+        En nuestros cursos inmersivos en programación y blockchain comenzarás a
+        sumergirte en el mundo de las tecnologías descentralizadas con
+        herramientas técnicas y teóricas.
+      </p>
     </div>
     <div class="row">
       {% for programa in site.programas %}
@@ -39,14 +42,14 @@ title: "Programas"
                 <h3>{{programa.title}}</h3>
               </div>
             </div>
-            <div class="curve {% cycle 'bg-pink', 'bg-yellow', 'bg-orange', 'bg-blue' %}"></div>
+            <div class="curve {% cycle 'bg-pink', 'bg-yellow', 'bg-pink', 'bg-blue' %}"></div>
           </div>
 
           <div class="d-flex">
             <div class="flex-grow-1 pr-lg-17 bg-light">
               <div class="p-4">
                 <h3 class="d-lg-none mb-3">{{programa.title}}</h3>
-                <p class="lead mb-lg-3">¿Por que podría interesarme este programa?</p>
+                <p class="lead mb-lg-3">{{programa.interest}}</p>
                 <p class="mb-lg-4 text-justify">{{ programa.description }}</p>
                 <a class="btn btn-primary text-uppercase" href="{{programa.url}}">Saber más</a>
               </div>

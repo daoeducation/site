@@ -13,12 +13,10 @@
     {%- endif -%}
   </head>
 
-
-
   <body>
     <div class="navbar-section bg-light sticky-top">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="d-flex w-100 container flex-wrap">
+        <div class="d-flex container flex-wrap">
           <div class="d-flex align-content-middle">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_navbar" aria-controls="main_navbar" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"/>
@@ -32,9 +30,9 @@
           </div>
 
           <div class="ml-auto d-flex order-lg-4 mr-lg-17">
-            <button type="button" class="text-uppercase btn btn-primary align-self-center" data-toggle="modal" data-target="#contact_form">
+            <a type="button" class="text-uppercase btn btn-primary align-self-center" href="https://form.typeform.com/to/VFrfvZ63" target="_blank">
               Contacto
-            </button>
+            </a>
           </div>
 
           <div class="collapse navbar-collapse order-lg-3 d-lg-flex justify-content-end" id="main_navbar">
@@ -85,9 +83,9 @@
         <p class="mb-4 text-uppercase">
           Si tienes dudas, o quieres recibir más información, envíanos un mensaje
         </p>
-        <button type="button" class="text-uppercase btn btn-lg btn-primary" data-toggle="modal" data-target="#contact_form">
+        <a type="button" class="text-uppercase btn btn-lg btn-primary" href="https://form.typeform.com/to/VFrfvZ63" target="_blank">
           Más información
-        </button>
+        </a>
       </div>
       <div class="bg-dark pt-9 pb-7 text-center">
         <h2 class="text-light mb-5">
@@ -101,8 +99,8 @@
              <img class="mr-4" src="/assets/images/icn-instagram.svg" />
            </a>
           {% endif %}
-          {% if site.twitter %}
-           <a href="https://twitter.com/{{site.twitter}}">
+          {% if site.twitter_user %}
+           <a href="https://twitter.com/{{site.twitter_user}}">
              <img src="/assets/images/icn-twitter.svg" />
            </a>
           {% endif %}
@@ -148,9 +146,9 @@
 
         <div class="footer-links mt-7 d-flex flex-column flex-lg-row justify-content-center">
           <a href="/">Inicio</a>
-          <a href="#">DAO University</a>
+          <a href="/about_us">DAO University</a>
           <a href="/programas">Programas</a>
-          <a href="profesores">Nuestros Profesores</a>
+          <a href="/profesores">Nuestros Profesores</a>
           {% comment %}
           <a href="#">Casos de Éxito</a>
           <a href="#">Noticias y eventos</a>
@@ -159,8 +157,13 @@
         </div>
 
         <div class="copyright mt-5">Copyright © 2020 DAO University</div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 361ce466eea02b9661e4ef6f0fad574a182723d2
       </div>
     </div>
+
 
     <!-- Modal -->
     <div class="modal fade" id="contact_form" tabindex="-1" aria-labelledby="contact_form_label" aria-hidden="true">
@@ -173,15 +176,6 @@
                 <i class="fas fa-times-circle fa-stack-1x text-black"></i>
               </span>
             </div>
-            <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSfxrsYb8_4wsMbKZbN4ur4S5OhlhHhq-aBgEfFbDG3GEzMUvw/viewform?embedded=true"
-              width="100%"
-              height="900px"
-              frameborder="0"
-              marginheight="0"
-              marginwidth="0">
-                Loading…
-            </iframe>
           </div>
         </div>
       </div>

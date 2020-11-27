@@ -21,14 +21,12 @@
 title: DAO University
 email: hello@dao.university
 description: >- # this means to ignore newlines until "baseurl:"
-  Somos una Academia inspirada en la educación aplicada orientada a quienes
-  quieran crear un negocio propio haciendo uso de los contratos inteligentes,
-  tokens, protocolos de consenso utilizando tecnología de cadena de bloques en
-  forma práctica y didáctica a cargo de los mejores expertos internacionales.
+  Instituto que te capacita para un mundo digital y descentralizado, a través 
+  de la programación y conocimientos que te permitan diseñar tu prototipo de
+  una DAO
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-#github_username:  jekyll
+url: "https://dao.university" # the base hostname & protocol for your site, e.g. http://example.com
+logo: "/assets/images/logo.png"
 
 collections:
   profesores:
@@ -46,11 +44,17 @@ collections:
 
 # Social Media
 instagram: daouniversity
-twitter: daouniversity
+twitter_user: daouniversity
 #github_username: daouniversity
 #facebook:
-#linkedin: 
+#linkedin:
 
+defaults:
+  -
+    values:
+      image: /assets/images/logo@3x.png #default OG image for all pages
+      twitter:
+        card: "summary"
 
 # Build settings
 # theme: minima
