@@ -21,10 +21,9 @@
 title: DAO University
 email: hello@dao.university
 description: >- # this means to ignore newlines until "baseurl:"
-  Somos un Instituto inspirado en la educación aplicada orientada a quienes
-  quieran crear un negocio propio haciendo uso de los contratos inteligentes,
-  tokens, protocolos de consenso utilizando tecnología de cadena de bloques en
-  forma práctica y didáctica a cargo de los mejores expertos internacionales.
+  Instituto que te capacita para un mundo digital y descentralizado, a través 
+  de la programación y conocimientos que te permitan diseñar tu prototipo de
+  una DAO
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dao.university" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/images/logo.png"

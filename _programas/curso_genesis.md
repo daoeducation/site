@@ -3,10 +3,10 @@ layout: programa
 title: "Curso Génesis DAO University"
 description: "El programa se divide en dos bloques, uno teórico práctico donde entenderás
 pragmática y profundamente sobre los sistemas económicos y organizacionales construíbles
-sobre las blockchains, y otro bloque donde co-diseñaremos y despliegaremos la primera 
+sobre las blockchains, y otro bloque donde co-diseñaremos y despliegaremos la primera
 iteración de la DAO University como una Organización Autónoma y Descentralizada."
 img: "inmersion_en_sistemas_descentralizados.png"
-format: Mixto Presencial (Madrid/Buenos Aires). 
+format: Mixto Presencial (Madrid/Buenos Aires).
 duration: "5 semanas"
 language: Español
 interest: ¿Por qué podría interesarme este programa?
@@ -43,17 +43,17 @@ program_parts:
   items:
     - title: Indroducción a sistemas organizacionales
       content:
-        Teoria General de Sistemas 
-        Theory of the Firm: Ronald Coase
+        Teoria General de Sistemas
+      Theory of the Firm: Ronald Coase
         Escalas Macropolíticas y soberanía individual
         Introducción a la Descentralización Progresiva
-    
+
 
 ---
 El programa de Génesis de la DAO University permitirá al estudiante
 identificar y abarcar distintas oportunidades a nivel profesional que implica
 el cambio tecnológico, político, sociales y económicos que habilita el cambio
-de paradigma que ofrece esta tecnología. Te permitirá además participar en el 
+de paradigma que ofrece esta tecnología. Te permitirá además participar en el
 diseño y ser miembro fundador de nuestra DAO University<br/>
 • Introducción a la nueva economía descentralizada <br/>
 • Criptografía y Redes P2P <br/>
