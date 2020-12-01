@@ -1,8 +1,8 @@
 ---
 layout: profesor
 title: "José Luis Ruiz-Navarro"
-description: “Abogado, Profesor universitario y colaborador en prensa en asuntos
-              jurídicos y económicos.“
+description: Abogado, Profesor universitario y colaborador en prensa en asuntos
+              jurídicos y económicos.
 img: "ruiz_josel.png"
 nationality: "Español"
 position: "Pdte. Marco Institucional / Profesor"

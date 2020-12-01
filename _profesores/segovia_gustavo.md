@@ -1,7 +1,7 @@
 ---
 layout: profesor
 title: "Gustavo Segovia"
-description: “Desarrollo de Ecosistemas Socio-Económicos“
+description: Desarrollo de Ecosistemas Socio-Económicos.
 img: "segovia_gustavo.jpg"
 nationality: "Venezolano"
 position: "Coordinador de Programas / Profesor"
