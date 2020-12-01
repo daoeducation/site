@@ -159,6 +159,16 @@ h3 {
     }
   }
 
+  .footer-machine {
+    background-image: url(/assets/images/footer/footer.png);
+    text-align: center;
+    width: 100%;
+    background-position: center;
+    height: 200px;
+    background-size: cover;
+    margin: 0 auto;
+  }
+
   .footer-links{
     a {
       font-size: 16px;

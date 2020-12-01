@@ -1,21 +1,18 @@
 ---
 layout: programa
-title: "Curso Génesis DAO University"
-description: "El programa se divide en dos bloques, uno teórico práctico donde entenderás
-pragmática y profundamente sobre los sistemas económicos y organizacionales construíbles
-sobre las blockchains, y otro bloque donde co-diseñaremos y despliegaremos la primera
-iteración de la DAO University como una Organización Autónoma y Descentralizada."
-img: "inmersion_en_sistemas_descentralizados.png"
-format: Mixto Presencial (Madrid/Buenos Aires).
+title: "Ethereum & Bitcoin — From Zero to Hero"
+description: "Programa teórico y práctico donde entenderás sobre sistemas económicos y organizacionales en blockchain."
+img: "hero.png"
+format: Online (Madrid/Buenos Aires).
 duration: "5 semanas"
 language: Español
-interest: ¿Por qué podría interesarme este programa?
+interest: Aprende a usar Bitcoin y Ethereum profesionalmente.
 important_dates:
   - date: 01 Dic 2020
     text: Apertura de registro de alumnos de primer ingreso
-  - date: 31 Jul 2021
+  - date: 23 Jan 2021
     text: Cierre registro de alumnos de primer ingreso
-  - date: 31 Ago 2021
+  - date: 02 Feb 2021
     text: Inicio de curso de inducción a alumnos de primer ingreso
 sidebar_content:
     <h3>Este programa es para:</h3>
@@ -43,10 +40,57 @@ program_parts:
   items:
     - title: Indroducción a sistemas organizacionales
       content:
-        Teoria General de Sistemas
-        Theory of the Firm Ronald Coase
-        Escalas Macropolíticas y soberanía individual
-        Introducción a la Descentralización Progresiva
+        • Teoria General de Sistemas
+        • Theory of the Firm Ronald Coase
+        • Escalas Macropolíticas y soberanía individual
+        • Introducción a la Descentralización Progresiva
+    - title: Introducción a Bitcoin y a la Economía Descentralizada
+      content:
+        • Qué es el Dinero? Breve Historia del Dinero
+        • Criptografía asimétrica, hashing y Merkle Tree
+        • Estructura cadena de bloques y PoW
+        • Bitcoin como standard monetario
+        • Escalando Bitcoin LN & Forks
+    - title: Ethereum y Smart Contracts
+      content:
+        • Arquitectura Turing Complete y sus beneficios
+        • Smart Contracts, ETH y Gas
+        • Introducción a los Oráculos
+        • Tokens y standards
+        • Aplicaciones básicas del token y ejemplos
+        • ETH 2.0 PoS & Sharding
+    - title: Activos desde el prisma Legal
+      content:
+        • Retos regulatorios y normativa aplicable.
+        • Emisión Privada y Mercados Secundarios
+        • ICOs & STOs
+    - title: DeFi
+      content:
+        • MakerDAO & money onchain
+        • Compound & Aave
+        • Introducción a los Automated Market Makers
+        • AMMs Bancor, Uniswap y Balancer 
+        • Liquidity Mining & Yield Farming
+    - title: DAOs
+      content:
+        • Introducción a las DAOs
+        • Análisis de Bitcoin como DAO
+        • Problemas de coordinación humana
+        • DAO como máquinas de incentivos
+        • Gobernanza y configuraciones standards
+        • Frameworks de despliegue de DAOs & Sourcecreed
+    - title: Diseño de Flujo de valor dentro de un Ecosistema
+      content:
+        • Definiendo el propósito
+        • Categorización Stakeholders y análisis motivs
+        • Mapeo y matriz de flujos
+        • Modelización Stock & Flow
+    - title: Prototipado de una DAO
+      content:
+        • Definiendo los objetivos de una mínima DAO viable
+        • Selección DAO frameworks
+        • Definición de pólizas y despliegue DAO
+        • Tests y apertura a nuevas iteraciones
 
 
 ---
@@ -54,7 +98,7 @@ El programa de Génesis de la DAO University permitirá al estudiante
 identificar y abarcar distintas oportunidades a nivel profesional que implica
 el cambio tecnológico, político, sociales y económicos que habilita el cambio
 de paradigma que ofrece esta tecnología. Te permitirá además participar en el
-diseño y ser miembro fundador de nuestra DAO University<br/>
+diseño y ser miembro fundador de nuestra DAO University<br/><br/>
 • Introducción a la nueva economía descentralizada <br/>
 • Criptografía y Redes P2P <br/>
 • Marco jurídico y regulatorio <br/>

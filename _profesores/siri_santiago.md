@@ -4,7 +4,7 @@ title: "Santiago Siri"
 description: "Programador y hacktivista dedicado a la investigación de democracia digital."
 img: "siri_santiago.jpeg"
 nationality: "Argentino"
-position: CEO y Profesor
+position: Director
 order_in_about: 10
 
 # Comentar las que no apliquen, colocar el handle según corresponda.
