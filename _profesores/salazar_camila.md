@@ -1,7 +1,7 @@
 ---
 layout: profesor
 title: "Camila Salazar-Simpson"
-description: “Licenciada en derecho por la Universidad Complutense de Madrid.“
+description: Licenciada en derecho por la Universidad Complutense de Madrid.
 img: "salazar_camila.jpg"
 nationality: "Española"
 position: "Secretaria General"

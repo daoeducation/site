@@ -1,7 +1,7 @@
 ---
 layout: profesor
 title: "Antonio Romero-Haupold"
-description: “Licenciado en Derecho y Máster en Administración de Empresas.“
+description: Licenciado en Derecho y Máster en Administración de Empresas.
 img: "romero_antonio.jpg"
 nationality: "Español"
 position: "Chief Financial Officer"

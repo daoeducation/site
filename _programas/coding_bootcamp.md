@@ -3,13 +3,11 @@ layout: programa
 title: "Coding Bootcamp"
 description: "Si tienes conocimientos básicos de programación y quieres dar un
 salto de carrera."
-img: "coding_bootcamp.png"
+img: "coding.png"
 format: Online (en vivo)
 duration: "Full Time 710 horas"
 language: Español
-interest: ¿Por qué podría interesarme este programa?
-          Profundiza en el mudo de la programación y adquiere los conocimientos
-          teóricos y que te permitirá iniciar tu carrera en programador.
+interest: Formate como programador profesional
 important_dates:
   - date: 22 Mar 2021
     text: Apertura de registro de alumnos de primer ingreso
