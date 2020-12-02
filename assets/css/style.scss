@@ -51,11 +51,23 @@ h3 {
     }
   }
 
+  .active {
+    a.nav-link {
+      font-weight: 700;
+    }
+  }
+
   a.nav-link {
-    font-size: 12px;
+    font-size: 26px;
     font-weight: 500;
-    line-height: 2;
     border-radius: 4px;
+    padding-left: 10px;
+
+    @include media-breakpoint-up(lg) {
+      padding-left: 0px;
+      font-size: 12px;
+      line-height: 2;
+    }
   }
 
   a.nav-link:hover {
