@@ -54,6 +54,11 @@ h3 {
   .active {
     a.nav-link {
       font-weight: 700;
+      @include media-breakpoint-up(lg) {
+        margin: 0 1px;
+        font-weight: 500;
+        background-color: rgba($blue, .1);
+      }
     }
   }
 
