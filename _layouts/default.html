@@ -17,7 +17,7 @@
     <div class="navbar-section bg-light sticky-top">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="d-flex container flex-wrap">
-          <div class="d-flex align-content-middle">
+          <div class="d-flex pr-1 align-content-middle">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_navbar" aria-controls="main_navbar" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"/>
             </button>
@@ -30,42 +30,22 @@
           </div>
 
           <div class="ml-auto d-flex order-lg-4 mr-lg-17">
-            <a type="button" class="text-uppercase btn btn-primary align-self-center" href="https://form.typeform.com/to/VFrfvZ63" target="_blank">
+            <a class="text-uppercase btn btn-primary align-self-center" href="https://form.typeform.com/to/VFrfvZ63" target="_blank">
               Inscribirse
             </a>
           </div>
 
-          <div class="collapse navbar-collapse order-lg-3 d-lg-flex justify-content-end" id="main_navbar">
+          <div class="collapse navbar-collapse py-4 py-lg-0 order-lg-3 d-lg-flex justify-content-end" id="main_navbar">
             <div class="mr-4">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="/">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/about_us">DAO University</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/programas">Programas</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/profesores">Nuestros Profesores</a>
-                </li>
-                {% comment %}
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Casos de Éxito</a>
-                </li>
-                {% endcomment %}
-                <li class="nav-item">
-                {% comment %}
-                  <a class="nav-link" href="#">Noticias</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Eventos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-                </li>
-                {% endcomment %}
+                {% assign filtered = site.pages | where_exp:"item", "item.menu_position" %}
+                {% assign sorted = filtered | sort: 'menu_position' %}
+                {% for item in sorted %}
+                  {% if page.url == item.url %}{% assign active = 'active' %}{% else %}{% assign active = '' %}{% endif %}
+                  <li class="nav-item {{ active }}">
+                    <a class="nav-link" href="{{ item.url }}">{{ item.menu_label }}</a>
+                  </li>
+                {% endfor %}
               </ul>
             </div>
           </div>
@@ -75,7 +55,7 @@
 
     {{ content }}
 
-    <div class="footer pt-lg-7 pb-lg-7">
+    <div class="footer bg-dark pt-lg-7">
       <img class="pink_pacman d-none d-lg-block" src="/assets/images/pink_pacman.png" />
       <img class="yellow_oval d-none d-lg-block" src="/assets/images/yellow_oval.png" />
       <div class="footer-contact-form-link text-light text-center py-9">
@@ -83,7 +63,7 @@
         <p class="mb-4 text-uppercase">
           Si tienes dudas, o quieres recibir más información, envíanos un mensaje
         </p>
-        <a type="button" class="text-uppercase btn btn-lg btn-primary" href="https://form.typeform.com/to/VFrfvZ63" target="_blank">
+        <a class="text-uppercase btn btn-lg btn-primary" href="https://form.typeform.com/to/VFrfvZ63" target="_blank">
           Más información
         </a>
       </div>
@@ -130,7 +110,8 @@
           <div class="footer-image" style="background-image: url('/assets/images/footer/footer.png')"></div>
         </div>
       </div>
-
+    </div>
+    <div class="footer pb-lg-7">
       <div class="mt-9 text-center">
         <img class="logo" src="/assets/images/logo.png" srcset="/assets/images/logo@2x.png 2x, /assets/images/logo@3x.png 3x" />
 
@@ -150,26 +131,8 @@
       </div>
     </div>
 
-
-    <!-- Modal -->
-    <div class="modal fade" id="contact_form" tabindex="-1" aria-labelledby="contact_form_label" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-body">
-            <div class="close-button" data-dismiss="modal" aria-label="Close">
-              <span class="fa-stack fa-1x">
-                <i class="fas fa-circle fa-stack-1x text-white"></i>
-                <i class="fas fa-times-circle fa-stack-1x text-black"></i>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <script type="text/javascript" src="/assets/js/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="/assets/js/popper.min.js"></script>
     <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/assets/js/app.js"></script>
   </body>
 </html>
