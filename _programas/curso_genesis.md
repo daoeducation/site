@@ -61,9 +61,9 @@ program_parts:
         • ETH 2.0 PoS & Sharding
     - title: Activos desde el prisma Legal
       content:
-        • Retos regulatorios y normativa aplicable.
-        • Emisión Privada y Mercados Secundarios
-        • ICOs & STOs
+        • Introducción a los Activos Digitales desde el prisma legal
+        • Taxonomía de activos digitales
+        • El futuro de la criptoregulación 		
     - title: DeFi
       content:
         • MakerDAO & money onchain
