@@ -91,6 +91,32 @@ h3 {
   line-height: 1.71;
 }
 
+
+.video-home {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.video-frame {
+  max-width: 1500px;
+  width: 90%;
+  min-height: 700px;
+}
+
+@media (max-width: 1200px) {
+  .video-frame {
+    min-height: 600px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .video-frame {
+    min-height: 300px;
+  }
+}
+
+
 .footer {
   position: relative;
 

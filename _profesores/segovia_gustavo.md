@@ -26,7 +26,7 @@ articles:
 
 programs:
   - name: Immersión en Ecosistemas Descentralizados
-    link: https://dao.university/programas/inmersion_en_blockchain/
+    link: https://dao.education/programas/inmersion_en_blockchain/
 
 ---
 

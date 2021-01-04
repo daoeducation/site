@@ -61,9 +61,9 @@ program_parts:
         • ETH 2.0 PoS & Sharding
     - title: Activos desde el prisma Legal
       content:
-        • Retos regulatorios y normativa aplicable.
-        • Emisión Privada y Mercados Secundarios
-        • ICOs & STOs
+        • Introducción a los Activos Digitales desde el prisma legal
+        • Taxonomía de activos digitales
+        • El futuro de la criptoregulación 		
     - title: DeFi
       content:
         • MakerDAO & money onchain
@@ -94,11 +94,11 @@ program_parts:
 
 
 ---
-El programa de Génesis de la DAO University permitirá al estudiante
+El programa de Génesis de la DAO Education permitirá al estudiante
 identificar y abarcar distintas oportunidades a nivel profesional que implica
 el cambio tecnológico, político, sociales y económicos que habilita el cambio
 de paradigma que ofrece esta tecnología. Te permitirá además participar en el
-diseño y ser miembro fundador de nuestra DAO University<br/><br/>
+diseño y ser miembro fundador de nuestra DAO Education<br/><br/>
 • Introducción a la nueva economía descentralizada <br/>
 • Criptografía y Redes P2P <br/>
 • Marco jurídico y regulatorio <br/>
