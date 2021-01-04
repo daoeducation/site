@@ -21,6 +21,18 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag", "~> 2.1"
 end
 
+# Gems to test the site
+group :development, :test do
+  gem "rspec"
+  gem "selenium-webdriver"
+  gem "webdrivers"
+  gem "capybara"
+  gem "rack-jekyll"
+  gem "pry"
+  gem "puma"
+end
+
+
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
