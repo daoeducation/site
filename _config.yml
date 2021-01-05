@@ -25,10 +25,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   de la programación y conocimientos que te permitan diseñar tu prototipo de
   una DAO
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dao.education" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://daoe_staging.constata.eu" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/images/logo.png"
 
-api_url: "http://localhost:8000"
+api_url: "https://api_daoe_staging.constata.eu"
 
 collections:
   profesores:
