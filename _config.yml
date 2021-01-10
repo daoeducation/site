@@ -28,7 +28,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://daoe_staging.constata.eu" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/images/logo.png"
 
-api_url: "https://api_daoe_staging.constata.eu"
+#api_url: "https://api_daoe_staging.constata.eu"
+api_url: "http://localhost:8000"
 
 collections:
   profesores:
@@ -72,15 +73,16 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - spec
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 #theme: jekyll-theme-minimal

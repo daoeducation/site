@@ -8,7 +8,5 @@ describe "sample", type: :feature, js: true do
     expect(find('.programas').text).to eq('Programas')
     expect(find('.prueba_inexistente').text).to eq('Esta section no existe')
     expect(find('.about_us').text).to eq('DAO Edcation')
-
-
   end
 end
