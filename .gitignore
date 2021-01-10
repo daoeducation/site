@@ -7,3 +7,4 @@ vendor
 *.swo
 CNAME
 _config.yml
+spec/support/Rocket.toml
