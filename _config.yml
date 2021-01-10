@@ -29,7 +29,7 @@ url: "https://daoe_staging.constata.eu" # the base hostname & protocol for your 
 logo: "/assets/images/logo.png"
 
 #api_url: "https://api_daoe_staging.constata.eu"
-api_url: "http://localhost:8000"
+api_url: "http://127.0.0.1:8000"
 
 collections:
   profesores:
