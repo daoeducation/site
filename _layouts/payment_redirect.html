@@ -4,9 +4,9 @@ layout: bare
 <script src="https://js.stripe.com/v3/"></script>
 <script src="/assets/js/checkout.js"></script>
 <script type="text/javascript">
-  {% if site.repository_name == "site_staging" %}
+  {% if site.github.repository_name == "site_staging" %}
     api_url = '{{ site.staging_api_url }}'
-  {% elsif site.repository_name == "site" %}
+  {% elsif site.github.repository_name == "site" %}
     api_url = '{{ site.prod_api_url }}'
   {% else %}
     api_url = '{{ site.dev_api_url }}'
