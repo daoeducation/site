@@ -5,7 +5,7 @@ description: "Hedge Fund Manager Cryptoasset & Blockchain Lawyer."
 img: "gomez_alejandro.jpg"
 nationality: "Español"
 position: Profesor
-order_in_about: 10
+order_in_about: 50
 
 # Comentar las que no apliquen, colocar el handle según corresponda.
 linkedin: agomezdelacruz
