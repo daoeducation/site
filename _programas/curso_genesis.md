@@ -4,15 +4,15 @@ title: "Ethereum & Bitcoin — From Zero to Hero"
 description: "Programa teórico y práctico donde entenderás sobre sistemas económicos y organizacionales en blockchain."
 img: "hero.png"
 format: Online (Madrid/Buenos Aires).
-duration: "5 semanas"
+duration: "10 semanas"
 language: Español
 interest: Aprende a usar Bitcoin y Ethereum profesionalmente.
 important_dates:
   - date: 01 Dic 2020
     text: Apertura de registro de alumnos de primer ingreso
-  - date: 23 Jan 2021
+  - date: 15 Feb 2021
     text: Cierre registro de alumnos de primer ingreso
-  - date: 02 Feb 2021
+  - date: 18 Feb 2021
     text: Inicio de curso de inducción a alumnos de primer ingreso
 sidebar_content:
     <h3>Este programa es para:</h3>
