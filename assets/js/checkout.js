@@ -6,16 +6,6 @@ var initCheckout = function(api_url, program){
     }
   };
 
-  var createCheckoutSession = function(token) {
-    return fetch(`${api_url}/stripe/checkout_sessions`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ recaptcha_token: token, program: program })
-    }).then(function (result) {
-      return result.json();
-    });
-  };
-
   $(function(){
     fetch(`${api_url}/public_config`)
       .then(function (result) { return result.json(); })
@@ -23,9 +13,11 @@ var initCheckout = function(api_url, program){
         window.recaptcha_loaded = function(){
           grecaptcha.ready(function() {
             grecaptcha.execute(config.recaptcha_key, {action: 'submit'}).then(function(token) {
-              createCheckoutSession(token).then(function(data) {
-                var stripe = Stripe(config.stripe_key);
-                stripe.redirectToCheckout({sessionId: data.id }).then(handleResult);
+              $.post(
+                `${api_url}/stripe/checkout_sessions`,
+                JSON.stringify({ recaptcha_token: token, program: program })
+              ).done(function(data){
+                Stripe(config.stripe_key).redirectToCheckout({sessionId: data.id }).then(handleResult);
               });
             });
           });
