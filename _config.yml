@@ -29,7 +29,7 @@ url: "https://daoe_staging.constata.eu" # the base hostname & protocol for your 
 logo: "/assets/images/logo.png"
 
 staging_api_url: "http://api_daoe_staging.constata.eu"
-prod_api_url: "http://api_daoe.constata.eu"
+prod_api_url: "https://api_daoe.constata.eu"
 dev_api_url: "http://127.0.0.1:8000"
 
 collections:
