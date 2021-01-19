@@ -28,7 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dao.education" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/images/logo.png"
 
-staging_api_url: "http://api_daoe_staging.constata.eu"
+staging_api_url: "https://api-daoe-staging.constata.eu"
 prod_api_url: "https://api-daoe.constata.eu"
 dev_api_url: "http://127.0.0.1:8000"
 

@@ -1,5 +1,4 @@
 describe "payment_pages", type: :feature, js: true do
-
   it "can pay for the zero-to-hero program" do
     visit '/payments/zero_to_hero.html'
 
