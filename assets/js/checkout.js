@@ -1,4 +1,5 @@
 var initCheckout = function(api_url, program){
+
   var handleResult = function (result) {
     if (result.error) {
       var displayError = document.getElementById('error-message');

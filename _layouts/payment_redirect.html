@@ -2,7 +2,6 @@
 layout: bare
 ---
 <script src="https://js.stripe.com/v3/"></script>
-<script src="/assets/js/checkout.js"></script>
 <script type="text/javascript">
   {% if site.github.project_title == "site_staging" %}
     api_url = '{{ site.staging_api_url }}'
@@ -11,7 +10,7 @@ layout: bare
   {% else %}
     api_url = '{{ site.dev_api_url }}'
   {% endif %}
-  {{ content }}
+  document.location.href = `${api_url}/stripe/checkout_sessions/{{content}}`
 </script>
 
 <div class="container payments text-center py-10">
