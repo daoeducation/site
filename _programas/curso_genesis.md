@@ -8,6 +8,7 @@ duration: "10 semanas"
 language: Español
 checkout_cc: "#"
 checkout_btc: "#"
+checkout_pp: "#"
 interest: Aprende a usar Bitcoin y Ethereum profesionalmente.
 important_dates:
   - date: 01 Dic 2020
@@ -35,10 +36,16 @@ sidebar_content:
     </p>
 program_parts:
   description:
-    Este programa tiene las siguientes partes pensadas específicamente
-    para llevarte from zero to hero en tiempo record, cometiendo todos
-    los errores posibles en un ambiente controlado.
-
+    <p>
+    Incluirá 6 masterclasses y 2 workshops en los que desarrollaremos distintos casos de estudio.
+    </p>
+    <p>
+    El primer bloque, teórico-práctico, tendrá una duración de 6 semanas con una clase semanal de 90 minutos. Te exigiremos dos horas mínimas de dedicación por semana - por el máximo lo pones tú. A las clases se le agregarán lecturas, tareas y ejercicios, así como también trabajos de grupo vía Discord.
+    </p>
+    <p>
+    El segundo bloque consta de 9 horas más de workshops online, donde los estudiantes se organizarán en grupos para diseñar y desplegar su propio proyecto.
+    </p>
+  
   items:
     - title: Indroducción a sistemas organizacionales
       content:
@@ -81,13 +88,13 @@ program_parts:
         • DAO como máquinas de incentivos
         • Gobernanza y configuraciones standards
         • Frameworks de despliegue de DAOs & Sourcecreed
-    - title: Diseño de Flujo de valor dentro de un Ecosistema
+    - title: TALLER - Diseño de Flujo de valor dentro de un Ecosistema
       content:
         • Definiendo el propósito
         • Categorización Stakeholders y análisis motivs
         • Mapeo y matriz de flujos
         • Modelización Stock & Flow
-    - title: Prototipado de una DAO
+    - title: TALLER - Prototipado de una DAO
       content:
         • Definiendo los objetivos de una mínima DAO viable
         • Selección DAO frameworks

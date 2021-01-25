@@ -62,7 +62,7 @@ layout: default
         <div class="text-justify">
           {{ content }}
         </div>
-        <h3 class="mb-3 mt-5 mb-lg-5 mt-lg-8">Malla curricular</h3>
+        <h3 class="mb-3 mt-5 mb-lg-5 mt-lg-8">Estructura del Curso</h3>
         <div class="text-justify mb-4 mb-lg-5">
           {{ page.program_parts.description }}
         </div>
@@ -87,6 +87,7 @@ layout: default
           </a>
         </div>
         <div class="bottom p-5 p-lg-8 bg-light-pink">
+        {% comment %}
           {% if page.checkout_cc %}
             <a class="text-uppercase btn btn-lg btn-pink" href="/{{page.checkout_cc}}" target="_blank">
               PAGAR CON TARJETA
@@ -94,9 +95,15 @@ layout: default
           {% endif %}
           {% if page.checkout_btc %}
             <a class="text-uppercase btn btn-lg btn-pink mt-3" href="/{{page.checkout_btc}}" target="_blank">
-              PAGAR CON BTC
+              PAGAR CON BTC (% off)
             </a>
           {% endif%}
+          {% if page.checkout_pp %}
+            <a class="text-uppercase btn btn-lg btn-pink mt-3" href="/{{page.checkout_pp}}" target="_blank">
+              PAGAR CON PAYPAL
+            </a>
+          {% endif%}
+        {% endcomment %}
           <h2 class="pt-3 pt-lg-5 pb-3 pb-lg-5">Perfil del aspirante</h2>
           {{ page.sidebar_content }}
         </div>
