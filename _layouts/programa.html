@@ -81,13 +81,23 @@ layout: default
 
       <div class="sidebar mb-5">
         <div class="top bg-purple text-light p-5 p-lg-8">
-          <h2 class="mb-3">¿Estás listo para iniciar?</h2> 
+          <h2 class="mb-3">¿Estás listo para iniciar?</h2>
           <a class="text-uppercase btn btn-lg btn-pink" href="https://form.typeform.com/to/VFrfvZ63" target="_blank">
             Más información
           </a>
         </div>
         <div class="bottom p-5 p-lg-8 bg-light-pink">
-          <h2 class="pb-3 pb-lg-5">Perfil del aspirante</h2>
+          {% if page.checkout_cc %}
+            <a class="text-uppercase btn btn-lg btn-pink" href="/{{page.checkout_cc}}" target="_blank">
+              PAGAR CON TARJETA
+            </a>
+          {% endif %}
+          {% if page.checkout_btc %}
+            <a class="text-uppercase btn btn-lg btn-pink mt-3" href="/{{page.checkout_btc}}" target="_blank">
+              PAGAR CON BTC
+            </a>
+          {% endif%}
+          <h2 class="pt-3 pt-lg-5 pb-3 pb-lg-5">Perfil del aspirante</h2>
           {{ page.sidebar_content }}
         </div>
       </div>

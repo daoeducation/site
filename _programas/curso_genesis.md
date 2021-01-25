@@ -6,6 +6,8 @@ img: "hero.png"
 format: Online (Madrid/Buenos Aires).
 duration: "10 semanas"
 language: Español
+checkout_cc: "#"
+checkout_btc: "#"
 interest: Aprende a usar Bitcoin y Ethereum profesionalmente.
 important_dates:
   - date: 01 Dic 2020
@@ -69,7 +71,7 @@ program_parts:
         • MakerDAO & money onchain
         • Compound & Aave
         • Introducción a los Automated Market Makers
-        • AMMs Bancor, Uniswap y Balancer 
+        • AMMs Bancor, Uniswap y Balancer
         • Liquidity Mining & Yield Farming
     - title: DAOs
       content:
