@@ -12,4 +12,14 @@ describe "payment_pages", type: :feature, js: true do
     expect(page).to have_selector ".ProductSummary-info", wait: 30
     expect(page).to have_content "Coding Bootcamp"
   end
+
+  it "can pay with BTC after signup success" do
+    pending
+    fail
+  end
+
+  it "can pay with paypal after signup success" do
+    pending
+    fail
+  end
 end

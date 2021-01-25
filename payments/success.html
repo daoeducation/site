@@ -1,24 +1,6 @@
 ---
 layout: bare
 ---
-    <script>
-      var API_URL = "http://localhost:8000"
-      var urlParams = new URLSearchParams(window.location.search);
-      var sessionId = urlParams.get('session_id');
-      if (sessionId) {
-        fetch(`${API_URL}/stripe/checkout_sessions/${sessionId}`)
-          .then(function (result) {
-            return result.json();
-          })
-          .then(function (session) {
-            var sessionJSON = JSON.stringify(session, null, 2);
-            document.querySelector('pre').textContent = sessionJSON;
-          })
-          .catch(function (err) {
-            console.log('Error when fetching Checkout session', err);
-          });
-      }
-    </script>
 <div class="container payments text-center py-10">
   <img class="logo" src="/assets/images/logo.png" srcset="/assets/images/logo-white.png" />
   <div class="mt-5">
