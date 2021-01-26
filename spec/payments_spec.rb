@@ -35,5 +35,14 @@ describe "payment_pages", type: :feature, js: true do
     expect(page).to have_content "Pago con tarjeta"
   end
 
+#Creo que no funciona cómo esperaba, aunque no emite error.
+  it "can pay with BTC after signup success" do
+    visit '/signup_success.html?email=usuario@example.com'
+
+    find("#btc_button").click
+    expect(page).to have_selector "input[name=customer_reference]", wait: 30
+
+  end
+
 
 end
