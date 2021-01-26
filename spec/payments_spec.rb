@@ -14,12 +14,26 @@ describe "payment_pages", type: :feature, js: true do
   end
 
   it "can pay with BTC after signup success" do
-    pending
-    fail
+    visit '/signup_success.html'
+
+    find("#btc_button").click
+    expect(page).to have_content "Un servicio de Bitex"
+
   end
 
   it "can pay with paypal after signup success" do
-    pending
-    fail
+    visit '/signup_success.html'
+
+    find("#paypal_button").click
+    expect(page).to have_content "Pagar con PayPal"
   end
+
+  it "can pay with stripe after signup success" do
+    visit '/signup_success.html'
+
+    find("#stripe_button").click
+    expect(page).to have_content "Pago con tarjeta"
+  end
+
+
 end

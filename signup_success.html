@@ -35,15 +35,15 @@ layout: bare
   </p>
 
   <div class="my-4 d-flex flex-horizontal">
-    <a class="btn btn-lg btn-pink" target="_blank" href="https://bitex.la/pos/daoe?amount=450&currency_id=3&customer_reference=">
+    <a id='btc_button' class="btn btn-lg btn-pink" href="https://bitex.la/pos/daoe?amount=450&currency_id=3&customer_reference=">
       <i class="fab fa-bitcoin"></i>
     </a>
 
-    <a class="btn btn-lg btn-pink mx-3" href="/payments/zero_to_hero">
+    <a id="stripe_button" class="btn btn-lg btn-pink mx-3" href="/payments/zero_to_hero">
       <i class="far fa-credit-card"></i>
     </a>
 
-    <form class="d-flex" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <form id='paypal_button'class="d-flex" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
       <input type="hidden" name="cmd" value="_s-xclick" />
       <input id="paypal_button_id" type="hidden" name="hosted_button_id" value="" />
       <button class="btn btn-lg btn-pink" type="submit" border="0" name="submit">
@@ -66,7 +66,7 @@ layout: bare
     <h2>¿Necesitas más información?</h2>
     <p class="mt-3">
       Escríbenos a <a href="mailto:info@dao.education?subject=Consulta post inscripción">info@dao.education</a>
-      o 
+      o
       <a href="https://calendly.com/gus-daoe/15min?back=1&month=2021-01" target="_blank">
        puedes agendar una reunión</a>
       con nuestro Director Académico.
