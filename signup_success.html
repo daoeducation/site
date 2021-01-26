@@ -2,7 +2,7 @@
 layout: bare
 ---
 <script type="text/javascript">
-  {% if site.github.project_title == "site" %}
+  {% if site.github.project_title == "site" and site.github.environment != 'development' %}
     paypal_domain = 'www.paypal.com';
     paypal_pixel_domain = 'www.paypalobjects.com';
     paypal_btn_id = '{{ site.production_paypal_button_id }}';
@@ -16,6 +16,7 @@ layout: bare
   $(function(){
     $("#paypal_button_id").attr("value", paypal_btn_id);
     $("#paypal_pixel").attr("src", `https://${paypal_pixel_domain}/es_ES/i/scr/pixel.gif`);
+    $("#paypal_button").attr("action", `https://${paypal_domain}/cgi-bin/webscr`);
     $("#btc_button").attr("href", `https://bitex.la/pos/daoe?amount=450&currency_id=3&customer_reference=${email}`);
   })
 </script>
@@ -44,7 +45,7 @@ layout: bare
       <i class="far fa-credit-card"></i>
     </a>
 
-    <form id='paypal_button'class="d-flex" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <form id='paypal_button' class="d-flex" action="" method="post" target="_top">
       <input type="hidden" name="cmd" value="_s-xclick" />
       <input id="paypal_button_id" type="hidden" name="hosted_button_id" value="" />
       <button class="btn btn-lg btn-pink" type="submit" border="0" name="submit">
