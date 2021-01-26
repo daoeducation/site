@@ -39,7 +39,7 @@ describe "payment_pages", type: :feature, js: true do
     end
 
     it "can pay with BTC after signup success" do
-      visit '/signup_success.html?email=usuario@example.com'
+      visit '/signup_success.html#email=usuario@example.com'
       find("#btc_button").click
 
       expect(page).to have_content "Bitex"

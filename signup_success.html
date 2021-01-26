@@ -11,7 +11,7 @@ layout: bare
     paypal_pixel_domain = paypal_domain;
     paypal_btn_id = '{{ site.sandbox_paypal_button_id }}';
   {% endif %}
-  email = new URLSearchParams(window.location.search).get("email") || "";
+  email = new URLSearchParams(window.location.hash.substr(1)).get("email") || "";
 
   $(function(){
     $("#paypal_button_id").attr("value", paypal_btn_id);
