@@ -20,56 +20,62 @@ layout: bare
 </script>
 
 <div class="container signup-success py-10">
-  <img class="logo" src="/assets/images/logo.png" srcset="/assets/images/logo-white.png" />
-  <h1 class="mt-5">¡Gracias por inscribirte!</h1>
+  <div class="row justify-content-center">
+    <div class="col col-lg-8">
+      <img class="logo" src="/assets/images/logo.png" srcset="/assets/images/logo-white.png" />
+      <h1 class="mt-5">¡Gracias por inscribirte!</h1>
 
-  <p class="mt-3">
-    Muchas gracias por mostrar interés en nuestro Programa
-    <a href="/programas/curso_genesis">Ethereum & Bitcoin - From Zero to Hero</a>.
-    Tenemos cupos limitados, ¡No dudes en sumarte!
-  </p>
+      <p class="mt-3">
+        Muchas gracias por mostrar interés en nuestro Programa
+        <a href="/programas/curso_genesis">Ethereum & Bitcoin - From Zero to Hero</a>.
+        Tenemos cupos limitados, ¡No dudes en sumarte!
+      </p>
 
-  <h2 class="mt-5">Métodos de pago</h2>
-  <p class="mt-3">
-    El precio de nuestro curso es de €590 (IVA incluído). 30% de descuento pagando con Bitcoin.
-  </p>
+      <h2 class="mt-5">Métodos de pago</h2>
+      <p class="mt-3">
+        El precio de nuestro curso es de €590 (IVA incluído). 30% de descuento pagando con Bitcoin.
+      </p>
 
-  <div class="my-4 d-flex flex-horizontal">
-    <a id='btc_button' class="btn btn-lg btn-pink" href="https://bitex.la/pos/daoe?amount=450&currency_id=3&customer_reference=">
-      <i class="fab fa-bitcoin"></i>
-    </a>
+      <div class="my-4 d-flex flex-horizontal">
+        <a id='btc_button' class="btn btn-lg btn-pink" href="https://bitex.la/pos/daoe?amount=450&currency_id=3&customer_reference=">
+          <i class="fab fa-bitcoin"></i>
+        </a>
 
-    <a id="stripe_button" class="btn btn-lg btn-pink mx-3" href="/payments/zero_to_hero">
-      <i class="far fa-credit-card"></i>
-    </a>
+        <a id="stripe_button" class="btn btn-lg btn-pink mx-3" href="/payments/zero_to_hero">
+          <i class="far fa-credit-card"></i>
+        </a>
 
-    <form id='paypal_button'class="d-flex" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
-      <input type="hidden" name="cmd" value="_s-xclick" />
-      <input id="paypal_button_id" type="hidden" name="hosted_button_id" value="" />
-      <button class="btn btn-lg btn-pink" type="submit" border="0" name="submit">
-        <i class="fab fa-paypal"></i>
-      </button>
-      <img id="paypal_pixel" class="d-none" alt="" border="0" src="" width="1" height="1" />
-    </form>
-  </div>
+        <form id='paypal_button'class="d-flex" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick" />
+          <input id="paypal_button_id" type="hidden" name="hosted_button_id" value="" />
+          <button class="btn btn-lg btn-pink" type="submit" border="0" name="submit">
+            <i class="fab fa-paypal"></i>
+          </button>
+          <img id="paypal_pixel" class="d-none" alt="" border="0" src="" width="1" height="1" />
+        </form>
+      </div>
 
-  <div class="mt-5">
-    <h2>Becas</h2>
-    <p class="mt-3">
-      Nuestra misión es facilitar el acceso a las teconolgías del futuro, por eso becaremos a un alumno por cada inscripto,
-      para que más personas puedan aprender sobre cripto con los mayores expertos en habla hispana.
-      Puedes aplicar como candidato <a href="https://form.typeform.com/to/q2AWd3Q8">completando este formulario</a>.
-    </p>
-  </div>
 
-  <div class="mt-4">
-    <h2>¿Necesitas más información?</h2>
-    <p class="mt-3">
-      Escríbenos a <a href="mailto:info@dao.education?subject=Consulta post inscripción">info@dao.education</a>
-      o
-      <a href="https://calendly.com/gus-daoe/15min?back=1&month=2021-01" target="_blank">
-       puedes agendar una reunión</a>
-      con nuestro Director Académico.
-    </p>
+
+      <div class="mt-5">
+        <h2>Becas</h2>
+        <p class="mt-3">
+          Nuestra misión es facilitar el acceso a las teconolgías del futuro, por eso becaremos a un alumno por cada inscripto,
+          para que más personas puedan aprender sobre cripto con los mayores expertos en habla hispana.
+          Puedes aplicar como candidato <a href="https://form.typeform.com/to/q2AWd3Q8">completando este formulario</a>.
+        </p>
+      </div>
+
+      <div class="mt-4">
+        <h2>¿Necesitas más información?</h2>
+        <p class="mt-3">
+          Escríbenos a <a href="mailto:info@dao.education?subject=Consulta post inscripción">info@dao.education</a>
+          o
+          <a href="https://calendly.com/gus-daoe/15min?back=1&month=2021-01" target="_blank">
+           puedes agendar una reunión</a>
+          con nuestro Director Académico.
+        </p>
+      </div>
+    </div>
   </div>
 </div>
