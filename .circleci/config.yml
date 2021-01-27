@@ -29,11 +29,11 @@ jobs:
       - run:
           name: Jekyll build
           command: bundle exec jekyll build
-        - run:
-          name: RSpec
-          command: |
-            bundle exec rspec --profile 10 \
-                              --format progress
+      - run:
+        name: RSpec
+        command: |
+          bundle exec rspec --profile 10 \
+                            --format progress
       - store_artifacts:
           path: coverage
       - save_cache:
