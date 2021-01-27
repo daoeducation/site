@@ -30,8 +30,8 @@ jobs:
           name: Jekyll build
           command: bundle exec jekyll build
       - run:
-        name: RSpec
-        command: bundle exec rspec
+          name: RSpec
+          command: bundle exec rspec
         
       - store_artifacts:
           path: coverage
