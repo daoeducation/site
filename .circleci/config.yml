@@ -31,9 +31,8 @@ jobs:
           command: bundle exec jekyll build
       - run:
         name: RSpec
-        command: |
-          bundle exec rspec --profile 10 \
-                            --format progress
+        command: bundle exec rspec
+        
       - store_artifacts:
           path: coverage
       - save_cache:
