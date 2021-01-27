@@ -15,6 +15,11 @@ jobs:
             - rubygems-v1-{{ checksum "Gemfile.lock" }}
             - rubygems-v1-fallback
       - run:
+          name: install dependencies
+          command: |
+            gem update --system
+            gem install bundler
+      - run:
           name: Bundle Install
           command: bundle check || bundle install
       - save_cache:
