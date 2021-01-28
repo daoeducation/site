@@ -1,9 +1,7 @@
-describe "payment_pages", type: :feature, js: true do
-  it "can pay for the zero-to-hero program" do
-    visit '/payments/zero_to_hero.html'
 
-    expect(page).to have_selector ".ProductSummary-info", wait: 30
-    expect(page).to have_content "Zero to Hero"
+  it "can pay with paypal after signup success" do
+    visit '/signup_success.html'
+
+    find("#paypal_button").click
+    expect(page).to have_content "Pagar con PayPal"
   end
-
-end
