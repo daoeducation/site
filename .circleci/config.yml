@@ -9,8 +9,7 @@ jobs:
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle
     steps:
-      - checkout:
-          path: ~/repo
+      - checkout
 
       - run:
           name: install dependencies
