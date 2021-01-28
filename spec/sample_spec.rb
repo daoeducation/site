@@ -1,14 +1,9 @@
-describe "sample", type: :feature, js: true do
-  it "has the page title" do
-    visit '/'
-    # `binding.pry` is useful for crafting the right selector
-    # or checking the actual state of the page
-    binding.pry # test will pause here
-    expect(find('.profesores').text).to eq('Nuestros Profesores')
-    expect(find('.programas').text).to eq('Programas')
-    expect(find('.prueba_inexistente').text).to eq('Esta section no existe')
-    expect(find('.about_us').text).to eq('DAO Edcation')
+describe "payment_pages", type: :feature, js: true do
+  it "can pay for the zero-to-hero program" do
+    visit '/payments/zero_to_hero.html'
 
-
+    expect(page).to have_selector ".ProductSummary-info", wait: 30
+    expect(page).to have_content "Zero to Hero"
   end
+
 end
