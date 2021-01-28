@@ -1,7 +1,3 @@
-describe "payment_pages", type: :feature, js: true do
-  it "can pay for the zero-to-hero program" do
-
-
   it "can pay with BTC after signup success" do
     visit '/signup_success.html'
 
@@ -16,5 +12,3 @@ describe "payment_pages", type: :feature, js: true do
     find("#paypal_button").click
    
   end
-
-end
