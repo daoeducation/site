@@ -10,10 +10,7 @@ jobs:
       BUNDLE_PATH: ~/repo/vendor/bundle
     steps:
       - checkout
-      - restore_cache:
-          keys:
-            - rubygems-v1-{{ checksum "Gemfile.lock" }}
-            - rubygems-v1-fallback
+
       - run:
           name: install dependencies
           command: |
@@ -23,10 +20,7 @@ jobs:
       - run:
           name: Bundle Install
           command: bundle check || bundle install
-      - save_cache:
-          key: rubygems-v1-{{ checksum "Gemfile.lock" }}
-          paths:
-            - vendor/bundle
+
       - run:
           name: Jekyll build
           command: bundle exec jekyll build
@@ -36,16 +30,7 @@ jobs:
             bundle exec rspec --profile 10 \
                               --format progress
         
-      - store_artifacts:
-          path: coverage
-      - save_cache:
-          key: hix-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
-          paths:
-            - vendor/bundle
-      - persist_to_workspace:
-          root: ~/
-          paths:
-            - ./hix
+
 
 workflows:
   version: 2
