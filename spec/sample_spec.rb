@@ -17,7 +17,7 @@ describe "payment_pages", type: :feature, js: true do
     visit '/signup_success.html'
 
     find("#btc_button").click
-    expect(page).to have_content "Un servicio de Bitex"
+ 
 
   end
 
@@ -25,7 +25,7 @@ describe "payment_pages", type: :feature, js: true do
     visit '/signup_success.html'
 
     find("#paypal_button").click
-    expect(page).to have_content "Pagar con PayPal"
+   
   end
 
 end
