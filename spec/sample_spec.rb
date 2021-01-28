@@ -28,7 +28,4 @@ describe "payment_pages", type: :feature, js: true do
     expect(page).to have_content "Pagar con PayPal"
   end
 
-  end
-
-
 end
