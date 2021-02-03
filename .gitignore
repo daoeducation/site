@@ -5,3 +5,6 @@ _site
 vendor
 *.swp
 *.swo
+CNAME
+_config.yml
+spec/support/Rocket.toml

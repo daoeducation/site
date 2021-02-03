@@ -5,7 +5,7 @@ description: "Software Developer. Technologist. Entrepreneur. Bitcoin early adop
 img: "bruno_nubis.png"
 nationality: "Argentino"
 position: "Profesor"
-order_in_about: 80
+order_in_about: 20
 
 # Comentar las que no apliquen, colocar el handle según corresponda.
 linkedin: nubis

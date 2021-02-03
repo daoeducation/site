@@ -5,7 +5,7 @@ description: "Descentralizando los modelos predictivos de inversión en mercados
 img: "alex_vinas.png"
 nationality: "Español"
 position: Financial Innovation Specialist
-order_in_about: 90
+order_in_about: 40
 
 # Comentar las que no apliquen, colocar el handle según corresponda.
 linkedin: alexvinyas
