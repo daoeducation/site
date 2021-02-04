@@ -2,20 +2,21 @@
 layout: bare
 ---
 <script type="text/javascript">
-  {% if site.github.project_title == "site_staging" %}
-    paypal_domain = 'www.sandbox.paypal.com'
-    paypal_btn_id = 'P7FDXEXKNWWKE'
-  {% elsif site.github %}
-    paypal_domain = 'www.paypal.com'
-    paypal_btn_id = 'P7FDXEXKNWWKE'
+  {% if site.github.project_title == "site" %}
+    paypal_domain = 'www.paypal.com';
+    paypal_pixel_domain = 'www.paypalobjects.com';
+    paypal_btn_id = '{{ site.production_paypal_button_id }}';
   {% else %}
-    paypal_domain = 'www.sandbox.paypal.com'
-    paypal_btn_id = 'P7FDXEXKNWWKE'
+    paypal_domain = 'www.sandbox.paypal.com';
+    paypal_pixel_domain = paypal_domain;
+    paypal_btn_id = '{{ site.sandbox_paypal_button_id }}';
   {% endif %}
+  email = new URLSearchParams(window.location.hash.substr(1)).get("email") || "";
 
   $(function(){
     $("#paypal_button_id").attr("value", paypal_btn_id);
-    $("#paypal_pixel").attr("src", `https://${paypal_domain}/es_ES/i/scr/pixel.gif`);
+    $("#paypal_pixel").attr("src", `https://${paypal_pixel_domain}/es_ES/i/scr/pixel.gif`);
+    $("#btc_button").attr("href", `https://bitex.la/pos/daoe?amount=450&currency_id=3&customer_reference=${email}`);
   })
 </script>
 
@@ -37,11 +38,11 @@ layout: bare
       </p>
 
       <div class="my-4 d-flex flex-horizontal">
-        <a id='btc_button' class="btn btn-lg btn-pink" href="https://bitex.la/pos/daoe?amount=450&currency_id=3&customer_reference=">
+        <a id='btc_button' class="btn btn-lg btn-pink" href="">
           <i class="fab fa-bitcoin"></i>
         </a>
 
-        <a id="stripe_button" class="btn btn-lg btn-pink mx-3" href="/payments/zero_to_hero">
+        <a id="stripe_button" class="btn btn-lg btn-pink mx-3" href="/payments/zero_to_hero.html">
           <i class="far fa-credit-card"></i>
         </a>
 
@@ -54,7 +55,6 @@ layout: bare
           <img id="paypal_pixel" class="d-none" alt="" border="0" src="" width="1" height="1" />
         </form>
       </div>
-
 
 
       <div class="mt-5">
