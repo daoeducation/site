@@ -1,0 +1,27 @@
+---
+layout: bare
+---
+<script src="https://js.stripe.com/v3/"></script>
+<script type="text/javascript">
+  {% if site.github.project_title == "site_staging" %}
+    api_url = '{{ site.staging_api_url }}'
+  {% elsif site.github %}
+    api_url = '{{ site.prod_api_url }}'
+  {% else %}
+    api_url = '{{ site.dev_api_url }}'
+  {% endif %}
+  document.location.href = `${api_url}/stripe/checkout_sessions/{{content}}`
+</script>
+
+<div class="container payments text-center py-10">
+  <img class="logo" src="/assets/images/logo.png" srcset="/assets/images/logo-white.png" />
+  <div class="mt-5">
+    <i class="fas fa-circle-notch fa-spin"></i>
+  </div>
+  <div class="small mt-6">
+    Estamos cargando la página de pago.
+    <br/>
+    Si no carga, escríbenos a <a href="info@dao.education">info@dao.education</a>.
+  </div>
+  <div id="error-message"></div>
+</div>

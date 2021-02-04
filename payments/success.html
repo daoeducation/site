@@ -1,77 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Stripe Checkout Sample</title>
-    <meta name="description" content="A demo of Stripe Payment Intents" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/global.css" />
-  </head>
-
-  <body>
-    <div class="sr-root">
-      <div class="sr-main">
-        <header class="sr-header">
-          <div class="sr-header__logo"></div>
-        </header>
-        <div class="sr-payment-summary completed-view">
-          <h1>Your payment succeeded</h1>
-          <h4>
-            View CheckoutSession response:
-          </h4>
-        </div>
-        <div class="sr-section completed-view">
-          <div class="sr-callout">
-            <pre></pre>
-          </div>
-          <button onclick="window.location.href = '/';">Restart demo</button>
-        </div>
-      </div>
-      <div class="sr-content">
-        <div class="pasha-image-stack">
-          <img
-            src="https://picsum.photos/280/320?random=1"
-            width="140"
-            height="160"
-          />
-          <img
-            src="https://picsum.photos/280/320?random=2"
-            width="140"
-            height="160"
-          />
-          <img
-            src="https://picsum.photos/280/320?random=3"
-            width="140"
-            height="160"
-          />
-          <img
-            src="https://picsum.photos/280/320?random=4"
-            width="140"
-            height="160"
-          />
-        </div>
-      </div>
+---
+layout: bare
+---
+<div class="container payments text-center py-10">
+  <img class="logo" src="/assets/images/logo.png" srcset="/assets/images/logo-white.png" />
+  <div class="mt-5">
+    <i class="fa fa-check fa-3x"></i>
+    <div class="mt-4">
+      <h3>¡Tu inscripción fue exitosa!</h3>
     </div>
-    <script>
-      var API_URL = "http://localhost:8000"
-      var urlParams = new URLSearchParams(window.location.search);
-      var sessionId = urlParams.get('session_id');
-      if (sessionId) {
-        fetch(`${API_URL}/stripe/checkout_sessions/${sessionId}`)
-          .then(function (result) {
-            return result.json();
-          })
-          .then(function (session) {
-            var sessionJSON = JSON.stringify(session, null, 2);
-            document.querySelector('pre').textContent = sessionJSON;
-          })
-          .catch(function (err) {
-            console.log('Error when fetching Checkout session', err);
-          });
-      }
-    </script>
-  </body>
-</html>
+    <div class="mt-4">
+      <h4>En breve nos contactaremos contigo</h4>
+      <h4 class="mt-4">Ante cualquier duda, escríbenos a <a href="mailto:info@dao.education?subject=Consulta post inscripción">info@dao.education</a>
+      </br>o </br>
+      <a href="https://calendly.com/gus-daoe/15min?back=1&month=2021-01" target="_blank">
+
+       Puedes agendar una reunión</a> con nuestro Director Académico</h4>
+    </div>
+  </div>
+  <div id="error-message"></div>
+</div>

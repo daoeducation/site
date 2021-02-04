@@ -46,3 +46,15 @@ describe "profesores_visit_test", type: :feature, js: true do
   end
 
 end
+
+describe "programas_visit_test", type: :feature, js: true do
+
+  it "check Coding Bootcamp page" do
+  visit '/programas/coding_bootcamp/'
+  end
+
+  it "check Ethereum & Bitcoin — From Zero to Hero page" do
+  visit '/programas/curso_genesis/'
+  end
+
+end

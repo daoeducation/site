@@ -28,7 +28,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dao.education" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/images/logo.png"
 
-api_url: "http://localhost:8000"
+staging_api_url: "https://api-daoe-staging.constata.eu"
+prod_api_url: "https://api-daoe.constata.eu"
+dev_api_url: "http://127.0.0.1:8000"
+
+production_paypal_button_id: '9RAKJT7HTM8CE'
+sandbox_paypal_button_id: 'P7FDXEXKNWWKE'
 
 collections:
   profesores:
@@ -45,7 +50,7 @@ collections:
     permalink: /eventos/:path/
 
 # Social Media
-instagram: daoeducation
+instagram: dao.education
 twitter_user: educationDAO
 #github_username: daoeducation
 #facebook:
@@ -72,15 +77,16 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - spec
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 #theme: jekyll-theme-minimal

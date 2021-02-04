@@ -7,6 +7,9 @@ img: "coding.png"
 format: Online (en vivo)
 duration: "Full Time 710 horas"
 language: Español
+#checkout_cc: "#"
+#checkout_btc: "#"
+#checkout_pp: "#"
 interest: Formate como programador profesional
 important_dates:
   - date: 22 Mar 2021
