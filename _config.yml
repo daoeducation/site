@@ -32,7 +32,7 @@ staging_api_url: "https://api-daoe-staging.constata.eu"
 prod_api_url: "https://api-daoe.constata.eu"
 dev_api_url: "http://127.0.0.1:8000"
 
-production_paypal_button_id: '9RAKJT7HTM8CE'
+production_paypal_button_id: 'PXRW5DZ5XLR9C'
 sandbox_paypal_button_id: 'P7FDXEXKNWWKE'
 
 collections:
