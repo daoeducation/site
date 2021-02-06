@@ -10,6 +10,10 @@ jobs:
       BUNDLE_PATH: ~/repo/vendor/bundle
     steps:
       - checkout
+      - restore_cache:
+          keys:
+            - hix-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+            - hix-
 
       - run:
           name: install dependencies
@@ -29,7 +33,14 @@ jobs:
           command: |
             bundle exec rspec --profile 10 \
                               --format progress
-        
+      - save_cache:
+          key: hix-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+      - persist_to_workspace:
+          root: ~/
+          paths:
+            - ./hix        
 
 
 workflows:
