@@ -13,8 +13,7 @@ jobs:
       - restore_cache:
           keys:
             - hix-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
-            - hix-
-
+  
       - run:
           name: install dependencies
           command: |
@@ -33,16 +32,10 @@ jobs:
           command: |
             bundle exec rspec --profile 10 \
                               --format progress
-      - store_artifacts:
-          path: coverage
       - save_cache:
           key: hix-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
           paths:
-            - vendor/bundle
-      - persist_to_workspace:
-          root: ~/
-          paths:
-            - ./hix        
+            - vendor/bundle      
 
 
 workflows:
