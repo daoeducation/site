@@ -33,6 +33,8 @@ jobs:
           command: |
             bundle exec rspec --profile 10 \
                               --format progress
+      - store_artifacts:
+          path: coverage
       - save_cache:
           key: hix-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
           paths:
