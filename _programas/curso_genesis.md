@@ -11,12 +11,12 @@ checkout_btc: "#"
 checkout_pp: "#"
 interest: Aprende a usar Bitcoin y Ethereum profesionalmente.
 important_dates:
-  - date: 01 Dic 2020
-    text: Apertura de registro de alumnos de primer ingreso
   - date: 15 Feb 2021
-    text: Cierre registro de alumnos de primer ingreso
-  - date: 18 Feb 2021
-    text: Inicio de curso de inducción a alumnos de primer ingreso
+    text: Apertura de registro de alumnos del segundo ingreso
+  - date: 12 Abr 2021
+    text: Cierre registro de alumnos del segundo ingreso
+  - date: 15 Abr 2021
+    text: Inicio de curso de inducción a alumnos del segundo ingreso
 sidebar_content:
     <h3>Este programa es para:</h3>
     <p>
@@ -45,7 +45,7 @@ program_parts:
     <p>
     El segundo bloque consta de 9 horas más de workshops online, donde los estudiantes se organizarán en grupos para diseñar y desplegar su propio proyecto.
     </p>
-  
+
   items:
     - title: Indroducción a sistemas organizacionales
       content:
