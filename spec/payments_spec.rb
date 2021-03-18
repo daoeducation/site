@@ -4,6 +4,7 @@ describe "payment_pages", type: :feature, js: true do
 
     expect(page).to have_selector ".ProductSummary-info", wait: 30
     expect(page).to have_content "Zero to Hero"
+    expect(page).to have_selector ".PromotionCodeEntry"
   end
 
   it "can pay for the coding bootcamp program" do
@@ -11,6 +12,7 @@ describe "payment_pages", type: :feature, js: true do
 
     expect(page).to have_selector ".ProductSummary-info", wait: 30
     expect(page).to have_content "Coding Bootcamp"
+    expect(page).to have_selector ".PromotionCodeEntry"
   end
 
   it "can pay with paypal after signup success" do
