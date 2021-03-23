@@ -9,6 +9,7 @@ jobs:
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle
     steps:
+      - checkout
 
   
       - run:
