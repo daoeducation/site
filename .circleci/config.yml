@@ -9,10 +9,7 @@ jobs:
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle
     steps:
-      - checkout
-      - restore_cache:
-          keys:
-            - hix-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+
   
       - run:
           name: install dependencies
