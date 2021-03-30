@@ -66,6 +66,7 @@ program_parts:
         • Smart Contracts, ETH y Gas
         • Introducción a los Oráculos
         • Tokens y standards
+        • NFTs
         • Aplicaciones básicas del token y ejemplos
         • ETH 2.0 PoS & Sharding
     - title: Activos desde el prisma Legal
