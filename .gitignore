@@ -8,4 +8,3 @@ vendor
 CNAME
 _config.yml
 spec/support/Rocket.toml
-signup_successBU.html

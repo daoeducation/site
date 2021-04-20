@@ -1,6 +1,25 @@
 ---
 layout: bare
 ---
+<script type="text/javascript">
+  {% if site.github.project_title == "site" and site.github.environment != 'development' %}
+    paypal_domain = 'www.paypal.com';
+    paypal_pixel_domain = 'www.paypalobjects.com';
+    paypal_btn_id = '{{ site.production_paypal_button_id }}';
+  {% else %}
+    paypal_domain = 'www.sandbox.paypal.com';
+    paypal_pixel_domain = paypal_domain;
+    paypal_btn_id = '{{ site.sandbox_paypal_button_id }}';
+  {% endif %}
+  email = new URLSearchParams(window.location.hash.substr(1)).get("email") || "";
+
+  $(function(){
+    $("#paypal_button_id").attr("value", paypal_btn_id);
+    $("#paypal_pixel").attr("src", `https://${paypal_pixel_domain}/es_ES/i/scr/pixel.gif`);
+    $("#paypal_button").attr("action", `https://${paypal_domain}/cgi-bin/webscr`);
+    $("#btc_button").attr("href", `https://bitex.la/pos/daoe?amount=530&currency_id=3&customer_reference=${email}`);
+  })
+</script>
 
 <div class="container signup-success py-10">
   <div class="row justify-content-center">
@@ -10,14 +29,45 @@ layout: bare
 
       <h1 class="mt-5">¡Gracias por inscribirte!</h1>
 
+      <div class="alert alert-warning mt-4" role="alert">
+        Los pagos realizados se registrarán para la <b>3° Edición del Curso
+         </b>. Pronto informaremos la fecha de inicio.
+      </div>
 
-      <p class="mt-5 mb-6">
+      <p class="mt-3">
         Muchas gracias por mostrar interés en nuestro Programa
         <a href="/programas/curso_genesis">Ethereum & Bitcoin - From Zero to Hero</a>.
-        Pronto te comunicaremos la fecha de inicio de nuestra 3° edición y la información necesaria para que puedas sumarte.
+        Tenemos cupos limitados, ¡No dudes en sumarte!
       </p>
 
 
+
+      <h2 class="mt-5">Métodos de pago</h2>
+      <p class="mt-3">
+        El precio de nuestro curso es de €590 (IVA incluído).
+      </p>
+
+      <div class="my-4 d-flex flex-horizontal">
+        <a id='btc_button' class="btn btn-lg btn-pink" href="">
+          <i class="fab fa-bitcoin"></i>
+        </a>
+
+        <a id="stripe_button" class="btn btn-lg btn-pink mx-3" href="/payments/zero_to_hero.html">
+          <i class="far fa-credit-card"></i>
+        </a>
+
+      <form id='paypal_button' class="d-flex" action="" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input id="paypal_button_id" type="hidden" name="hosted_button_id" value="" />
+        <button class="btn btn-lg btn-pink" type="submit" border="0" name="submit">
+          <i class="fab fa-paypal"></i>
+        </button>
+        <img id="paypal_pixel" class="d-none" alt="" border="0" src="" width="1" height="1" />
+      </form>
+    </div>
+
+
+      <div class="mt-5">
         <h2>Becas</h2>
         <p class="mt-3">
           Nuestra misión es facilitar el acceso a las teconolgías del futuro, por eso becaremos a un alumno por cada inscripto,
