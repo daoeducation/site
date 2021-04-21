@@ -4,7 +4,7 @@ title: "Pol Bordas"
 description: "La Tecnología al servicio del desarrollo. Dedicado al empoderamiento digital."
 img: "pol_bordas.jpg"
 nationality: "Español"
-position: "BizDev Comms&Marketing"
+position: "BizDev Comms & Marketing"
 order_in_about: 60
 
 # Comentar las que no apliquen, colocar el handle según corresponda.
