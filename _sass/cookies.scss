@@ -8,3 +8,9 @@
     font-family: "acumin-pro-wide";
     text-align: center;
 }
+
+@media (max-width: 767px) {
+  .cookies {
+    padding-bottom: 90px;
+  }
+}
