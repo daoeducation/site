@@ -11,12 +11,12 @@ checkout_btc: "#"
 checkout_pp: "#"
 interest: Aprende a usar Bitcoin y Ethereum profesionalmente.
 important_dates:
-  - date: 15 Feb 2021
-    text: Apertura de registro de alumnos del segundo ingreso
-  - date: 12 Abr 2021
-    text: Cierre registro de alumnos del segundo ingreso
-  - date: 15 Abr 2021
-    text: Inicio de curso de inducción a alumnos del segundo ingreso
+  - date: 01 May 2021
+    text: Apertura de registro de alumnos del tercer ingreso
+  - date: 12 Jun 2021
+    text: Cierre registro de alumnos del tercer ingreso
+  - date: 15 Jun 2021
+    text: Inicio de curso de inducción a alumnos del tercer ingreso
 sidebar_content:
     <h3>Este programa es para:</h3>
     <p>
