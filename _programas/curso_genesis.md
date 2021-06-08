@@ -13,7 +13,7 @@ interest: Aprende a usar Bitcoin y Ethereum profesionalmente.
 important_dates:
   - date: 01 May 2021
     text: Apertura de registro de alumnos del tercer ingreso
-  - date: 12 Jul 2021
+  - date: 08 Jul 2021
     text: Cierre registro de alumnos del tercer ingreso
   - date: 15 Jul 2021
     text: Inicio de curso de inducción a alumnos del tercer ingreso
