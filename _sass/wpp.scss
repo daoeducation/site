@@ -1,0 +1,19 @@
+#whatsapp {
+    position: fixed;
+    right: 28.5px;
+    bottom: 125px;
+    display: none;
+
+    a {
+      img {
+        width: 82px;
+      }
+    }
+}
+
+@media (max-width: 768px) {
+    #whatsapp {
+        right: 18px;
+        bottom: 112px;
+    }
+}
