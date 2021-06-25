@@ -9,7 +9,7 @@ img: "hero.png"
 format: Online en vivo
 duration: "10 semanas"
 language: Español
-pricing: <del>€1580 €720</del> €590 (hasta el 25/06)
+pricing: <del>€1580</del> €720
 checkout_cc: "#"
 checkout_btc: "#"
 checkout_pp: "#"
