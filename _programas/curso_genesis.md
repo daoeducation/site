@@ -9,7 +9,7 @@ img: "hero.png"
 format: Online en vivo
 duration: "10 semanas"
 language: Español
-pricing: <del>€1580</del> €720
+pricing: <del>€1580</del> €720<br>¡PUEDES PAGAR EN 3 PLAZOS!<br>MÁS INFO EN info@dao.education
 checkout_cc: "#"
 checkout_btc: "#"
 checkout_pp: "#"
