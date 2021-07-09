@@ -7,18 +7,19 @@
     {%- seo -%}
     <link rel="stylesheet" href="/assets/css/fonts.css">
     <link rel="stylesheet" href="/assets/css/style.css">
-    {%- feed_meta -%}
-    {%- if jekyll.environment == 'production' -%}
-      {%- include google-analytics.html -%}
-    {%- endif -%}
-    {% include cookie-consent.html %}
-
     <script type="text/javascript" src="/assets/js/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="/assets/js/popper.min.js"></script>
     <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
     <meta name="google-site-verification" content="d7BBzaKdcmuXCUvlMa3Ao83x8VuxHLQQ1av_wCn-zbI" />
     <meta name="facebook-domain-verification" content="4zk26kq3kgg41uw8fngia7sprciz11" />
     <script type="text/javascript" src="/assets/js/whatsapp.js"></script>
+    {%- feed_meta -%}
+    {%- if jekyll.environment == 'production' -%}
+
+    {%- endif -%}
+    {% include cookie-consent.html %}
+
+
 
   </head>
 
