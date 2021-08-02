@@ -9,18 +9,18 @@ img: "hero.png"
 format: Online en vivo
 duration: "10 semanas"
 language: Español
-pricing: <del>€1580</del> €720<br>¡PUEDES PAGAR EN 3 PLAZOS!<br>MÁS INFO EN info@dao.education
+pricing: A consultar
 checkout_cc: "#"
 checkout_btc: "#"
 checkout_pp: "#"
 interest: Aprende a usar Bitcoin y Ethereum profesionalmente.
 important_dates:
   - date: 20 Jul 2021
-    text: Apertura de registro de alumnos del cuarto ingreso
-  - date: 10 Oct 2021
-    text: Cierre registro de alumnos del cuarto ingreso
-  - date: 12 Oct 2021
-    text: Inicio de curso de inducción a alumnos del cuarto ingreso
+    text: Apertura de registro de alumnos
+  - date: A confirmar
+    text: Cierre registro de alumnos
+  - date: A confirmar
+    text: Inicio de curso de inducción a alumnos
 sidebar_content:
     <h3>Este programa es para:</h3>
     <p>

@@ -30,9 +30,14 @@ layout: bare
 
       <h1 class="mt-5">¡Gracias por inscribirte!</h1>
 
+      {% comment %}
       <div class="alert alert-warning mt-4" role="alert">
         Los pagos realizados se registrarán para la <b>4° Edición del Curso
          </b>. Comienza en Octubre :)
+      </div>
+      {% endcomment %}
+      <div class="alert alert-warning mt-4" role="alert">
+        Nos contactaremos contigo para brindarte toda la info sobre el Curso.
       </div>
 
       <p class="mt-3">
@@ -42,7 +47,7 @@ layout: bare
       </p>
 
 
-
+      {% comment %}
       <h2 class="mt-5">Métodos de pago</h2>
       <p class="mt-3">
         El precio de nuestro curso es de €720 (IVA incluído).
@@ -57,16 +62,16 @@ layout: bare
           <i class="far fa-credit-card"></i>
         </a>
 
-      <form id='paypal_button' class="d-flex" action="" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick" />
-        <input id="paypal_button_id" type="hidden" name="hosted_button_id" value="" />
-        <button class="btn btn-lg btn-pink" type="submit" border="0" name="submit">
-          <i class="fab fa-paypal"></i>
-        </button>
-        <img id="paypal_pixel" class="d-none" alt="" border="0" src="" width="1" height="1" />
-      </form>
-    </div>
-
+        <form id='paypal_button' class="d-flex" action="" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick" />
+          <input id="paypal_button_id" type="hidden" name="hosted_button_id" value="" />
+          <button class="btn btn-lg btn-pink" type="submit" border="0" name="submit">
+            <i class="fab fa-paypal"></i>
+          </button>
+          <img id="paypal_pixel" class="d-none" alt="" border="0" src="" width="1" height="1" />
+        </form>
+      </div>
+      {% endcomment %}
 
       <div class="mt-5">
         <h2>Becas</h2>
