@@ -39,6 +39,6 @@ startups de tecnología fallidos y exitosos (Tribester, Woobiz, EasyBroker,
 PreviaSports, Hachicode, DropMyEmail, Vaurum, ConectaBitcoin,
 TierraBuenaDelivery). Fundador de Tierrabuena Delivery, microemprendimiento
 social pionero a nivel mundial en aceptar Bitcoin como forma de pago en 2012.
-Fundador de Bitex.la. Miembro fundador de la Cámara Fintech Argentina.
+Fundador de Bitex.la.
 Participante en espacios de colaboración público-privados. Asesor en prevención
 y combate del ciberdelito. Miembro de fundación capa 8.
